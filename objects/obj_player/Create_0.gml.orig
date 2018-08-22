@@ -1,0 +1,26 @@
+/// @description Initialize Player With Starting Variables
+
+// Set Animation Speed
+image_speed = 1
+
+// Set Init Variables
+hsp = 10
+vsp = 1
+depth = -1
+
+
+//Move speed feels good at 3
+move_speed = 2
+
+//Attack Cooldown Toggles
+can_be_attacked = true
+in_combat = false
+can_basic_attack = true
+basic_attack_1 = false
+basic_attack_2 = false
+
+//Health
+hit_points = 3
+
+//Set Initial State
+state = scr_player_move_state
