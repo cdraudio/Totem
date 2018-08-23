@@ -1,5 +1,3 @@
-
-
 //Set init variables and state
 state = scr_graver_idle
 

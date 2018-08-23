@@ -1,5 +1,5 @@
 // Execute basic attack 2 animation, Create Damage Object, Trigger Basic Attack Cooldowns
-			image_speed = 1.5
+image_speed = 1.25
 
 if(alarm[1] == -1){
 	audio_sound_pitch(sfx_tomahawk_slash, 3);

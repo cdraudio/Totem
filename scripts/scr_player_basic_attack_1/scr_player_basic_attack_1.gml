@@ -1,5 +1,5 @@
 //This state exit condition is in obj_player animation_end
-			image_speed = 1.5
+image_speed = 1.25
 
 if(alarm[0] == -1){
 	audio_sound_pitch(sfx_tomahawk_slash, 2.5);
