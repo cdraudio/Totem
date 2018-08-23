@@ -7,6 +7,7 @@ mp_grid_add_instances(grid, obj_solid, false);
 mp_grid_add_instances(grid, obj_solid_medium, false);
 mp_grid_add_instances(grid, obj_solid_small, false);
 //mp_grid_add_instances(grid, obj_player, false);
+mp_grid_add_instances(grid, obj_hole, false)
 
 
 
