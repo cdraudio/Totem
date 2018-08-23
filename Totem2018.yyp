@@ -1559,6 +1559,25 @@
             }
         },
         {
+            "Key": "9b7765ec-c53a-493b-be0a-915af189f4db",
+            "Value": {
+                "id": "f4193818-3f09-46f4-b9e8-52735ba97229",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_glow_effect\/spr_glow_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9bfa0748-399f-401f-9ecd-d1476f41b4a2",
             "Value": {
                 "id": "97792fe5-cb12-4f4f-9b3b-23c9e01fd933",

@@ -1,4 +1,5 @@
 // Create a surface the size of the current room
+depth = 5
 surf = surface_create(room_width, room_height);
 
 // The following two lines clear the surface

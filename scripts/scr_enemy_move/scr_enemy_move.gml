@@ -17,7 +17,7 @@ if(path_position >= .95){
 	
 	//Had to make manual timer to deal with bug above
 	can_jump = false
-	jump_timer += delta_time + 1
+	jump_timer += delta_time + 5
 	
 	if(jump_timer >= jump_time_limit){
 		jump_timer = 0
