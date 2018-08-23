@@ -18,6 +18,11 @@ if (surface_exists(surf)) {
 		 
     with (obj_light_shroom)
          draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),0.25,0.25,0,c_yellow,1)
+	
+	with (obj_purple_light)
+		draw_sprite_ext(spr_glow_effect,0,x,y,1,1,0,c_white,1)
+		 
+
 	/*with (obj_tomahawk_projectile)
 		draw_circle(x + random_range(-1, 1), y + random_range(-1, 1), 35 + random_range(-1, 1), false);*/
 		

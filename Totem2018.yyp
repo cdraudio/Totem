@@ -590,6 +590,25 @@
             }
         },
         {
+            "Key": "400275e9-99a1-4c9d-95b9-37e43ebb5fda",
+            "Value": {
+                "id": "0b2c851c-ddc6-4a56-aef8-db7110565eb4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_purple_light\/obj_purple_light.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "400b949c-ac4f-4e91-a700-fd83f72d2428",
             "Value": {
                 "id": "60466ac1-18de-4899-8b47-bfaf1b102545",
