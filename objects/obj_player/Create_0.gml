@@ -44,10 +44,12 @@ basic_attack_1 = false
 basic_attack_2 = false
 can_fel_cannon = true
 
+
 //hit_points
 //hit_points = 3
 hit_points = 10
 
+hurt = false
 hurt_frame = 0
 max_hurt_frame = 30
 

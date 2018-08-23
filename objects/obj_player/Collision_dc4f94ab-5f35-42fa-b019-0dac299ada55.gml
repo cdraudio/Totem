@@ -11,8 +11,8 @@
 
 	//Send to hurt_state
 	if (hit_points > 0){
-		state = scr_player_hurt
-	
+		//state = scr_player_hurt
+		hurt = true
 	}
 
 	else {

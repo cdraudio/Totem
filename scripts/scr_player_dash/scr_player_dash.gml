@@ -1,7 +1,7 @@
 // NOTE(shaw): player input sets the dir
 
 max_dash_frame = 10
-
+image_alpha = 1
 dashing = true
 can_dash = false
 sprite_index = spr_magic_bubble

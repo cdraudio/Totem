@@ -14,6 +14,7 @@ if(alarm[4] == -1){
 	alarm[4] = room_speed/4
 }*/
 can_be_attacked = false
+can_dash =  true
 
 if(hurt_frame < 5){
 	
@@ -52,8 +53,15 @@ else if (hurt_frame < max_hurt_frame){
 		image_alpha = 1	
 	}
 	
-	script_execute(scr_player_move_hurt)
-
+	if(dashing or key_dash){
+		
+		script_execute(scr_player_dash)	
+	}
+	
+	else {
+		script_execute(scr_player_move_hurt)
+	}
+	
 	hurt_frame++
 	
 }
@@ -63,4 +71,5 @@ else {
 	hurt_frame = 0
 	state = scr_player_move
 	can_be_attacked = true
+	can_dash = true
 }
