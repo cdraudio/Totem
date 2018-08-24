@@ -10,3 +10,6 @@ with (obj_light_shroom)
 
 with (obj_purple_light)
 		 draw_sprite_ext(spr_glow_effect,0,x,y,1,1,0,make_color_rgb(240, 219, 255),0.5)
+
+with (obj_tomahawk_projectile)
+		 draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,make_color_rgb(240, 219, 255),0.5)

@@ -23,7 +23,6 @@ if(alarm[1] == -1){
 			// Create hurt box 
 			instance_create_layer(x-30,y,"Instances",obj_player_hurt_box)
 		}
-	
 	}
 	alarm[1] = room_speed/2
 	alarm[2] = room_speed/2
