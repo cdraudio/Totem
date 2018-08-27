@@ -15,8 +15,8 @@ if (tele_frame == 0){
 	target_x = obj_player.x
 	target_y = obj_player.y
 
-	dist_x = target_x - x
-	dist_y = target_y - y
+	dist_x = (target_x - x)*2
+	dist_y = (target_y - y)*2
 
 }
 
