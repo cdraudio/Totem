@@ -1,7 +1,7 @@
 /// @description Execute State and get player inputs
 
 
-
+depth = -y
 // execute my state
 image_speed = 1
 

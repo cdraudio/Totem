@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "10540e6f-df8d-49b4-9077-5c39a0b3e605",
+            "Value": {
+                "id": "be04fb76-a244-422e-9131-dd109192d6ea",
+                "resourcePath": "views\\10540e6f-df8d-49b4-9077-5c39a0b3e605.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "111dd47f-a90d-4800-9927-cc2069f7ddf6",
             "Value": {
                 "id": "f45c683e-76a9-40c3-a1bc-a06ba17b209d",
@@ -647,6 +655,14 @@
             }
         },
         {
+            "Key": "8a8f0804-65d2-492d-ab0e-d36296ba256a",
+            "Value": {
+                "id": "a3c7e604-b835-438d-9074-de9f48bd250e",
+                "resourcePath": "sprites\\spr_small_tree_1\\spr_small_tree_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c8d1855-14a3-4cef-b99e-b11b24e03e3a",
             "Value": {
                 "id": "107557c0-0e1d-43a3-b41c-c8e43b2cba00",
@@ -1015,6 +1031,14 @@
             }
         },
         {
+            "Key": "d08a5e81-cc2d-4bae-ad58-fc6ecda38112",
+            "Value": {
+                "id": "3480da7f-bbb2-49ee-b818-399a6735f0a4",
+                "resourcePath": "objects\\obj_small_tree_1\\obj_small_tree_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d3655349-0c13-48b7-a7f2-3e5b946233cc",
             "Value": {
                 "id": "7033f736-efa1-4982-a3cc-baa268b1c446",
@@ -1108,6 +1132,14 @@
                 "id": "89739a98-035e-4166-83a2-d07ecc1f3e10",
                 "resourcePath": "sounds\/music_lonely_forest\/music_lonely_forest.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e7647fc5-99cf-4ae9-8a56-762f6e9b45ba",
+            "Value": {
+                "id": "de5f4dd5-2bd7-49bf-853c-48d1e9d3849c",
+                "resourcePath": "views\\e7647fc5-99cf-4ae9-8a56-762f6e9b45ba.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
