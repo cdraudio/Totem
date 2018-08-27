@@ -6,6 +6,7 @@ key_down = keyboard_check(vk_down);
 key_sprint = keyboard_check(vk_shift);
 key_dash = keyboard_check_pressed(ord("N"));
 key_attack = keyboard_check_pressed(ord("M"));
+key_power_attack = keyboard_check_pressed(vk_tab);
 
 // Key Mapping 
 keyboard_set_map(ord("D"),vk_right);
@@ -22,6 +23,7 @@ if (gamepad_is_connected(0)) {
 	key_sprint = gamepad_button_check(0,gp_shoulderrb);
 	key_dash	= gamepad_button_check_pressed(0,gp_face1);
 	key_attack	= gamepad_button_check_pressed(0,gp_face3);
+	key_power_attack = gamepad_button_check_pressed(0,gp_face4);
 }
 
 //Set moving

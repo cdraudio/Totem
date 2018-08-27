@@ -40,7 +40,7 @@ else{
 // DETERMINE PLAYER STATE
 
 //Rabbit Cannon
-if(keyboard_check(vk_tab) && can_fel_cannon){
+if(key_power_attack && can_fel_cannon){
 	state = scr_fel_cannon
 }
 
