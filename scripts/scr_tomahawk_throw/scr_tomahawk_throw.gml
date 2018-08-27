@@ -1,5 +1,5 @@
 //Toggle cooldown
-can_fel_cannon = false
+can_throw_tomahawk = false
 
 //Create rabbit at player location
 if(!instance_exists(obj_tomahawk_projectile)){

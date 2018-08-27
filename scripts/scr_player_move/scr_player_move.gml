@@ -40,8 +40,8 @@ else{
 // DETERMINE PLAYER STATE
 
 //Rabbit Cannon
-if(key_power_attack && can_fel_cannon){
-	state = scr_fel_cannon
+if(key_power_attack && can_throw_tomahawk){
+	state = scr_tomahawk_throw
 }
 
 //Basic Attack

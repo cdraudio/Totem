@@ -42,7 +42,7 @@ in_combat = false
 can_basic_attack = true
 basic_attack_1 = false
 basic_attack_2 = false
-can_fel_cannon = true
+can_throw_tomahawk = true
 
 
 //hit_points

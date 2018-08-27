@@ -26,8 +26,8 @@ else{
 // DETERMINE PLAYER STATE
 
 //Rabbit Cannon
-/*if(keyboard_check(vk_tab) && can_fel_cannon){
-	state = scr_fel_cannon
+/*if(keyboard_check(vk_tab) && can_throw_tomahawk){
+	state = scr_tomahawk_throw
 }
 
 //Basic Attack

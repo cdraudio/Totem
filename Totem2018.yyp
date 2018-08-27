@@ -1210,7 +1210,7 @@
             "Key": "f057e898-ba49-4110-aef5-7fea928417b6",
             "Value": {
                 "id": "fcdf668f-5d4a-4c8b-9c48-76731613d4c2",
-                "resourcePath": "scripts\/scr_fel_cannon\/scr_fel_cannon.yy",
+                "resourcePath": "scripts\\scr_tomahawk_throw\\scr_tomahawk_throw.yy",
                 "resourceType": "GMScript"
             }
         },
