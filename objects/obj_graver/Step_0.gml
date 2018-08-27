@@ -1,3 +1,5 @@
+depth = -y
+
 // Execute current state
 script_execute(state)
 
