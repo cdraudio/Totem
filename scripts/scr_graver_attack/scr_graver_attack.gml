@@ -2,7 +2,7 @@
 can_basic_attack = false
 
 
-max_attack_frame = 5
+max_attack_frame = 12
 
 sprite_index = spr_graver_attack
 image_index = 0
