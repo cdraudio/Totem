@@ -452,7 +452,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_light\/spr_player_light.yy",
+                "resourcePath": "sprites\/spr_clarity_orb\/spr_clarity_orb.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1673,6 +1673,25 @@
             }
         },
         {
+            "Key": "9697ccdc-5386-4106-aca2-08a2a4f425d2",
+            "Value": {
+                "id": "e56db62a-3095-4974-9b27-a9148039541b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_enemy_create_clarity_orbs\/scr_enemy_create_clarity_orbs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "99429a54-0f32-4f67-9f45-9b28b6a637a4",
             "Value": {
                 "id": "3bbf8e24-3927-4339-9dfb-270faa493aff",
@@ -2623,6 +2642,25 @@
             }
         },
         {
+            "Key": "e3bcf166-ce6c-48cf-82dc-663d54aafd4c",
+            "Value": {
+                "id": "a1619f87-9f8e-4977-8327-907368845103",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_clarity_orb\/obj_clarity_orb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e3efdfa3-730b-45e9-ae11-75bdb84cfc7c",
             "Value": {
                 "id": "180037cc-ad27-4ec5-9a88-0bfd2a5486b4",
@@ -3084,6 +3122,7 @@
         "ce52213e-220d-4324-8266-6ec20bc2ca83",
         "5ff94303-afde-4ebc-90d7-b1afaa3154fb",
         "5ce4f3f5-c983-40d9-9989-f0ce797417ba",
+        "9697ccdc-5386-4106-aca2-08a2a4f425d2",
         "f1e64a08-eccc-4db1-bd23-80f5716a5c10"
     ],
     "tutorial": ""

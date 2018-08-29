@@ -24,6 +24,9 @@ if (surface_exists(surf)) {
 		
 	with (obj_tomahawk_projectile)
 		draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,c_white,1)
+	
+	with (obj_clarity_orb)
+		draw_sprite_ext(spr_glow_effect,0,x,y,0.1,0.1,0,c_white,1)
 		 
 
 	/*with (obj_tomahawk_projectile)

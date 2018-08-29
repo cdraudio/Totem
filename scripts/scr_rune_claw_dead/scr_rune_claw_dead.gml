@@ -23,6 +23,7 @@ if(!dying){
 }
 
 else if (die_frame == max_die_frame){
+	scr_enemy_create_clarity_orbs()
 	instance_destroy(self)
 	instance_create_layer(x, y, "Instances", obj_enemy_dead)
 	

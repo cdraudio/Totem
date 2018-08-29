@@ -49,6 +49,9 @@ can_throw_tomahawk = true
 //hit_points = 3
 hit_points = 10
 
+//Clarity
+clarity_count = 0
+
 hurt = false
 hurt_frame = 0
 max_hurt_frame = 30

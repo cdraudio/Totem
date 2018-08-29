@@ -1,0 +1,5 @@
+instance_create_layer(x+random_range(-8,8),y + random_range(-8,8),"Instances",obj_clarity_orb)
+instance_create_layer(x+random_range(-8,8),y + random_range(-8,8),"Instances",obj_clarity_orb)
+instance_create_layer(x+random_range(-8,8),y + random_range(-8,8),"Instances",obj_clarity_orb)
+instance_create_layer(x+random_range(-8,8),y + random_range(-8,8),"Instances",obj_clarity_orb)
+instance_create_layer(x+random_range(-8,8),y + random_range(-8,8),"Instances",obj_clarity_orb)

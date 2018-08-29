@@ -13,3 +13,6 @@ with (obj_purple_light)
 
 with (obj_tomahawk_projectile)
 		 draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,make_color_rgb(240, 219, 255),0.5)
+
+with (obj_clarity_orb)
+		 draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,make_color_rgb(240, 219, 255),0.5)
