@@ -7,7 +7,7 @@ if(!instance_exists(obj_tomahawk_projectile)){
 	
 	//Screen Shake
 	obj_view.shaking = true	
-	obj_view.shake_intensity = 10
+	obj_view.shake_intensity = 8
 	
 	
 	//Push player back

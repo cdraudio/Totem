@@ -27,6 +27,8 @@ if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
 		//Why would they do this to us?
 		//Pick delete or destroy >: (
 		path_delete(fly_path)
+		obj_view.shaking = true
+		obj_view.shake_intensity = 5
 		instance_destroy()
 }
 
@@ -47,3 +49,6 @@ if(obj_player.image_xscale > 0){
 } else {
 	image_angle += 35
 }
+
+//Create Particles
+instance_create_layer(x+random_range(-5,5),y + random_range(-5,5),"Instances",obj_tomahawk_particle)

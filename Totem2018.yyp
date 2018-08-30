@@ -913,6 +913,25 @@
             }
         },
         {
+            "Key": "5da8b12e-d537-481d-ad04-32277de4b24a",
+            "Value": {
+                "id": "82aded72-7cf4-4b00-8f00-202e95f31c2f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_tomahawk_particle\/obj_tomahawk_particle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e77a192-cfe8-43e5-bf3e-0e2aa1356add",
             "Value": {
                 "id": "9cca7c36-a2ee-4dfc-894d-a633d4c68a08",
