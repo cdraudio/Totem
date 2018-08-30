@@ -1,5 +1,5 @@
 // Move towards direction
-x += lengthdir_x(move_speed, shoot_direction);
+/*x += lengthdir_x(move_speed, shoot_direction);
 y += lengthdir_y(move_speed, shoot_direction);
 
 
@@ -18,6 +18,27 @@ if(can_return){
 	shoot_direction = point_direction(x, y, obj_player.x, obj_player.y)
 	if(place_meeting(x,y,obj_player)){
 		instance_destroy()
+	}
+}(*/
+
+
+if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
+	
+		//Why would they do this to us?
+		//Pick delete or destroy >: (
+		path_delete(fly_path)
+		instance_destroy()
+}
+
+
+else{
+	
+	path_position += abs(path_position-.500)/20 + .01
+	
+	if(path_position > .75){
+		num = path_get_number(fly_path)
+		path_change_point(fly_path, num-1, obj_player.x, obj_player.y, 0)
+		path_set_kind(fly_path, 0 )
 	}
 }
 
