@@ -51,6 +51,7 @@ hit_points = 10
 
 //Clarity
 clarity_count = 0
+max_clarity = 25
 
 hurt = false
 hurt_frame = 0
