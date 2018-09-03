@@ -400,6 +400,25 @@
             }
         },
         {
+            "Key": "2227f61f-9d15-40c0-8e53-281a34ee87d6",
+            "Value": {
+                "id": "26d339df-8667-4802-9c7b-7bc28a6dd823",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_sprint_down\/spr_player_sprint_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23813937-e472-4955-961f-e43c199a77c9",
             "Value": {
                 "id": "37d6872e-6db5-4398-ab2e-69576ff8e005",
@@ -777,6 +796,25 @@
                 ],
                 "resourcePath": "scripts\/scr_rune_claw_attack\/scr_rune_claw_attack.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "52e6386f-e11b-464f-a4d8-b0ecd12554f2",
+            "Value": {
+                "id": "23db3ec3-1a49-49ad-a8ff-828bbe38b98f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_sprint_up\/spr_player_sprint_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

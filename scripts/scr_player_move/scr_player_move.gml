@@ -65,8 +65,14 @@ if (key_dash && can_dash) {
 
 //Check for Sprint key
 if(key_sprint && moving){
-	sprite_index = spr_player_sprint
 	move_speed = 2
+	if(facing == 1){
+		sprite_index = spr_player_sprint_up		
+	} else if(facing == -1) {
+		sprite_index = spr_player_sprint		
+	} else {
+		sprite_index = spr_player_sprint_down		
+	}
 } else {
 	move_speed = 1
 }
