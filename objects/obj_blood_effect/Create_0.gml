@@ -19,13 +19,13 @@ grounded_triggered = false
 grounded = false
 
 //Max Distance
-max_distance = random_range(5,15)
+max_distance = random_range(3,10)
 
 //Move Speed
 move_speed = 4
 
 //Direction
-dir = point_direction(obj_player.x,obj_player.y,x,y)
+dir = point_direction(obj_player.x,obj_player.y,x+random_range(-1,1),y+random_range(-1,1))
 
 //Depth on screen
 depth = 5

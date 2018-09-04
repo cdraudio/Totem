@@ -26,7 +26,7 @@ if(flying){
 if(falling){
 	x += lengthdir_x(move_speed/2, dir)
 	y += lengthdir_y(move_speed, dir * -1)
-	image_xscale = image_yscale/1.25
+	//image_xscale = image_yscale/1.25
 
 	
 	if(alarm[2] < 0){

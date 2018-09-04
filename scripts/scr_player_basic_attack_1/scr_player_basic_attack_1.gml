@@ -48,6 +48,6 @@ if(alarm[0] == -1){
 				instance_create_layer(x,y+32,"Instances",obj_player_hurt_box_2)
 		}
 	}
-	alarm[0] = room_speed/2 + 5
-	alarm[3] = room_speed/2
+	alarm[0] = room_speed/3 + 5
+	alarm[3] = room_speed/3
 }

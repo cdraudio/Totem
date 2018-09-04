@@ -10,11 +10,10 @@ hit_points -= other.attack_damage
 obj_view.shaking = true
 obj_view.shake_intensity = 8
 
-image_speed = 0
-obj_player.image_speed = 0
+room_speed = 10
 if(alarm[3] < 0){
 	//sends to hurt state and resets image freeze
-	alarm[3] = 5	
+	alarm[3] = 1	
 }
 
 //Create blood
