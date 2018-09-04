@@ -115,25 +115,6 @@
             }
         },
         {
-            "Key": "09afa826-1bd0-4f46-af27-04b4434a4225",
-            "Value": {
-                "id": "63cc6372-ed5a-4551-a296-7abf97d701b4",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_player_basic_attack\/spr_player_basic_attack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0acb002e-2ed5-49aa-ae6e-882bd2d92f0e",
             "Value": {
                 "id": "9939c632-9e67-4d08-9ca3-84dd8f3e4b34",
@@ -1364,7 +1345,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_in_combat_idle\/spr_in_combat_idle.yy",
+                "resourcePath": "sprites\/spr_graver_combat_idle\/spr_graver_combat_idle.yy",
                 "resourceType": "GMSprite"
             }
         },

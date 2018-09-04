@@ -22,8 +22,8 @@ if (attacking == false and attack_frame == 0){
 
 else if (attacking == false and attack_frame > 0){
 	
-	x -= dist_x/max_attack_frame
-	y -= dist_y/max_attack_frame
+	//x -= dist_x/max_attack_frame
+	//y -= dist_y/max_attack_frame
 	attack_frame--
 	
 }

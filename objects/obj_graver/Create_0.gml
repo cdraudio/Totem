@@ -5,7 +5,7 @@ state = scr_graver_idle
 depth = 2
 
 //Aggro Range
-aggro_range = 0
+aggro_range = 150
 
 //Attack Damage
 attack_damage = 1

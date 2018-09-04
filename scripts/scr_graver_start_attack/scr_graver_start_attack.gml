@@ -1,6 +1,7 @@
 
 max_tele_frame = 5
 pause_frame = 10
+sprite_index = spr_graver_combat_idle
 path_end()
 
 if (tele_frame == 0){

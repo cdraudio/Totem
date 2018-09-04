@@ -7,7 +7,9 @@
         "550e7ddd-5f4d-4365-a054-2600e7c6f018",
         "35ec78e5-11bf-4917-be64-7f9b5b23338c",
         "be99918d-d162-471f-9d67-3ea1bbbb91d3",
-        "dee3f615-9086-437e-bae7-16cb84c4bdea"
+        "dee3f615-9086-437e-bae7-16cb84c4bdea",
+        "753e85d3-c9b6-4110-ae8e-8759e568c7eb",
+        "c936b2f2-f993-48bb-a483-6c0849626899"
     ],
     "filterType": "GMSprite",
     "folderName": "Graver",
