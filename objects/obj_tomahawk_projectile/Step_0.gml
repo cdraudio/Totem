@@ -32,15 +32,35 @@ if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
 		instance_destroy()
 }
 
+else if (returning){
+	
+	move_dir = point_direction(x, y, obj_player.x, obj_player.y)
+	move_x = lengthdir_x(move_speed, move_dir)
+	move_y = lengthdir_y(move_speed, move_dir)
+	
+	x += move_x
+	y += move_y
+	
+}
+
 
 else{
 	
-	path_position += abs(path_position-.500)/20 + .01
+	if(path_position >= .85){
+		returning = true	
+		path_end()
+	}
 	
-	if(path_position > .75){
+	/*if(path_position > .75){
 		num = path_get_number(fly_path)
 		path_change_point(fly_path, num-1, obj_player.x, obj_player.y, 0)
-		path_set_kind(fly_path, 0 )
+		path_set_kind(fly_path, 1 )
+		path_position += abs(path_position-.500)/80 + .01
+	}*/
+	
+	
+	else {
+		path_position += abs(path_position-.500)/20 + .01
 	}
 }
 

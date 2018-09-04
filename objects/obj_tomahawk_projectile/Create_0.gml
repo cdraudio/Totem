@@ -10,6 +10,8 @@ attack_damage = 2
 //Move Speed
 move_speed = 8
 
+returning = false
+
 //Starting Point
 start_point_x = x
 
@@ -44,6 +46,8 @@ final_x = obj_player.x
 final_y = obj_player.y
 
 fly_path = path_add()
+
+path_set_closed(fly_path, false)
 
 path_position = 0
 
