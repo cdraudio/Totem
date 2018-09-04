@@ -13,12 +13,12 @@ obj_player.y += lengthdir_y(5, knock_dir);
 if(alarm[4] == -1){
 	alarm[4] = room_speed/4
 }*/
+
 can_be_attacked = false
 can_dash =  true
 
 if(hurt_frame < 5){
 	
-	image_blend = c_red
 	move_x = lengthdir_x(5, knock_dir)
 	move_y = lengthdir_y(5, knock_dir)
 	

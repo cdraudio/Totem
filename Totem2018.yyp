@@ -2110,6 +2110,25 @@
             }
         },
         {
+            "Key": "b01bd8c3-b932-41cd-ae9e-944f18863876",
+            "Value": {
+                "id": "5e7c265f-962f-40cb-bfd1-fbb85c70870d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_blood_effect_stationary\/obj_blood_effect_stationary.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb5b9b15-fcf5-43c6-8b4f-b58cfea0f32f",
             "Value": {
                 "id": "6af5a95e-4e86-4cac-9280-3ce3c2277848",
