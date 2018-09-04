@@ -1,6 +1,6 @@
 /// @description Collision With RuneClaw
 
- if(other.attacking){
+ if(other.attacking and !dashing){
 	//Set knockback direction
 	knock_dir = point_direction(other.x, other.y, x, y);
 

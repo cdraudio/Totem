@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(!other.dashing){
+
+//Move away from player if overlapping and not attacking
+if(!obj_player.dashing){
 	move_dir = 	point_direction(other.x, other.y, x, y)
 	
 	

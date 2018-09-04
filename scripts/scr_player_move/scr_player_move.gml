@@ -61,6 +61,7 @@ if (key_dash && can_dash) {
 	dash_off_x = dash_target_x - x
 	dash_off_y = dash_target_y - y
 	state = scr_player_dash
+	dashing = true
 }
 
 //Check for Sprint key
