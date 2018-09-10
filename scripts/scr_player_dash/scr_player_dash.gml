@@ -4,8 +4,8 @@ max_dash_frame = 10
 image_alpha = 1
 dashing = true
 can_dash = false
-sprite_index = spr_player_sprint
-draw_sprite_ext(spr_player_sprint,0,x,y,1,1,0,c_aqua,0.5)
+sprite_index = spr_player_sprint_side
+draw_sprite_ext(spr_player_sprint_side,0,x,y,1,1,0,c_aqua,0.5)
 
 //THIS IS IMPORTANT when changing sprite index
 //You want the collision mask to stay the same as

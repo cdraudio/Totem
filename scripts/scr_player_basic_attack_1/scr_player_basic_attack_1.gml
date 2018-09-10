@@ -3,7 +3,7 @@ image_speed = 1.25
 
 if(alarm[0] == -1){
 	if(facing == -1){
-		sprite_index = spr_player_basic_attack_1
+		sprite_index = spr_player_basic_attack_1_side
 		basic_attack_1= true
 		// Check to see if there is a solid blocking path in HSP amount of spaces
 		if (!place_meeting(x+hsp,y,obj_solid)){
@@ -22,7 +22,7 @@ if(alarm[0] == -1){
 			}
 		}
 	} else if(facing == 1){
-		sprite_index = spr_player_basic_attack_1_up
+		sprite_index = spr_player_basic_attack_1_back
 		basic_attack_1= true
 		// Check to see if there is a solid blocking path in HSP amount of spaces
 		if (!place_meeting(x+hsp,y,obj_solid)){
@@ -35,7 +35,7 @@ if(alarm[0] == -1){
 				instance_create_layer(x,y-32,"Instances",obj_player_hurt_box_2)
 		}
 	} else if(facing == 0){
-		sprite_index = spr_player_basic_attack_1_down
+		sprite_index = spr_player_basic_attack_1_front
 		basic_attack_1= true
 		// Check to see if there is a solid blocking path in HSP amount of spaces
 		if (!place_meeting(x+hsp,y,obj_solid)){

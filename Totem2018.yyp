@@ -91,7 +91,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_basic_attack_1\/spr_player_basic_attack_1.yy",
+                "resourcePath": "sprites\/spr_player_basic_attack_1_side\/spr_player_basic_attack_1_side.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -243,7 +243,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_sprint\/spr_player_sprint.yy",
+                "resourcePath": "sprites\/spr_player_sprint_side\/spr_player_sprint_side.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -262,7 +262,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_walk\/spr_player_walk.yy",
+                "resourcePath": "sprites\/spr_player_walk_side\/spr_player_walk_side.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -395,7 +395,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_sprint_down\/spr_player_sprint_down.yy",
+                "resourcePath": "sprites\/spr_player_sprint_front\/spr_player_sprint_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -756,7 +756,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_sprint_up\/spr_player_sprint_up.yy",
+                "resourcePath": "sprites\/spr_player_sprint_back\/spr_player_sprint_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -927,7 +927,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_basic_attack_2_down\/spr_player_basic_attack_2_down.yy",
+                "resourcePath": "sprites\/spr_player_basic_attack_2_front\/spr_player_basic_attack_2_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1003,7 +1003,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_walk_down\/spr_player_walk_down.yy",
+                "resourcePath": "sprites\/spr_player_walk_front\/spr_player_walk_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1136,7 +1136,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_basic_attack_1_up\/spr_player_basic_attack_1_up.yy",
+                "resourcePath": "sprites\/spr_player_basic_attack_1_back\/spr_player_basic_attack_1_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1896,7 +1896,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_basic_attack_2_up\/spr_player_basic_attack_2_up.yy",
+                "resourcePath": "sprites\/spr_player_basic_attack_2_back\/spr_player_basic_attack_2_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1958,6 +1958,25 @@
             }
         },
         {
+            "Key": "a2351322-a380-4dc7-824a-cb2ff0249ce4",
+            "Value": {
+                "id": "ccd16932-d6b9-4cf3-b49b-2f70dad24f1a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_hurt_back\/spr_player_hurt_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a27b5d7a-9473-4ef7-b058-06dc2eb39062",
             "Value": {
                 "id": "801b2a2b-dd6a-4256-84d9-d90d47b5ee2f",
@@ -1974,6 +1993,25 @@
                 ],
                 "resourcePath": "objects\/obj_graver\/obj_graver.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a27c51f7-1249-445c-881b-f5007c5cfb55",
+            "Value": {
+                "id": "39749098-1937-43f8-bed2-356fa93b7ad9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_hurt_side\/spr_player_hurt_side.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2276,7 +2314,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_basic_attack_1_down\/spr_player_basic_attack_1_down.yy",
+                "resourcePath": "sprites\/spr_player_basic_attack_1_front\/spr_player_basic_attack_1_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2333,7 +2371,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_walk_up\/spr_player_walk_up.yy",
+                "resourcePath": "sprites\/spr_player_walk_back\/spr_player_walk_back.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2391,6 +2429,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_solid\/spr_solid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6f98e89-43dd-4147-aa0b-c669db94f0d3",
+            "Value": {
+                "id": "7c8d4023-8db7-435f-923c-fd7eb4dca61b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_hurt_front\/spr_player_hurt_front.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2485,7 +2542,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_basic_attack_2\/spr_player_basic_attack_2.yy",
+                "resourcePath": "sprites\/spr_player_basic_attack_2_side\/spr_player_basic_attack_2_side.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2998,7 +3055,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_player_idle\/spr_player_idle.yy",
+                "resourcePath": "sprites\/spr_player_idle_front\/spr_player_idle_front.yy",
                 "resourceType": "GMSprite"
             }
         },

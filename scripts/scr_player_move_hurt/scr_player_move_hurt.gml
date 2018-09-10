@@ -5,10 +5,22 @@ image_blend = c_white
 script_execute(scr_configure_player_inputs)
 
 // Default to walking sprite and idle if not moving
-sprite_index = spr_player_idle
+if(facing == 1){
+	sprite_index = spr_player_hurt_back	
+	} else if(facing == -1) {
+		sprite_index = spr_player_hurt_side		
+	} else {
+		sprite_index = spr_player_hurt_front		
+}
 
 if(moving){
-	sprite_index = spr_player_walk	
+	if(facing == 1){
+	sprite_index = spr_player_hurt_back	
+	} else if(facing == -1) {
+		sprite_index = spr_player_hurt_side		
+	} else {
+		sprite_index = spr_player_hurt_front		
+	}
 }
 
 move_dir = point_direction(0, 0, x_dir, y_dir)

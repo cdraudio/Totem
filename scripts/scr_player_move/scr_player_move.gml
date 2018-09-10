@@ -11,17 +11,17 @@ if(!moving){
 	} else if (facing == -1){
 		sprite_index = spr_player_idle_side	
 	} else {
-		sprite_index = spr_player_idle	
+		sprite_index = spr_player_idle_front	
 	}
 }
 
 if(moving){
 	if(facing == 0){
-		sprite_index = spr_player_walk_down	
+		sprite_index = spr_player_walk_front
 	} else if(facing == 1) {
-		sprite_index = spr_player_walk_up
+		sprite_index = spr_player_walk_back
 	} else {
-		sprite_index = spr_player_walk
+		sprite_index = spr_player_walk_side
 	}
 }
 
@@ -68,11 +68,11 @@ if (key_dash && can_dash) {
 if(key_sprint && moving){
 	move_speed = 2
 	if(facing == 1){
-		sprite_index = spr_player_sprint_up		
+		sprite_index = spr_player_sprint_back	
 	} else if(facing == -1) {
-		sprite_index = spr_player_sprint		
+		sprite_index = spr_player_sprint_side	
 	} else {
-		sprite_index = spr_player_sprint_down		
+		sprite_index = spr_player_sprint_front		
 	}
 } else {
 	move_speed = 1

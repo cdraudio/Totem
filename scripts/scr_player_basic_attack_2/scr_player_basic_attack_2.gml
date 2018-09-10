@@ -3,7 +3,7 @@ image_speed = 1.25
 
 if(alarm[1] == -1){
 	if(facing == -1){
-		sprite_index = spr_player_basic_attack_2
+		sprite_index = spr_player_basic_attack_2_side
 		basic_attack_2 = true
 		can_basic_attack = false
 	
@@ -24,7 +24,7 @@ if(alarm[1] == -1){
 			}
 		}
 	} else if(facing == 1){
-		sprite_index = spr_player_basic_attack_2_up
+		sprite_index = spr_player_basic_attack_2_back
 		basic_attack_2 = true
 		can_basic_attack = false
 	
@@ -39,7 +39,7 @@ if(alarm[1] == -1){
 				instance_create_layer(x,y-32,"Instances",obj_player_hurt_box_2)
 		}
 	} else if(facing == 0){
-		sprite_index = spr_player_basic_attack_2_down
+		sprite_index = spr_player_basic_attack_2_front
 		basic_attack_2 = true
 		can_basic_attack = false
 	

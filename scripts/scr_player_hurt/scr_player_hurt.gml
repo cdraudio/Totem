@@ -17,6 +17,14 @@ if(alarm[4] == -1){
 can_be_attacked = false
 can_dash =  true
 
+if(facing == 1){
+	sprite_index = spr_player_hurt_back	
+	} else if(facing == -1) {
+		sprite_index = spr_player_hurt_side		
+	} else {
+		sprite_index = spr_player_hurt_front		
+}
+
 if(hurt_frame < 5){
 	
 	move_x = lengthdir_x(5, knock_dir)

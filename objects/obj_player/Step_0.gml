@@ -16,7 +16,6 @@ else {
 
 	if(hurt_frame < 5){
 	
-		image_blend = c_red
 		move_x = lengthdir_x(5, knock_dir)
 		move_y = lengthdir_y(5, knock_dir)
 	
