@@ -5,9 +5,15 @@ bright_blue = make_color_rgb(168, 255, 249)
 with (obj_player)
 		 draw_sprite_ext(spr_glow_effect,0,x,y,0.5,0.5,0,c_white,0.75)
 		 
-with (obj_light_shroom)
+with (obj_yellow_glow)
 		 draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,c_yellow,0.75)
+		 
+with (obj_blue_glow)
+		 draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,c_aqua,0.75)
 
+with (obj_blue_glow_large)
+		 draw_sprite_ext(spr_glow_effect,0,x,y,2,2,0,c_aqua,0.75)
+		 
 with (obj_purple_light)
 		 draw_sprite_ext(spr_glow_effect,0,x,y,1,1,0,make_color_rgb(240, 219, 255),0.5)
 

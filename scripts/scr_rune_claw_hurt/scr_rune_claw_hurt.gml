@@ -1,4 +1,5 @@
 //Change image_blend and set image_speed to 0
+hittable = false
 image_blend = c_red
 image_speed = 0
 
@@ -19,7 +20,11 @@ x += lengthdir_x(random_range(3,6), knock_dir);
 y += lengthdir_y(random_range(3,6), knock_dir);
 
 
-//Exit hurt_state
+//Exit hurt_state and reset hit cooldown
+if(alarm[6] == -1){
+	alarm[6] = 8
+}
+
 if(alarm[0] == -1){
 	alarm[0] = 1
 }

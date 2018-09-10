@@ -28,14 +28,15 @@ move_speed = random_range(6,8)
 //Create wander path
 //wander_path = path_add();
 wandering = false
-wander_frame = 0
 
+wander_frame = 0
 
 path_to_player = -1
 
 attack_path = -1
 
 attack_frame = 0
+
 attacking = false
 
 dying = false
@@ -44,6 +45,8 @@ wamder_path = -1
 
 tele_frame = 0
 
+//Hittable
+hittable = true
 
 //How far we can go in one hop
 jump_length = 8
