@@ -17,11 +17,11 @@ if(!moving){
 
 if(moving){
 	if(facing == 0){
-		sprite_index = spr_player_walk_front
+		sprite_index = spr_player_sprint_front
 	} else if(facing == 1) {
-		sprite_index = spr_player_walk_back
+		sprite_index = spr_player_sprint_back
 	} else {
-		sprite_index = spr_player_walk_side
+		sprite_index = spr_player_sprint_side
 	}
 }
 
@@ -66,16 +66,16 @@ if (key_dash && can_dash) {
 
 //Check for Sprint key
 if(key_sprint && moving){
-	move_speed = 2
+	move_speed = 1
 	if(facing == 1){
-		sprite_index = spr_player_sprint_back	
+		sprite_index = spr_player_walk_back	
 	} else if(facing == -1) {
-		sprite_index = spr_player_sprint_side	
+		sprite_index = spr_player_walk_side	
 	} else {
-		sprite_index = spr_player_sprint_front		
+		sprite_index = spr_player_walk_front		
 	}
 } else {
-	move_speed = 1
+	move_speed = 2
 }
 
 // Flip sprite depending on direction of movement
