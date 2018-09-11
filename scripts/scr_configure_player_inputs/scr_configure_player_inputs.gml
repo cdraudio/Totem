@@ -7,6 +7,7 @@ key_sprint = keyboard_check(vk_shift);
 key_dash = keyboard_check_pressed(ord("N"));
 key_attack = keyboard_check_pressed(ord("M"));
 key_power_attack = keyboard_check_pressed(vk_tab);
+transform_1 = keyboard_check_pressed(ord("1"));
 
 // Key Mapping 
 keyboard_set_map(ord("D"),vk_right);

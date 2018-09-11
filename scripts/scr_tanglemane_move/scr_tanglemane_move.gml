@@ -1,5 +1,7 @@
 //Reset Variables
 image_blend = c_white
+image_xscale = 0.75
+image_yscale = image_xscale
 
 //Get Inputs
 script_execute(scr_configure_player_inputs)
@@ -7,26 +9,22 @@ script_execute(scr_configure_player_inputs)
 // Default to walking sprite and idle if not moving
 if(!moving){
 	if(facing == 1){
-		sprite_index = spr_player_idle_back
+		sprite_index = spr_tanglemane_idle_side
 	} else if (facing == -1){
-		sprite_index = spr_player_idle_side	
+		sprite_index = spr_tanglemane_idle_side
 	} else {
-		sprite_index = spr_player_idle_front	
+		sprite_index = spr_tanglemane_idle_side
 	}
 }
 
 if(moving){
 	if(facing == 0){
-		sprite_index = spr_player_sprint_front
+		sprite_index = spr_tanglemane_idle_side
 	} else if(facing == 1) {
-		sprite_index = spr_player_sprint_back
+		sprite_index = spr_tanglemane_idle_side
 	} else {
-		sprite_index = spr_player_sprint_side
+		sprite_index = spr_tanglemane_idle_side
 	}
-}
-
-if(transform_1){
-	state = scr_tanglemane_move	
 }
 
 move_dir = point_direction(0, 0, x_dir, y_dir)
@@ -84,10 +82,12 @@ if(key_sprint && moving){
 
 // Flip sprite depending on direction of movement
 if(hsp > 0){
-	image_xscale = 1
+	image_xscale = 0.75
+	image_yscale = image_xscale
 }
 if(hsp < 0){
-	image_xscale = -1	
+	image_xscale = -0.75	
+	image_yscale = 0.75
 }
 
 //Horizontal Move and Collision
