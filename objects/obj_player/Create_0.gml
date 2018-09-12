@@ -24,7 +24,7 @@ move_dir = 0
 facing = 0
 
 //Move speed feels good at 3
-move_speed = 1
+move_speed = 3
 
 // TODO(shaw): figure this out, want dash to be 3 tiles @ 32pixels = 96pixels
 dash_dist = 96

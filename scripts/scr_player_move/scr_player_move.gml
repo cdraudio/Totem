@@ -35,8 +35,7 @@ move_dir = point_direction(0, 0, x_dir, y_dir)
 if(x_dir == 0 and y_dir == 0){
 	hsp = 0
 	vsp = 0
-}
-else{
+} else {
 	hsp = lengthdir_x(1, move_dir) * move_speed
 	vsp = lengthdir_y(1, move_dir) * move_speed
 }
@@ -73,13 +72,13 @@ if(key_sprint && moving){
 	move_speed = 1
 	if(facing == 1){
 		sprite_index = spr_player_walk_back	
-	} else if(facing == -1) {
+	} else if(facing == -1){
 		sprite_index = spr_player_walk_side	
-	} else {
+	} else{
 		sprite_index = spr_player_walk_front		
 	}
 } else {
-	move_speed = 2
+	move_speed = 3
 }
 
 // Flip sprite depending on direction of movement

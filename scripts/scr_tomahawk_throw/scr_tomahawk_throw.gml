@@ -1,6 +1,14 @@
 //Toggle cooldown
 can_throw_tomahawk = false
 
+if(facing == 0){
+	sprite_index = spr_player_basic_attack_1_front
+} else if(facing == 1) {
+	sprite_index = spr_player_basic_attack_1_side
+} else {
+	sprite_index = spr_player_basic_attack_1_back
+}
+	
 //Create rabbit at player location
 if(!instance_exists(obj_tomahawk_projectile)){
 	instance_create_layer(x,y + 10,"Instances",obj_tomahawk_projectile)
@@ -23,10 +31,3 @@ if(!instance_exists(obj_tomahawk_projectile)){
 if(alarm[4] < 0){
 	alarm[4] = room_speed	
 }
-
-state = scr_player_move
-//Exit state if tab is not pressed
-if(!keyboard_check(vk_tab)){
-	state = scr_player_move	
-}
-
