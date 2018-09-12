@@ -44,6 +44,7 @@ if(x_dir == 0 and y_dir == 0){
 
 //Rabbit Cannon
 if(key_power_attack && can_throw_tomahawk){
+	image_index = 0
 	state = scr_tomahawk_throw
 }
 
