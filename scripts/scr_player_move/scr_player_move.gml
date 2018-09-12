@@ -79,7 +79,7 @@ if(key_sprint && moving){
 		sprite_index = spr_player_walk_front		
 	}
 } else {
-	move_speed = 3
+	move_speed = 2
 }
 
 // Flip sprite depending on direction of movement

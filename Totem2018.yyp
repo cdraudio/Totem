@@ -894,6 +894,25 @@
             }
         },
         {
+            "Key": "5a557a21-cd13-4d33-9dac-77fd443e9a59",
+            "Value": {
+                "id": "8bcd187f-65f2-41a2-8d0f-d088f6d7413d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_particle_light_tree\/obj_particle_light_tree.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5b274559-ac1e-443e-a44d-8b4442c7830f",
             "Value": {
                 "id": "666d003d-a9df-4bcc-8d29-c2c3fe9c6369",
