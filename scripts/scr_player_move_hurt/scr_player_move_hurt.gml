@@ -29,10 +29,28 @@ move_dir = point_direction(0, 0, x_dir, y_dir)
 if(x_dir == 0 and y_dir == 0){
 	hsp = 0
 	vsp = 0
+	move_dir = dir
 }
 else{
 	hsp = lengthdir_x(1, move_dir) * move_speed
 	vsp = lengthdir_y(1, move_dir) * move_speed
+}
+
+//Set direction that player will be facing
+if(vsp > 0){
+	dir = 3*90
+}
+
+else if (vsp < 0) {
+	dir = 1*90	
+}
+
+else if (hsp > 0){
+	dir = 0*90	
+}
+
+else if (hsp < 0){
+	dir = 2*90	
 }
 
 // DETERMINE PLAYER STATE

@@ -8,11 +8,14 @@ hsp = 1
 vsp = 1
 depth = -1
 
-enum directions {
-	none, top, topright, right, bottomright, bottom, bottomleft, left, topleft
-}
+//enum directions {
+	//none, top, topright, right, bottomright, bottom, bottomleft, left, topleft
+//}
 
-dir = directions.none
+//right - 0, up = 1, left = 2, down = 3
+dir = 0 //directions.none
+
+
 dir_x = 0
 dir_y = 0
 
