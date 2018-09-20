@@ -43,7 +43,8 @@ if(dash_frame == max_dash_frame){
 	
 	dashing = false
 	dash_frame = 0
-	can_dash = true
+	//can_dash = true
+	alarm[5] = 20
 	dash_target_x = 0
 	dash_target_y = 0
 	state = scr_player_move
@@ -58,9 +59,21 @@ else {
 		
 		//If place free, got there
 		if(!place_meeting(x+move_x, y+move_y, obj_solid) ){
-			x += move_x
-			y += move_y
-			dash_frame++
+
+			//These numbers control the slower speed of the dash. 
+			if(max_dash_frame - dash_frame <= 4){
+				x += move_x/5
+				y += move_y/5
+				dash_frame+=.2
+					
+			}
+			
+			else {
+				x += move_x
+				y += move_y
+				dash_frame++	
+			}
+			
 		}
 		
 		else {
