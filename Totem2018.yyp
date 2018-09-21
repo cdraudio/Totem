@@ -791,6 +791,22 @@
             }
         },
         {
+            "Key": "94854ca4-b5c6-4b2a-9492-e8d1a34b463b",
+            "Value": {
+                "id": "d3902ef3-a611-4667-aee0-ec74ad0dfec2",
+                "resourcePath": "sprites\\spr_player_dodge_side\\spr_player_dodge_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95e56178-1cc3-43ad-b921-9bb9489db65e",
+            "Value": {
+                "id": "35b6291a-95fa-4e5d-b8c2-df2018f9038c",
+                "resourcePath": "sprites\\spr_large_tree_orange\\spr_large_tree_orange.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9697ccdc-5386-4106-aca2-08a2a4f425d2",
             "Value": {
                 "id": "e56db62a-3095-4974-9b27-a9148039541b",
@@ -1396,6 +1412,14 @@
                 "id": "a6f023ae-350c-41db-b3d7-7c2351b46794",
                 "resourcePath": "views\/edde14ca-d4d6-47ae-868d-fdd1683cf404.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee902e1a-b37e-4460-80ba-306c3990b7a9",
+            "Value": {
+                "id": "d351f8c8-c4f6-4122-bf81-4c7756db35ce",
+                "resourcePath": "objects\\obj_large_tree_orange\\obj_large_tree_orange.yy",
+                "resourceType": "GMObject"
             }
         },
         {
