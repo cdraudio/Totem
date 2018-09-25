@@ -47,7 +47,11 @@ if(dash_frame == max_dash_frame){
 	alarm[5] = 20
 	dash_target_x = 0
 	dash_target_y = 0
-	state = scr_player_move
+	//state = scr_player_move  //moved this into alarm 5
+}
+
+else if (alarm[5] != -1) {
+	
 }
 
 //Mid-dash
@@ -61,10 +65,10 @@ else {
 		if(!place_meeting(x+move_x, y+move_y, obj_solid) ){
 
 			//These numbers control the slower speed of the dash. 
-			if(max_dash_frame - dash_frame <= 4){
-				x += move_x/5
-				y += move_y/5
-				dash_frame+=.2
+			if(max_dash_frame - dash_frame <= 2){
+				x += move_x/10
+				y += move_y/10
+				dash_frame+=.1
 					
 			}
 			
