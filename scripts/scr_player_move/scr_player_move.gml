@@ -82,6 +82,7 @@ if (key_dash && can_dash) {
 	dash_target_y = y + lengthdir_y(1, move_dir)*dash_dist
 	dash_off_x = dash_target_x - x
 	dash_off_y = dash_target_y - y
+	image_index = 1
 	state = scr_player_dash
 	dashing = true
 }

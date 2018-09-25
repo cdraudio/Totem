@@ -30,7 +30,7 @@ if(!instance_exists(obj_tomahawk_projectile)){
 }
 
 if(alarm[4] < 0){
-	alarm[4] = room_speed	
+	alarm[4] = room_speed * 2
 }
 
 image_speed = 1

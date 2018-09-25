@@ -1,5 +1,5 @@
 //This state exit condition is in obj_player animation_end
-image_speed = 1.25
+image_speed = 1.5
 
 if(alarm[0] == -1){
 	if(facing == -1){

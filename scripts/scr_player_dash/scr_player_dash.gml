@@ -1,10 +1,10 @@
 // NOTE(shaw): player input sets the dir
-
 max_dash_frame = 10
 image_alpha = 1
+image_speed = 1.5
 dashing = true
 can_dash = false
-sprite_index = spr_player_sprint_side
+sprite_index = spr_player_dodge_side
 draw_sprite_ext(spr_player_sprint_side,0,x,y,1,1,0,c_aqua,0.5)
 
 //THIS IS IMPORTANT when changing sprite index
