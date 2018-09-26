@@ -8,7 +8,7 @@ life_span = 75
 attack_damage = 2
 
 //Move Speed
-move_speed = 8
+move_speed = 16
 
 returning = false
 

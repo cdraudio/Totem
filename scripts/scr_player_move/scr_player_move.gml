@@ -1,5 +1,6 @@
 //Reset Variables
 image_blend = c_white
+image_speed = 1.25
 
 //Get Inputs
 script_execute(scr_configure_player_inputs)
@@ -98,7 +99,7 @@ if(key_sprint && moving){
 		sprite_index = spr_player_walk_front		
 	}
 } else {
-	move_speed = 2
+	move_speed = 3
 }
 
 // Flip sprite depending on direction of movement

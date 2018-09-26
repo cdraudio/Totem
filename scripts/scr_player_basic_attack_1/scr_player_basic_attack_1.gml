@@ -1,5 +1,5 @@
 //This state exit condition is in obj_player animation_end
-image_speed = 1.5
+image_speed = 1.25
 
 if(alarm[0] == -1){
 	hsp = 0
@@ -9,12 +9,12 @@ if(alarm[0] == -1){
 		basic_attack_1= true
 
 			if(image_xscale > 0){
-				hsp = (move_speed * 8);
+				hsp = (move_speed * 5);
 
 			} 
 			
 			else {
-				hsp = -(move_speed * 8);
+				hsp = -(move_speed * 5);
 
 			}
 	}
@@ -22,14 +22,14 @@ if(alarm[0] == -1){
 		sprite_index = spr_player_basic_attack_1_back
 		basic_attack_1= true
 
-		vsp = -(move_speed * 8);
+		vsp = -(move_speed * 5)
 
 	}
 	else if(facing == 0){
 		sprite_index = spr_player_basic_attack_1_front
 		basic_attack_1= true
 
-		vsp = (move_speed * 8);
+		vsp = (move_speed * 5);
 
 	}
 	
