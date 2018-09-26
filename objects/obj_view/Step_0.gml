@@ -40,8 +40,8 @@ if(keyboard_check(vk_backspace)){
 
 // If shaking is true, shake in random direction by shakeIntensity
 if (shaking){
-    x = choose(random(shake_intensity), random(-shake_intensity));
-    y = choose(random(shake_intensity), random(-shake_intensity));
+    x += choose(random(shake_intensity), random(-shake_intensity));
+    y += choose(random(shake_intensity), random(-shake_intensity));
 	shake_intensity -= 8
 	
 	if (shake_intensity <= 0){

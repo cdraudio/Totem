@@ -85,8 +85,8 @@ else {
 
 			//These numbers control the slower speed of the dash. 
 			if(max_dash_frame - dash_frame <= 2){
-				x += move_x/10
-				y += move_y/10
+				x += move_x/3
+				y += move_y/3
 				dash_frame+=.1
 					
 			}
