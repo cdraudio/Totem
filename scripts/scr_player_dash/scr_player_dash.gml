@@ -6,11 +6,11 @@ dashing = true
 can_dash = false
 
 if(facing == 0){
-		sprite_index = spr_player_dodge_front
-	} else if(facing == 1) {
-		sprite_index = spr_player_dodge_back
-	} else {
-		sprite_index = spr_player_dodge_side
+	sprite_index = spr_player_dodge_front
+} else if(facing == 1) {
+	sprite_index = spr_player_dodge_back
+} else {
+	sprite_index = spr_player_dodge_side
 }
 
 draw_sprite_ext(spr_player_sprint_side,0,x,y,1,1,0,c_aqua,0.5)
@@ -52,21 +52,14 @@ if(dash_frame == max_dash_frame){
 	dashing = false
 	dash_frame = 0
 	//can_dash = true
-	alarm[5] = 20
+	alarm[5] = 10
 	dash_target_x = 0
 	dash_target_y = 0
 	//state = scr_player_move  //moved this into alarm 5
 }
 
 if(floor(image_index) == image_number-1){
-	
-	dashing = false
-	dash_frame = 0
-	//can_dash = true
-	alarm[5] = 8
-	dash_target_x = 0
-	dash_target_y = 0
-	//state = scr_player_move  //moved this into alarm 5
+	image_index = image_number-1
 }
 
 else if (alarm[5] != -1) {
@@ -85,8 +78,8 @@ else {
 
 			//These numbers control the slower speed of the dash. 
 			if(max_dash_frame - dash_frame <= 2){
-				x += move_x/3
-				y += move_y/3
+				x += move_x/4
+				y += move_y/4
 				dash_frame+=.1
 					
 			}
