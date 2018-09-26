@@ -10,14 +10,9 @@ if(facing == 0){
 	sprite_index = spr_player_basic_attack_1_side
 }
 	
-//Create rabbit at player location
+//Create axe at player location
 if(!instance_exists(obj_tomahawk_projectile)){
 	instance_create_layer(x,y + 10,"Instances",obj_tomahawk_projectile)
-	
-	//Screen Shake
-	obj_view.shaking = true	
-	obj_view.shake_intensity = 8
-	
 	
 	//Push player back
 	if(image_xscale == 1){
