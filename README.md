@@ -21,6 +21,7 @@ Embark on a journey to find the people who were taken from you and prevent The B
 - Shapeshift seemlessly between a variety of unique forms to overcome obstacles and defeat enemies.
 - Travel openly between the five different regions of the game world, encountering new environments, characters, enemies and collecting new forms as you go.
 - Upgrade your transformations to unlock and improve powerful new abilities.
+
 ![Art](https://cdn.discordapp.com/attachments/459462122049503242/488782679878270987/Mara_attackCombo_all.gif)
 
 ## How to Follow Updates
