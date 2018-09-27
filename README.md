@@ -1,4 +1,4 @@
-# PairPrint
+# Totem
 
 ## Description
 ![Alt text](https://totemofficial.files.wordpress.com/2018/08/cropped-mara-final-concepts11.png)
