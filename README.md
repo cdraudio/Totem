@@ -1,14 +1,14 @@
 # Totem
 
 ## Description
-![Alt text](https://totemofficial.files.wordpress.com/2018/08/cropped-mara-final-concepts11.png)
+![Banner](https://totemofficial.files.wordpress.com/2018/08/cropped-mara-final-concepts11.png)
 
 Totem is a top-down 2.5D action RPG currently under development that follows the story of Mara, a shapeshifting heroine who has set out to find her lost family and protect the natural world from those that wish to destroy it. Its a game about turning your loss into strength and becoming things that you never thought were possible.
 
 We’re a team of five people from all across the United States who share a passion for creating awesome things that we hope people will want to experience. Check out the art that our awesome artists have created and follow development updates through our blog!
 
 ## The Game
-![Alt text](https://i.imgur.com/lPJak4Y.gif)
+![Gameplay Gif](https://i.imgur.com/lPJak4Y.gif)
 
 Explore a carefully crafted pixel art world where magic, mystery, and adventure lurk around every corner.
 
