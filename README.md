@@ -7,6 +7,8 @@ Totem is a top-down 2.5D action RPG currently under development that follows the
 
 We’re a team of five people from all across the United States who share a passion for creating awesome things that we hope people will want to experience. Check out the art that our awesome artists have created and follow development updates through our blog!
 
+![Banner](https://totemofficial.files.wordpress.com/2018/08/cropped-tomahawk-icon5.png)
+
 ## The Game
 ![Gameplay Gif](https://totemofficial.files.wordpress.com/2018/08/animated-gif-downsized_large.gif?w=480)
 
