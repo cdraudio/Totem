@@ -17,7 +17,7 @@ Mara is a changeling, she can take the shapes of powerful creatures that she enc
 Embark on a journey to find the people who were taken from you and prevent The Blacksmith and his army, The Anvil, from bending nature to their will.
 
 ## Gameplay Features
-![Gameplay Gif](https://imgur.com/gallery/BQ3SGMR)
+![Gameplay Gif](https://i.imgur.com/BQ3SGMR.gif)
 - Shapeshift seemlessly between a variety of unique forms to overcome obstacles and defeat enemies.
 - Travel openly between the five different regions of the game world, encountering new environments, characters, enemies and collecting new forms as you go.
 - Upgrade your transformations to unlock and improve powerful new abilities.
