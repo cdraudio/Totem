@@ -63,7 +63,7 @@ path_start(fly_path, 0, 0, 1)
 
 //Screen Shake
 obj_view.shaking = true	
-obj_view.shake_intensity = 10
+obj_view.shake_intensity = 4
 	
 //Determine sprite face and fire in direction
 if(obj_player.image_xscale > 0){

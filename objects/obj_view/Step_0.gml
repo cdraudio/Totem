@@ -42,7 +42,7 @@ if(keyboard_check(vk_backspace)){
 if (shaking){
     x += choose(random(shake_intensity), random(-shake_intensity));
     y += choose(random(shake_intensity), random(-shake_intensity));
-	shake_intensity -= 8
+	shake_intensity -= 1
 	
 	if (shake_intensity <= 0){
 		shaking = false
