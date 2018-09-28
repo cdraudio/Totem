@@ -52,15 +52,21 @@ if(dash_frame == max_dash_frame){
 	dashing = false
 	dash_frame = 0
 	//can_dash = true
-	alarm[5] = 10
+	alarm[5] = 5
 	dash_target_x = 0
 	dash_target_y = 0
 	//state = scr_player_move  //moved this into alarm 5
 }
 
-if(floor(image_index) == image_number-1){
-	image_index = image_number-1
-}
+/*if(floor(image_index) == image_number-1){
+	// NOTE: Trying to get the dash to not play extra frames at the end
+	dashing = false
+	dash_frame = 0
+	//can_dash = true
+	alarm[5] = 6
+	dash_target_x = 0
+	dash_target_y = 0
+} */
 
 else if (alarm[5] != -1) {
 	

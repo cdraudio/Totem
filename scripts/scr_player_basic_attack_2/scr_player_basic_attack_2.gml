@@ -9,12 +9,12 @@ if(alarm[1] == -1){
 		basic_attack_2= true
 
 			if(image_xscale > 0){
-				hsp = (move_speed * 10);
+				hsp = (move_speed * 8);
 
 			} 
 			
 			else {
-				hsp = -(move_speed * 10);
+				hsp = -(move_speed * 8);
 
 			}
 	}
@@ -22,14 +22,14 @@ if(alarm[1] == -1){
 		sprite_index = spr_player_basic_attack_2_back
 		basic_attack_2= true
 
-		vsp = -(move_speed * 10);
+		vsp = -(move_speed * 8);
 
 	}
 	else if(facing == 0){
 		sprite_index = spr_player_basic_attack_2_front
 		basic_attack_2= true
 
-		vsp = (move_speed * 10);
+		vsp = (move_speed * 8);
 
 	}
 	
