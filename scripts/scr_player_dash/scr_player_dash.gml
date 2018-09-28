@@ -2,7 +2,7 @@
 max_dash_frame = 10
 image_alpha = 1
 image_speed = 1.5
-dashing = true
+//dashing = true
 can_dash = false
 
 if(facing == 0){
@@ -18,7 +18,7 @@ draw_sprite_ext(spr_player_sprint_side,0,x,y,1,1,0,c_aqua,0.5)
 //THIS IS IMPORTANT when changing sprite index
 //You want the collision mask to stay the same as
 //The character so we aren't clipping on things
-mask_index = obj_player
+//mask_index = obj_player
 
 /**if (point_distance(x, y, dash_target_x, dash_target_y) < 10) {
 		dashing = false
