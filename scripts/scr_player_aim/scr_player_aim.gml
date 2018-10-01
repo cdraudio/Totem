@@ -5,7 +5,7 @@ if(facing == 1){
 	sprite_index = spr_player_aim_back
 } else if (facing == -1){
 	sprite_index = spr_player_aim_side	
-} else {
+} else if(facing == 0){
 	sprite_index = spr_player_aim_front	
 }
 
