@@ -14,10 +14,25 @@ else {
 	can_be_attacked = false
 	can_dash =  true
 
-	if(hurt_frame < 5){
+	if(hurt_frame == 0){
+		hurt_flag = true
+		if(facing == 1){
+			sprite_index = spr_player_hurt_back	
+		} else if(facing == -1) {
+				sprite_index = spr_player_hurt_side		
+		} else {
+				sprite_index = spr_player_hurt_front		
+		}
+	}
+	tmp_num = sprite_get_number(sprite_index)*3
+
+
+	if(hurt_frame < tmp_num and hurt_flag){
 	
-		move_x = lengthdir_x(5, knock_dir)
-		move_y = lengthdir_y(5, knock_dir)
+		image_index = int64(hurt_frame/3)
+	
+		move_x = lengthdir_x(1, knock_dir)
+		move_y = lengthdir_y(1, knock_dir)
 	
 		//Move if free
 		if(!place_meeting(x+move_x, y+move_y, obj_solid) ){
@@ -40,7 +55,7 @@ else {
 	}
 
 	else if (hurt_frame < max_hurt_frame){
-	
+		hurt_flag = false
 		image_blend = c_white
 		if( floor(hurt_frame/2)%2 == 0){
 			image_alpha = 0	

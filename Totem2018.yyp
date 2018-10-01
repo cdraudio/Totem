@@ -551,14 +551,6 @@
             }
         },
         {
-            "Key": "60f64bb1-9c21-403c-adb7-7b07db2fd2ae",
-            "Value": {
-                "id": "f1d6398c-1932-45f8-97b6-8c77a32d0ec4",
-                "resourcePath": "scripts\/scr_player_hurt\/scr_player_hurt.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6109c081-838d-42cc-9160-0c70f5bc5e56",
             "Value": {
                 "id": "405dbd3b-e7e2-4339-9243-b56dc4afbc34",
@@ -1773,7 +1765,6 @@
         "d5ee46f8-86d2-48bf-85c1-acfad1ed7a9d",
         "380af309-5968-445a-87d2-9e68455132dc",
         "886e5aec-f56a-46dd-a350-e0798aa9193c",
-        "60f64bb1-9c21-403c-adb7-7b07db2fd2ae",
         "f057e898-ba49-4110-aef5-7fea928417b6",
         "899136b3-a218-4893-a276-2061fa5a8be4",
         "a51c92dc-cbb0-4fe0-9af1-f310f3997287",
