@@ -9,7 +9,8 @@
         "9cc35f9f-c699-4b73-841a-bd89f1dcb22c",
         "b336044f-31fb-487d-8889-7aea01216e52",
         "91a6a313-136b-4c4d-97d6-e997f94fda0a",
-        "95e56178-1cc3-43ad-b921-9bb9489db65e"
+        "95e56178-1cc3-43ad-b921-9bb9489db65e",
+        "3d77d32c-d84d-42d7-b950-7d678beae3b9"
     ],
     "filterType": "GMSprite",
     "folderName": "Trees",

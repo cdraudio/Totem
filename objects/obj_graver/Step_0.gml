@@ -8,5 +8,5 @@ if(keyboard_check(vk_subtract)){
 }
 
 if(hit_points <= 0){
-	state = scr_rune_claw_dead
+	state = scr_graver_dead
 }

@@ -85,7 +85,7 @@ if(alarm[0] == -1){
 	else if(facing == 1){
 
 				// Create hurt box 
-				instance_create_layer(x,y-32,"Instances",obj_player_hurt_box_2)
+				instance_create_layer(x,y-16,"Instances",obj_player_hurt_box_2)
 	}
 	else if(facing == 0){
 

@@ -1,7 +1,8 @@
-//sprite_index = spr_enemy_death
+//sprite_index = spr_graver_dead
 
 max_die_frame = 2
-
+instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
+instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
 
 if(!dying){
 
@@ -19,7 +20,7 @@ if(!dying){
 
 else if (die_frame == max_die_frame){
 	instance_destroy(self)
-	instance_create_layer(x, y, "Instances", obj_enemy_dead)
+	instance_create_layer(x, y, "Instances", obj_graver_dead)
 }
 
 else {
