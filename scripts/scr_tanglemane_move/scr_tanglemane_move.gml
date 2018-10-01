@@ -1,7 +1,5 @@
 //Reset Variables
 image_blend = c_white
-image_xscale = 0.75
-image_yscale = image_xscale
 
 //Get Inputs
 script_execute(scr_configure_player_inputs)
@@ -81,35 +79,12 @@ if(key_sprint && moving){
 }
 
 // Flip sprite depending on direction of movement
-if(hsp > 0){
-	image_xscale = 0.75
-	image_yscale = image_xscale
-}
+
 if(hsp < 0){
-	image_xscale = -0.75	
-	image_yscale = 0.75
+	image_xscale = -1	
+} else if(hsp > 0){
+	image_xscale = 1
 }
-
-//Horizontal Move and Collision
-	
-/**if (!place_meeting(x+hsp,y,obj_solid)){
-	while(place_meeting(x+sign(hsp),y,obj_solid))
-	{
-		hsp = 0;
-	}
-	x += sign(hsp) * move_speed;
-}
-
-//Vertical Move and Collision
-if (!place_meeting(x,y+vsp,obj_solid)){
-	while(place_meeting(x,y+sign(vsp),obj_solid))
-	{
-		vsp = 0
-	}
-	y += sign(vsp) * move_speed;
-}  **/
-
-//Horizontal Collision
 
 if(!place_meeting(x+hsp, y, obj_solid)){
 	x += hsp

@@ -61,10 +61,14 @@ else if (hsp < 0){
 
 // DETERMINE PLAYER STATE
 
-//Rabbit Cannon
+//Ranged Attack
 if(key_power_attack && can_throw_tomahawk){
 	image_index = 0
 	state = scr_tomahawk_throw
+}
+
+if(key_aim){
+	state = scr_player_aim	
 }
 
 //Basic Attack
