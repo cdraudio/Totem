@@ -20,14 +20,16 @@ if(mouse_x < x){
 //Direction
 move_dir = point_direction(x, y, mouse_x, mouse_y);
 
+
+
 //Facing
-if(move_dir > 90 && move_dir < 270){
+if( (move_dir > 0 && move_dir < 45) or (move_dir>315 && move_dir < 361)  ){
 	facing = -1
-} else if(move_dir < 180 && move_dir > 0){
+} else if(move_dir < 135 && move_dir > 45){
 	facing = 1
-} else if(move_dir > 180 && move_dir < 360){
+} else if(move_dir >225  && move_dir < 315){
 	facing = 0
-} else if(move_dir > 270 && move_dir < 90){
+} else if(move_dir > 135 && move_dir < 225){
 	facing = -1	
 }
 
