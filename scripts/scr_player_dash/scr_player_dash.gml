@@ -1,5 +1,5 @@
 // NOTE(shaw): player input sets the dir
-max_dash_frame = 10
+
 image_alpha = 1
 image_speed = 1.5
 //dashing = true
@@ -12,6 +12,10 @@ if(facing == 0){
 } else {
 	sprite_index = spr_player_dodge_side
 }
+
+
+//After setting the sprite we can use this function to get the number of frames
+max_dash_frame = sprite_get_number(sprite_index)
 
 draw_sprite_ext(spr_player_sprint_side,0,x,y,1,1,0,c_aqua,0.5)
 

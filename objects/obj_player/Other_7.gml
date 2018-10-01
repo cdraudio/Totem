@@ -3,3 +3,4 @@ if(state == scr_player_basic_attack_1 || state == scr_player_basic_attack_2 || s
 	attacking = false
 	state = scr_player_move	
 }
+
