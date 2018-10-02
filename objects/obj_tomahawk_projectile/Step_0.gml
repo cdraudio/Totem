@@ -21,7 +21,7 @@ if(can_return){
 	}
 }(*/
 
-
+//SFX
 if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
 	
 		//Why would they do this to us?
