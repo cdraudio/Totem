@@ -2205,6 +2205,25 @@
             }
         },
         {
+            "Key": "9132d4de-97ac-43b4-893f-09f5f98c2e54",
+            "Value": {
+                "id": "ba3ddb10-4211-455c-a6eb-d180bac47605",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_village_chieftan_hut_door\/obj_village_chieftan_hut_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "91a6a313-136b-4c4d-97d6-e997f94fda0a",
             "Value": {
                 "id": "78d51f2c-6a0f-46de-90a6-02820c2d3795",
@@ -2737,6 +2756,25 @@
             }
         },
         {
+            "Key": "af2e4d5b-2e21-4cb4-8efd-888f91d31849",
+            "Value": {
+                "id": "4538fb72-907c-45cd-b1ce-d7840140b7b3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/rm_village_chieftans_hut\/rm_village_chieftans_hut.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b01bd8c3-b932-41cd-ae9e-944f18863876",
             "Value": {
                 "id": "5e7c265f-962f-40cb-bfd1-fbb85c70870d",
@@ -3114,25 +3152,6 @@
                 ],
                 "resourcePath": "sprites\/spr_player_hurt_front\/spr_player_hurt_front.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c8f34bbd-8aae-4e19-9c9d-56e7e6fd3874",
-            "Value": {
-                "id": "308d1a76-8a98-4b86-bb84-23b273b1efb1",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "rooms\/room0\/room0.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

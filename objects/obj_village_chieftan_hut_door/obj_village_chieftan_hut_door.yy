@@ -1,34 +1,24 @@
 {
-    "id": "db6a14d5-5b2a-40cc-91a9-1fb21374155d",
+    "id": "9132d4de-97ac-43b4-893f-09f5f98c2e54",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_health_bars",
+    "name": "obj_village_chieftan_hut_door",
     "eventList": [
         {
-            "id": "4270b009-4e90-485e-a139-15eaa1cdfc5d",
+            "id": "3afa5c2d-0849-4f40-af9b-5531a5f245be",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "f3cd2228-6493-455c-b8e3-1eb929d43fe2",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "db6a14d5-5b2a-40cc-91a9-1fb21374155d"
-        },
-        {
-            "id": "e084d4d5-5da4-4243-91ed-2a4203305524",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "db6a14d5-5b2a-40cc-91a9-1fb21374155d"
+            "eventtype": 4,
+            "m_owner": "9132d4de-97ac-43b4-893f-09f5f98c2e54"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "spriteId": "aef4f3cd-a134-4aa1-bb7c-1b5d8d281eaf",
+    "visible": false
 }
