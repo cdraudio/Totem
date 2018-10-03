@@ -26,10 +26,26 @@ if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
 	
 		//Why would they do this to us?
 		//Pick delete or destroy >: (
-		path_delete(fly_path)
+		if(path_exists(fly_path)){
+			path_delete(fly_path)
+		}
 		obj_view.shaking = true
 		obj_view.shake_intensity = 5
 		instance_destroy()
+}
+
+else if (has_hit){
+	
+	x += sign(obj_player.x - x)*4
+	y += sign(obj_player.y - y)*4
+	
+	if(place_meeting(x, y, obj_player) ){
+		//path_delete(fly_path)
+		obj_view.shaking = true
+		obj_view.shake_intensity = 5
+		instance_destroy()
+		
+	}
 }
 
 else if (returning){

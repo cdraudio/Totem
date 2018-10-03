@@ -12,6 +12,10 @@ move_speed = 16
 
 returning = false
 
+//has hit enemy?
+
+has_hit = false
+
 //Starting Point
 start_point_x = x
 
