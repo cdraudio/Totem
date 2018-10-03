@@ -2,6 +2,8 @@
 image_blend = c_white
 image_speed = 1
 
+sprite_index = spr_graver_idle
+
 /**
 //Wander path
 if (alarm[4] < 0){
@@ -71,7 +73,7 @@ else if (wandering){
 
 
 //Check distance to player, if in_range then switch to move_towards_player state
-if(distance_to_object(obj_player) < aggro_range){
+if(distance_to_object(obj_player) <= aggro_range){
 	state = scr_graver_move
 	wandering = false
 	wander_frame = 0

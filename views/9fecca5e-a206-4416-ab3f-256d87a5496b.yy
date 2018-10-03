@@ -13,7 +13,8 @@
         "50ce49b1-1fa2-4cbc-a5cf-2901bd9f187d",
         "856ef609-d124-4db0-b9a0-664249abd717",
         "c689ebcc-dee2-458d-a438-8f2d1ed218c0",
-        "9132d4de-97ac-43b4-893f-09f5f98c2e54"
+        "9132d4de-97ac-43b4-893f-09f5f98c2e54",
+        "d270601d-7879-46a3-a867-cd341a3d0f67"
     ],
     "filterType": "GMObject",
     "folderName": "Village",

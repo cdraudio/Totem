@@ -128,6 +128,7 @@ if(place_meeting(x, y, obj_player) ){
 
 //Check to see if player is out of range, disengage to idle state
 if(distance_to_object(obj_player) > aggro_range){
+	path_delete(path_to_player)
 	path_end()
 	state = scr_graver_idle
 }

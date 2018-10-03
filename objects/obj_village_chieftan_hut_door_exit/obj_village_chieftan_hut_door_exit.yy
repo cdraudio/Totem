@@ -1,18 +1,18 @@
 {
-    "id": "9132d4de-97ac-43b4-893f-09f5f98c2e54",
+    "id": "d270601d-7879-46a3-a867-cd341a3d0f67",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_village_chieftan_hut_door",
+    "name": "obj_village_chieftan_hut_door_exit",
     "eventList": [
         {
-            "id": "3afa5c2d-0849-4f40-af9b-5531a5f245be",
+            "id": "7857f874-18b4-45a3-9111-214eeb77a115",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "f3cd2228-6493-455c-b8e3-1eb929d43fe2",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "9132d4de-97ac-43b4-893f-09f5f98c2e54"
+            "m_owner": "d270601d-7879-46a3-a867-cd341a3d0f67"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
