@@ -37,6 +37,7 @@ can_dash = true
 dash_target_x = 0
 dash_target_y = 0
 dash_frame = 0
+hit_solid = false //Did hit a solid while dashing
 
 //Attack Cooldown Toggles
 attacking = false

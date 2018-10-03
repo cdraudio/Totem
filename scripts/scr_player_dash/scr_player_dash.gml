@@ -59,7 +59,7 @@ if(dash_frame == max_dash_frame){
 	alarm[5] = 5
 	dash_target_x = 0
 	dash_target_y = 0
-	//state = scr_player_move  //moved this into alarm 5
+	state = scr_player_move  //moved this into alarm 5
 }
 
 /*if(floor(image_index) == image_number-1){
@@ -102,6 +102,18 @@ else {
 			
 		}
 		
+		else if (hit_solid){
+			if(max_dash_frame - dash_frame <= 2){
+
+				dash_frame+=.1
+					
+			}
+			
+			else{
+				dash_frame++
+			}
+		}
+		
 		else {
 			
 			//Move until within 2 pixels
@@ -111,13 +123,13 @@ else {
 				y += sign(move_y)
 
 			}
-			
-				dashing = false
+				hit_solid = true
+				/*dashing = false
 				dash_frame = 0
 				can_dash = true
 				dash_target_x = 0
 				dash_target_y = 0
-				state = scr_player_move
+				state = scr_player_move*/
 			
 		}
 		
