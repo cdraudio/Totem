@@ -11,7 +11,7 @@ if(abs(target_x-x)< 1 and target_x != x){
 }
 	
 else{
-	x += (target_x - x)/10	
+	x += (target_x - x)/5	
 }
 	
 if(abs(target_y-y)< 1 and target_y != y){
@@ -19,5 +19,5 @@ if(abs(target_y-y)< 1 and target_y != y){
 }
 	
 else{
-	y += (target_y - y)/10
+	y += (target_y - y)/5
 }

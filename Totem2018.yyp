@@ -989,6 +989,25 @@
             }
         },
         {
+            "Key": "4c7b2cb5-1535-4434-a0ed-04ce06907324",
+            "Value": {
+                "id": "27016614-3674-4652-9296-c8264e0b2b43",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_fade_in\/obj_fade_in.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f1b7b51-06c4-45a0-8ae3-6361c42d1091",
             "Value": {
                 "id": "fb1b4a7e-3477-432e-babc-ddf53228bbe6",
@@ -1594,6 +1613,25 @@
                 ],
                 "resourcePath": "views\/6f1d8116-f652-4838-906b-067cd6466ac3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6fc09f91-e42f-4b1b-84cc-79428c43227a",
+            "Value": {
+                "id": "1d2e94c3-1596-4d4a-b746-24f4a5669e35",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_fade_in\/spr_fade_in.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
