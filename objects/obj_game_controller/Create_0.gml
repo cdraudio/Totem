@@ -6,3 +6,8 @@ window_set_cursor(cr_none)
 depth = -1000
 room_speed = 60
 timer = 1
+
+//For debugging animations
+full_speed = true
+half_speed = false
+debug_speed = false
