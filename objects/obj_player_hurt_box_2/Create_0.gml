@@ -5,4 +5,4 @@ alarm[0] = 1
 attack_damage = 1
 
 //Knockback
-knockback_power = 5
+knockback_power = 1

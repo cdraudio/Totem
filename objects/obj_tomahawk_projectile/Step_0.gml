@@ -36,8 +36,8 @@ if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
 
 else if (has_hit){
 	
-	x += sign(obj_player.x - x)*4
-	y += sign(obj_player.y - y)*4
+	x += sign(obj_player.x - x)*6
+	y += sign(obj_player.y - y)*6
 	
 	if(place_meeting(x, y, obj_player) ){
 		//path_delete(fly_path)
