@@ -1,7 +1,7 @@
 time += delta_time
 
 if (init){
-	draw_set_font(fnt_main)
+	//draw_set_font(fnt_main)
 
 	while (position < string_length(message[current_message]) ){
 	
@@ -20,7 +20,7 @@ if (init){
 		
 			tmp_line = lines[line] + " " + word
 		
-			if (string_width(tmp_line) > width-64){
+			if (string_width(tmp_line) > width-10){
 			
 					line++
 					lines[line] = word
@@ -74,7 +74,7 @@ else if(keyboard_check(ord("Z")) and !is_pressed and position >= string_length(f
 
 			finalStr = ""
 
-			draw_set_font(fnt_main)
+			//draw_set_font(fnt_main)
 
 			while (position < string_length(message[current_message]) ){
 	
@@ -95,7 +95,7 @@ else if(keyboard_check(ord("Z")) and !is_pressed and position >= string_length(f
 		
 					tmp_line = lines[line] + " " + word
 		
-					if (string_width(tmp_line) > width-64){
+					if (string_width(tmp_line) > width-10){
 			
 							line++
 							lines[line] = word

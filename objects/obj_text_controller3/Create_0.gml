@@ -16,8 +16,8 @@ sprites = []
 action = []
 objects = []
 
-width = view_wport[0]/3
-height = view_hport[0]/5
+width = 150
+height = 45
 
 is_pressed = false
 
