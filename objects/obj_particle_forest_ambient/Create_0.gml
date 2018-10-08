@@ -20,5 +20,5 @@ part_type_blend(first_particle,true)
 
 //create particle emitter
 particle_emitter = part_emitter_create(part_system);
-part_emitter_region(part_system, particle_emitter, x-1000, x+1000, y-1000, y+1000, ps_shape_rectangle, ps_distr_invgaussian)
+part_emitter_region(part_system, particle_emitter, 0, view_xport[0], 0, view_yport[0], ps_shape_rectangle, ps_distr_invgaussian)
 part_system_depth(part_system,6);

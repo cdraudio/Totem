@@ -22,3 +22,13 @@ with (obj_tomahawk_projectile)
 
 with (obj_clarity_orb)
 		 draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,make_color_rgb(240, 219, 255),0.5)
+
+with (obj_water_plant_1)
+		 draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,c_aqua,0.75)
+
+with (obj_water_plant_2)
+		 draw_sprite_ext(spr_glow_effect,0,x,y,0.25,0.25,0,c_aqua,0.75)
+		 
+with (obj_water_plant_3)
+		 draw_sprite_ext(spr_glow_effect,0,x,y,0.75,0.75,0,c_aqua,0.75)
+		 
