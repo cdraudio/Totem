@@ -2,6 +2,6 @@
 /*if(global.pause)
 	return */
 
-new_dialogue(["Hello friends, what a nice day it is in the forest. I think I'll smack these rabbits around a bit. ","Please, dont hurt us!"], [spr_player_profile, spr_enemy_test_profile], [])
+new_dialogue(["Hello friends, what a nice day it is in the forest. I think I'll smack these rabbits around a bit. ","Please, dont hurt us!"], [spr_player_profile, spr_enemy_test_profile], [obj_player, obj_talking_rabbit], [])
 
 /*instance_create_layer(0, 0, "Instances", obj_pause)

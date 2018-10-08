@@ -16,6 +16,9 @@ sprites = []
 action = []
 objects = []
 
+width = view_wport[0]/3
+height = view_hport[0]/5
+
 is_pressed = false
 
 current_message = 0 
