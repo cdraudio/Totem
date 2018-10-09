@@ -8,7 +8,6 @@ if(!dying){
 
 	die_dir = point_direction(obj_player.x, obj_player.y, x, y)
 	die_frame = 0
-	
 	die_x = x + lengthdir_x(20, die_dir)
 	die_y = y +lengthdir_y(20, die_dir)
 	die_off_x = die_x - x

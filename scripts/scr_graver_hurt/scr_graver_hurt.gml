@@ -16,8 +16,8 @@ path_position = 0
 knock_dir = point_direction(obj_player.x, obj_player.y, x, y)
 
 // Knockback, first arg is distance of knock
-x += lengthdir_x(1, knock_dir);
-y += lengthdir_y(1, knock_dir);
+x += lengthdir_x(0.5, knock_dir);
+y += lengthdir_y(0.5, knock_dir);
 
 
 //Exit hurt_state

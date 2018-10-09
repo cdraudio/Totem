@@ -2,10 +2,8 @@
 can_basic_attack = false
 
 
-max_attack_frame = 12
-
+max_attack_frame = 9
 sprite_index = spr_graver_attack
-image_index = 0
 
 
 //Move this section to start attack

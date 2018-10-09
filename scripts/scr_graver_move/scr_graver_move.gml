@@ -1,6 +1,6 @@
 //Delete Old Path First to Avoid Memory Leak
 //Only make a new path if none exist or if we are done with the current path
-
+image_speed = 1.5
 sprite_index = spr_graver_sprint
 
 /*if(path_position >= .95){

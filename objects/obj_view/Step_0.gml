@@ -11,7 +11,7 @@ if(instance_exists(obj_text_controller3)){
 	}
 	
 	else{
-		x += (target_x - x)/20	
+		x += (target_x - x)/10	
 	}
 	
 	if(abs(target_y-y)< 1 and target_y != y){
@@ -19,7 +19,7 @@ if(instance_exists(obj_text_controller3)){
 	}
 	
 	else{
-		y += (target_y - y)/20	
+		y += (target_y - y)/10	
 	}
 }
 
@@ -30,19 +30,19 @@ else if (instance_exists(obj_player)){
 	//Camera position based on players direction
 	if(obj_player.facing == -1){
 		if(obj_player.image_xscale > 0){
-			target_x = obj_player.x + 50
+			target_x = obj_player.x + 35
 			target_y = obj_player.y
 		} else {
-			target_x = obj_player.x - 50
+			target_x = obj_player.x - 35
 			target_y = obj_player.y	
 		}
 		
 	} else if(obj_player.facing == 1){
 		target_x = obj_player.x
-		target_y = obj_player.y - 50	
+		target_y = obj_player.y - 35	
 	} else if(obj_player.facing == 0){
 		target_x = obj_player.x
-		target_y = obj_player.y + 50		
+		target_y = obj_player.y + 35		
 	}
 	
 	//Move towards player smoothly
@@ -51,7 +51,7 @@ else if (instance_exists(obj_player)){
 	}
 	
 	else{
-		x += (target_x - x)/20	
+		x += (target_x - x)/10	
 	}
 	
 	if(abs(target_y-y)< 1 and target_y != y){
@@ -59,7 +59,7 @@ else if (instance_exists(obj_player)){
 	}
 	
 	else{
-		y += (target_y - y)/20	
+		y += (target_y - y)/10	
 	}
 }
 

@@ -24,7 +24,7 @@ start_point_y = y
 //Can destroy
 can_return = false
 
-max_distance = 200
+max_distance = 250
 
 offset_dist = 30
 

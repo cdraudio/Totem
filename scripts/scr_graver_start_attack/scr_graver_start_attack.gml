@@ -27,12 +27,6 @@ if(tele_frame == max_tele_frame + pause_frame){
 	tele_frame = 0
 	attacking = true
 	state = scr_graver_attack
-
-
-	
-
-
-
 		
 }
 
@@ -40,7 +34,6 @@ else if (tele_frame < max_tele_frame) {
 	x += tele_x/max_tele_frame
 	y -= tele_y/max_tele_frame
 	tele_frame++
-	image_blend = c_green
 }
 
 else {
