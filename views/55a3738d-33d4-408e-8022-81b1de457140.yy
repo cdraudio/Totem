@@ -12,7 +12,12 @@
         "06a509d7-af8d-43f1-9819-fff803f09452",
         "463c52fe-1759-4f3d-87a7-44deb10ba325",
         "b65f4cad-2d96-4cd3-af72-d9a3895dabe8",
-        "4f1b7b51-06c4-45a0-8ae3-6361c42d1091"
+        "4f1b7b51-06c4-45a0-8ae3-6361c42d1091",
+        "4d71befe-079b-48ae-a0ef-becdc484ae11",
+        "87655304-f72e-40b5-8ccc-05a28e4a4874",
+        "51408bab-2820-4ca7-bcce-2e06d0b47332",
+        "522a372a-6d4d-4bbb-8ecd-43f11a4190b5",
+        "80b1dd23-e6c3-406b-a673-32ca41f14d70"
     ],
     "filterType": "GMSprite",
     "folderName": "Village",

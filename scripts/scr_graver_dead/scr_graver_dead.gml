@@ -1,11 +1,13 @@
 //sprite_index = spr_graver_dead
-
+sprite_index = spr_graver_idle
+image_speed = 0
+image_blend = c_red
 max_die_frame = 2
 instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
 instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
 
 if(!dying){
-
+	
 	die_dir = point_direction(obj_player.x, obj_player.y, x, y)
 	die_frame = 0
 	die_x = x + lengthdir_x(20, die_dir)
