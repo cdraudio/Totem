@@ -1,5 +1,12 @@
 depth = -y
 
+//Decide facing direction for sprites
+if(y > yprevious){
+	facing = 1
+} else if(y < yprevious) {
+	facing = -1	
+}
+
 // Execute current state
 script_execute(state)
 

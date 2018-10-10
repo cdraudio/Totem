@@ -29,7 +29,7 @@ if(facing == 0){
 
 
 if(alarm[4] < 0){
-	alarm[4] = room_speed * 2
+	alarm[4] = room_speed
 }
 
 image_speed = 1

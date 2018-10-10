@@ -2,8 +2,6 @@
 image_blend = c_white
 image_speed = 1
 
-sprite_index = spr_graver_idle
-
 /**
 //Wander path
 if (alarm[4] < 0){

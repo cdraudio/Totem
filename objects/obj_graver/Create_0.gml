@@ -5,7 +5,7 @@ state = scr_graver_idle
 depth = 2
 
 //Aggro Range
-aggro_range = 250
+aggro_range = 100
 
 //Attack Damage
 attack_damage = 1
@@ -61,6 +61,8 @@ jump_time_limit = 0
 //Path is available
 has_path = false
 
+//Sprite direction
+facing = 1
 
 //is strafing
 strafing = false

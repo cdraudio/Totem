@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Move towards player
-if(distance_to_object(obj_player) < 10 && collectable && obj_player.clarity_count <= obj_player.max_clarity ){
+if(distance_to_object(obj_player) < 100 && collectable && obj_player.clarity_count <= obj_player.max_clarity ){
 	shoot_direction = point_direction(x, y, obj_player.x, obj_player.y)
 	x += lengthdir_x(move_speed, shoot_direction);
 	y += lengthdir_y(move_speed, shoot_direction);
