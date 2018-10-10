@@ -9,12 +9,12 @@ if(alarm[1] == -1){
 		basic_attack_2= true
 
 			if(image_xscale > 0){
-				hsp = (move_speed * 8);
+				hsp = (move_speed * 5);
 
 			} 
 			
 			else {
-				hsp = -(move_speed * 8);
+				hsp = -(move_speed * 5);
 
 			}
 	}

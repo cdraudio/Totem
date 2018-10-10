@@ -44,7 +44,8 @@ if (surface_exists(surf)) {
          draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),0.75,0.75,0,c_white,1)
 		 
 	with (obj_tomahawk_hit_particle)
-         draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),0.1,0.1,0,c_white,1)		 		 
+         draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),0.1,0.1,0,c_white,1)	
+		 
 	/*with (obj_tomahawk_projectile)
 		draw_circle(x + random_range(-1, 1), y + random_range(-1, 1), 35 + random_range(-1, 1), false);*/
 		
