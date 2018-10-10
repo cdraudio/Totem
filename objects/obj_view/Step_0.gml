@@ -11,7 +11,7 @@ if(instance_exists(obj_text_controller3)){
 	}
 	
 	else{
-		x += (target_x - x)/10	
+		x += (target_x - x)/8	
 	}
 	
 	if(abs(target_y-y)< 1 and target_y != y){
@@ -19,7 +19,7 @@ if(instance_exists(obj_text_controller3)){
 	}
 	
 	else{
-		y += (target_y - y)/10	
+		y += (target_y - y)/8
 	}
 }
 
@@ -51,7 +51,7 @@ else if (instance_exists(obj_player)){
 	}
 	
 	else{
-		x += (target_x - x)/10	
+		x += (target_x - x)/8	
 	}
 	
 	if(abs(target_y-y)< 1 and target_y != y){
@@ -59,7 +59,7 @@ else if (instance_exists(obj_player)){
 	}
 	
 	else{
-		y += (target_y - y)/10	
+		y += (target_y - y)/8
 	}
 }
 
