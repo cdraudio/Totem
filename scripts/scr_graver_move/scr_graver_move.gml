@@ -2,7 +2,7 @@
 //Only make a new path if none exist or if we are done with the current path
 image_speed = 1.5
 sprite_index = spr_graver_sprint
-
+image_blend = c_white
 /*if(path_position >= .95){
 	
 	
@@ -132,6 +132,8 @@ if(distance_to_object(obj_player) > aggro_range){
 	path_delete(path_to_player)
 	path_end()
 	state = scr_graver_idle
+	sprite_index = spr_graver_idle
+	wandering = false
 }
 
 
