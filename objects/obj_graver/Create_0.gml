@@ -1,3 +1,5 @@
+
+
 //Set init variables and state
 state = scr_graver_idle
 
@@ -5,7 +7,7 @@ state = scr_graver_idle
 depth = 2
 
 //Aggro Range
-aggro_range = 100
+aggro_range = 200
 
 //Attack Damage
 attack_damage = 1

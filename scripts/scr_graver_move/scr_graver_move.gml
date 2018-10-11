@@ -35,8 +35,9 @@ path_time += delta_time
 //if (distance_to_object(obj_player) > focus_dist and (path_position > .90 or path_get_number(path_to_player)*path_position > 3 ) ){
 if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (path_num*path_position > 2)  ) ) {	
 	
-	path_delete(path_to_player)
-	
+	if(path_exists(path_to_player)){
+		path_delete(path_to_player)
+	}
 	path_time = 0
 	tmp_dir = point_direction(x, y, obj_player.x, obj_player.y)
 	
