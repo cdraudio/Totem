@@ -8,7 +8,7 @@ hit_points -= other.attack_damage
 
 //Screen shake and room freeze
 obj_view.shaking = true
-obj_view.shake_intensity = 5
+obj_view.shake_intensity = 8
 
 image_speed = 0
 obj_player.image_speed = 0

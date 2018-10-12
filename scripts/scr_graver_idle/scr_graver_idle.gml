@@ -1,5 +1,5 @@
 //Reset init variables
-image_blend = c_red
+image_blend = c_white
 image_speed = 1
 
 /**
@@ -17,8 +17,6 @@ max_wander_frame = 10
 
 //If idling, percent chance to pick a new spot
 if (wandering == false and irandom(1000) < 10){
-	
-
 	
 	//Set target and get distance
 	wander_target_x = x + random_range(-40, 40)

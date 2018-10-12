@@ -1,6 +1,6 @@
 
 max_tele_frame = 5
-pause_frame = 10
+pause_frame = 15
 sprite_index = spr_graver_combat_idle
 path_end()
 
