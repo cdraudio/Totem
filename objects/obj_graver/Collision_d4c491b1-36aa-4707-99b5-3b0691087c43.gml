@@ -3,7 +3,7 @@
 
 
 //Move away from player if overlapping and not attacking
-if(!obj_player.dashing){
+/*if(!obj_player.dashing){
 	move_dir = 	point_direction(other.x, other.y, x, y)
 	
 	
