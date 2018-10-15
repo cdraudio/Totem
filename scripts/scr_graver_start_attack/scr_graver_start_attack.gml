@@ -26,8 +26,10 @@ if (tele_frame == 0){
 	target_x = obj_player.x
 	target_y =  obj_player.y
 
-	dist_x = (target_x - x)*2
-	dist_y = (target_y - y)*2
+
+	//These are going to be how far we lunge forward
+	dist_x = (target_x - x)*1.3
+	dist_y = (target_y - y)*1.3
 
 }
 

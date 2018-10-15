@@ -47,7 +47,7 @@ tele_frame = 0
 
 
 //How far we can go in one hop
-jump_length = 6
+jump_length = 64
 
 
 //How close before they come directly at player
