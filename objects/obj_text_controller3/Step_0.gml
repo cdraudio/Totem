@@ -23,7 +23,7 @@ if (init){
 			if (string_width(tmp_line) > width-10){
 			
 					line++
-					lines[line] = word
+					lines[line] = " " + word
 					tmp_line = ""
 					word = ""
 			
