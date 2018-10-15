@@ -46,6 +46,11 @@ wamder_path = -1
 tele_frame = 0
 
 
+hit_player = false
+sliding = false
+slide_frames = 20
+slide_frame = 0
+
 //How far we can go in one hop
 jump_length = 64
 

@@ -11,6 +11,8 @@ if(!hurt){
 
 else {
 	
+	knockback_speed = 6
+	
 	can_be_attacked = false
 	can_dash =  true
 
@@ -31,8 +33,8 @@ else {
 	
 		image_index = int64(hurt_frame/3)
 	
-		move_x = lengthdir_x(1, knock_dir)
-		move_y = lengthdir_y(1, knock_dir)
+		move_x = lengthdir_x(knockback_speed, knock_dir)
+		move_y = lengthdir_y(knockback_speed, knock_dir)
 	
 		//Move if free
 		if(!place_meeting(x+move_x, y+move_y, obj_solid) ){
