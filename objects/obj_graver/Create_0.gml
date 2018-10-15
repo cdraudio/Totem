@@ -74,3 +74,6 @@ facing = 1
 //is strafing
 strafing = false
 
+//death triggier-- helps with death animation
+death_triggered = false
+

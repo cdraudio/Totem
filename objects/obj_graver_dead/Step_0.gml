@@ -6,6 +6,5 @@ if (image_index = 0 and new){
 
 
 else {
-	//instance_destroy(self)	
-	image_speed = 0
+	//instance_destroy(self)
 }

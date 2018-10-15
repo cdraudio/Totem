@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 new = true
-image_speed = .01
+image_speed = 1
 image_blend = c_gray
 depth = 2
 image_xscale = choose(1,-1)

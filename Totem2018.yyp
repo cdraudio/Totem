@@ -3421,6 +3421,25 @@
             }
         },
         {
+            "Key": "bf2af37b-98d5-4a97-a24f-6d860402d2ff",
+            "Value": {
+                "id": "944e3746-a7d0-4cdb-a295-8acd2e22cf92",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_graver_dying\/spr_graver_dying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfc8bc41-ddf5-4674-93c0-09ba66d5f0d2",
             "Value": {
                 "id": "25acfc7c-e1ca-4e51-8352-7e02e2fd653a",
