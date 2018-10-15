@@ -1711,6 +1711,25 @@
             }
         },
         {
+            "Key": "64609c9a-2505-4b08-8b9d-f566dd3c1e01",
+            "Value": {
+                "id": "3cf9abdc-e23b-4fc7-ac76-de0fe7edb29f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_blood_impact\/obj_blood_impact.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "64e844ef-4d1b-4df6-bbb1-6fadc8084c25",
             "Value": {
                 "id": "94e1d029-f215-4021-ae3f-c8647d73e15e",
@@ -2753,6 +2772,44 @@
                 ],
                 "resourcePath": "tilesets\/ts_whisperwood_lake\/ts_whisperwood_lake.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "97c36692-93a6-4048-b8be-58a63cb2bec2",
+            "Value": {
+                "id": "e520915e-3755-4175-83eb-b5b2cd6291a4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_blood_impact\/spr_blood_impact.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97d050f7-92de-4c73-9c25-d911aad3a789",
+            "Value": {
+                "id": "9013da3d-5532-428b-a16e-442be1e804d4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_blood_impact_2\/spr_blood_impact_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
