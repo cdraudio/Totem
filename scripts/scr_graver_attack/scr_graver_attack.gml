@@ -1,6 +1,8 @@
 //Toggle can attack
 can_basic_attack = false
 
+vsp = 0
+hsp = 0
 
 max_attack_frame = 9
 sprite_index = spr_graver_attack
@@ -91,3 +93,35 @@ else {
 	
 }
 
+//Horizontal Collision
+if(hsp != 0){
+if(!place_meeting(x+hsp, y, obj_solid)){
+	x += hsp
+	hsp = 0
+}
+
+else {
+	while(!place_meeting(x+sign(hsp), y, obj_solid) ){
+			x += sign(hsp)
+	}
+	
+	hsp = 0
+}
+}
+
+
+//Vertical Collision
+if(vsp != 0){
+if(!place_meeting(x, y+vsp, obj_solid)){
+	y += vsp
+	vsp = 0
+}
+
+else {
+	while(!place_meeting(x, y+sign(vsp), obj_solid) ){
+			y += sign(vsp)
+	}
+	
+	vsp = 0
+}
+}
