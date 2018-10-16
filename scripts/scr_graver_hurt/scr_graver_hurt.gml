@@ -1,6 +1,6 @@
 //Change image_blend and set image_speed to 0
 image_blend = c_red
-image_speed = 0
+sprite_index = spr_graver_hurt_side
 move_speed = 0
 
 //Make self invincible

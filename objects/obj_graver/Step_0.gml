@@ -23,3 +23,5 @@ if(hit_points <= 0){
 	}
 	state = scr_graver_dead
 }
+
+

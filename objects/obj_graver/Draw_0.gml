@@ -13,4 +13,3 @@ if(path_exists(path_to_player)){
 /**if(path_exists(path_to_player) ){
 	draw_path(path_to_player, x, y, 0)
 }**/
-

@@ -1939,6 +1939,25 @@
             }
         },
         {
+            "Key": "6e80933c-9eef-4cb0-8289-a01666c7eb47",
+            "Value": {
+                "id": "78df54c2-3241-4aac-ab39-57b2e417e3ed",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_graver_hurt_side\/spr_graver_hurt_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6f1d8116-f652-4838-906b-067cd6466ac3",
             "Value": {
                 "id": "0b179acd-a293-439b-9255-b8f4dfe61cb5",
