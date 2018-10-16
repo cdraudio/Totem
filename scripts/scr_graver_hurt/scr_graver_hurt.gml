@@ -3,7 +3,7 @@ if(hurt_frame == 0){
 	//Change image_blend and set image_speed to 0
 	image_blend = c_red
 	sprite_index = spr_graver_hurt_side
-	move_speed = 0
+	//move_speed = 0
 
 	//Make self invincible
 	rune_claw_can_be_attacked = false
@@ -13,6 +13,11 @@ if(hurt_frame == 0){
 
 	//Make sure they are on the groud
 	path_position = 0
+	
+	if(path_exists(path_to_player)){
+		
+		path_delete(path_to_player)	
+	}
 
 
 	knock_dir = point_direction(obj_player.x, obj_player.y, x, y)
