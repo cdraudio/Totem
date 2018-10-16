@@ -38,6 +38,7 @@ if(tele_frame == max_tele_frame + pause_frame){
 
 	tele_frame = 0
 	attacking = true
+	image_index = 0
 	state = scr_graver_attack
 		
 }

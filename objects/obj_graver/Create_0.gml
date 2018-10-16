@@ -52,7 +52,7 @@ slide_frames = 20
 slide_frame = 0
 
 //How far we can go in one hop
-jump_length = 64
+jump_length = 48
 
 
 //How close before they come directly at player

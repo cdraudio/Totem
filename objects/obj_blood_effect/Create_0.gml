@@ -1,7 +1,7 @@
 /// @description Blood Creation
 
 // Set opacity and size
-image_xscale = random_range(0.25,0.75) 
+image_xscale = random_range(0.35,0.85) 
 image_yscale = image_xscale
 prev_scale = image_xscale
 // Fading away?

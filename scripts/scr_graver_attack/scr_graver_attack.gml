@@ -4,7 +4,7 @@ can_basic_attack = false
 vsp = 0
 hsp = 0
 
-max_attack_frame = 9
+max_attack_frame = 8
 sprite_index = spr_graver_attack
 
 
