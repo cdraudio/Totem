@@ -77,3 +77,6 @@ strafing = false
 //death triggier-- helps with death animation
 death_triggered = false
 
+//Control for hurt state
+max_hurt_frame = 10
+hurt_frame = 0
