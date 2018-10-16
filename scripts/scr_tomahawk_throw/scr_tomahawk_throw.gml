@@ -1,3 +1,4 @@
+image_speed = 1.5
 
 //Create axe at player location
 if(!instance_exists(obj_tomahawk_projectile) and can_throw_tomahawk){
@@ -16,7 +17,6 @@ if(!instance_exists(obj_tomahawk_projectile) and can_throw_tomahawk){
 
 //Toggle cooldown
 can_throw_tomahawk = false
-image_speed = 1.5
 
 if(facing == 0){
 	sprite_index = spr_player_basic_attack_1_front
