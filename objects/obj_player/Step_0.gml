@@ -17,6 +17,7 @@ else {
 	can_dash =  true
 
 	if(hurt_frame == 0){
+		instance_create_layer(x,y,"Instances",obj_blood_impact)
 		hurt_flag = true
 		if(facing == 1){
 			sprite_index = spr_player_hurt_back	
