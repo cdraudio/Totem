@@ -3,6 +3,8 @@
 image_speed = 1.5
 sprite_index = spr_graver_sprint
 image_blend = c_white
+player_height = sprite_get_height(obj_player.sprite_index)
+player_width = sprite_get_width(obj_player.sprite_index)
 /*if(path_position >= .95){
 	
 	
@@ -55,7 +57,7 @@ if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (pa
 	}
 	
 	else{
-		mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y, 1)
+		mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y + player_height/4, 1)
 	}
 	
 
@@ -72,7 +74,7 @@ if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (pa
 }
 
 
-else if(!path_exists(path_to_player)){
+else if(!path_exists(path_to_player) and distance_to_object(obj_player) < aggro_range){
 	
 	/*if(path_exists(path_to_player)){
 		path_delete(path_to_player)	
@@ -80,7 +82,7 @@ else if(!path_exists(path_to_player)){
 	
 	path_time = 0
 	path_to_player = path_add();
-	has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y, 1)
+	has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
 	path_position = 0
 	can_jump = false
 	//Set path to be smooth
@@ -117,9 +119,11 @@ else if(!path_exists(path_to_player)){
 else if (distance_to_object(obj_player) <= focus_dist) {
 
 	path_end()
-	path_delete(path_to_player)
+	if(path_exists(path_to_player)){
+		path_delete(path_to_player)
+	}
 	path_to_player = path_add()
-	mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y, 1)
+	mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
 	
 	path_start(path_to_player, move_speed, 0, 0)
 }
@@ -130,12 +134,17 @@ if(place_meeting(x, y, obj_player) ){
 }
 
 //Check to see if player is out of range, disengage to idle state
-if(distance_to_object(obj_player) > aggro_range){
+//Add a little tolerance to avoid flip flopping states
+if(distance_to_object(obj_player) > aggro_range+10){
 	path_end()
-	path_delete(path_to_player)
+	
+	if(path_exists(path_to_player)){
+		path_delete(path_to_player)
+	}
 	state = scr_graver_idle
 	sprite_index = spr_graver_idle
 	wandering = false
+	
 }
 
 
