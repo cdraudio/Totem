@@ -12,7 +12,7 @@ sprite_index = spr_graver_attack
 if (attacking == false and attack_frame == 0){
 	state = scr_graver_strafe
 	can_jump = false
-	
+	strafe_time = 0
 	if (alarm[2] == -1){
 		alarm[2] = 60	
 	}
@@ -20,11 +20,18 @@ if (attacking == false and attack_frame == 0){
 
 }
 
+else if (attack_frame == 0){
+	slide_frame = 0
+	attack_frame = 0
+	sliding = false
+	hit_player = false
+}
+
 else if (sliding and hit_player){
 	//x += (dist_x/max_attack_frame)/( (slide_frames/2)*(slide_frames-slide_frame) )
 	//y += (dist_y/max_attack_frame)/( (slide_frames/2) )
-	x += (dist_x/max_attack_frame)/( (slide_frames) )*((slide_frames-slide_frame)/5)
-	y += (dist_y/max_attack_frame)/( (slide_frames) )*((slide_frames-slide_frame)/5)
+	hsp += (dist_x/max_attack_frame)/( (slide_frames) )*((slide_frames-slide_frame)/5)
+	vsp += (dist_y/max_attack_frame)/( (slide_frames) )*((slide_frames-slide_frame)/5)
 	slide_frame++
 	
 		image_index = sprite_get_number(sprite_index)-1
@@ -41,8 +48,8 @@ else if (sliding and hit_player){
 else if (sliding){
 	//x += (dist_x/max_attack_frame)/( (slide_frames/2)*(slide_frames-slide_frame) )
 	//y += (dist_y/max_attack_frame)/( (slide_frames/2) )
-	x += (dist_x/max_attack_frame)/( (slide_frames) )*((slide_frames-slide_frame)/5)
-	y += (dist_y/max_attack_frame)/( (slide_frames) )*((slide_frames-slide_frame)/5)
+	hsp += (dist_x/max_attack_frame)/( (slide_frames) )*((slide_frames-slide_frame)/5)
+	vsp += (dist_y/max_attack_frame)/( (slide_frames) )*((slide_frames-slide_frame)/5)
 	slide_frame++
 	
 		image_index = sprite_get_number(sprite_index)-1
@@ -81,8 +88,8 @@ else if (attack_frame == max_attack_frame){
 }
 
 else {
-	x += dist_x/max_attack_frame
-	y += dist_y/max_attack_frame
+	hsp += dist_x/max_attack_frame
+	vsp += dist_y/max_attack_frame
 	attack_frame++
 	if (place_meeting(x, y, obj_player)){
 		instance_create_layer(x,y,"Instances",obj_enemy_basic_attack_hurtbox)

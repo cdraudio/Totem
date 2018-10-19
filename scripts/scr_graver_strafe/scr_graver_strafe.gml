@@ -14,6 +14,7 @@ if(strafing == false){
 
 
 else {
+	
 	strafe_time += delta_time
 	
 	
