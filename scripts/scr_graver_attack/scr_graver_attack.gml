@@ -22,9 +22,11 @@ if (attacking == false and attack_frame == 0){
 
 else if (attack_frame == 0){
 	slide_frame = 0
-	attack_frame = 0
+	//attack_frame = 0
 	sliding = false
 	hit_player = false
+	attack_frame++
+	
 }
 
 else if (sliding and hit_player){

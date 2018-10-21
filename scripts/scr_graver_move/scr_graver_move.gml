@@ -25,6 +25,7 @@ if( distance_to_object(obj_player) < jump_length   && can_basic_attack == true){
 		path_delete(path_to_player)
 	}
 	path_position = 0
+	tele_frame = 0
 	state = scr_graver_start_attack
 	return
 }
