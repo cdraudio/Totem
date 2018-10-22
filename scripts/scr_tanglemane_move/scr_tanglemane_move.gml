@@ -8,7 +8,7 @@ script_execute(scr_configure_player_inputs)
 // Default to walking sprite and idle if not moving
 if(!moving){
 	if(facing == 1){
-		sprite_index = spr_tanglemane_idle_side
+		sprite_index = spr_tanglemane_idle_back
 	} else if (facing == -1){
 		sprite_index = spr_tanglemane_idle_side
 	} else {

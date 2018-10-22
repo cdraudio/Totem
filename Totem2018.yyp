@@ -1103,6 +1103,25 @@
             }
         },
         {
+            "Key": "426a6146-dcc8-44c9-a483-eac74e128654",
+            "Value": {
+                "id": "cc7f5568-7ef6-472c-a681-1733ef9d1130",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_tanglemane_idle_back\/spr_tanglemane_idle_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "42ceb66d-a174-4074-86bf-63cdbd0fe31f",
             "Value": {
                 "id": "47ef2292-860a-4566-a2a8-5432452cfcce",
