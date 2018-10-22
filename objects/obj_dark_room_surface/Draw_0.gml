@@ -33,4 +33,7 @@ with (obj_water_plant_3)
 		 draw_sprite_ext(spr_glow_effect,0,x,y,0.75,0.75,0,c_aqua,0.75)
 
 with (obj_red_flash)
-         draw_sprite_ext(spr_glow_effect,0,x,y,obj_red_flash.image_xscale,obj_red_flash.image_yscale,0,c_red,1)	
+         draw_sprite_ext(spr_glow_effect,0,x,y,obj_red_flash.image_xscale,obj_red_flash.image_yscale,0,c_red,obj_red_flash.image_alpha)	
+		 
+with (obj_white_flash)
+        draw_sprite_ext(spr_glow_effect,0,x,y,obj_white_flash.image_xscale,obj_white_flash.image_yscale,0,c_white,obj_white_flash.image_alpha)	

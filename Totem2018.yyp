@@ -4979,6 +4979,25 @@
             }
         },
         {
+            "Key": "f74347aa-6fb8-48a8-9af6-cb1a867e876b",
+            "Value": {
+                "id": "3293e7a1-1858-4dd9-aac1-a01ad4683871",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_white_flash\/obj_white_flash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa1f5160-c515-44d6-b324-1751b5503199",
             "Value": {
                 "id": "87ec08cb-c4cb-4223-86c8-98b4952736cf",

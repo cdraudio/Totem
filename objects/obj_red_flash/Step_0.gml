@@ -3,11 +3,12 @@
 
 //Grow in size
 if(expanding){
-	starting_size += 3
+	starting_size += 8
 	image_xscale = starting_size
 	image_yscale = starting_size
 	
-	if(starting_size >= 30){
+	if(starting_size >= 75){
+		image_alpha -= 0.01
 		expanding = false
 		shrinking = true
 	}
@@ -15,7 +16,7 @@ if(expanding){
 
 //Shrink until destroy self
 if(shrinking){
-	starting_size -= 3
+	starting_size -= 6
 	image_xscale = starting_size
 	image_yscale = starting_size	
 }
