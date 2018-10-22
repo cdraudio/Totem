@@ -3,9 +3,11 @@
  if(other.attacking and !dashing){
 	//Set knockback direction
 	knock_dir = point_direction(other.x, other.y, x, y);
-
+	
 	//Decrement hit_points by other.damage
 	if(can_be_attacked){
+		//Hurt flash
+		instance_create_layer(x,y,"Instances",obj_red_flash)
 		hit_points -= other.attack_damage
 	}
 
