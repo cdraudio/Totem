@@ -1,5 +1,6 @@
 //Reset Variables
 image_blend = c_white
+tanglemane = true
 
 //Get Inputs
 script_execute(scr_configure_player_inputs)
@@ -11,7 +12,7 @@ if(!moving){
 	} else if (facing == -1){
 		sprite_index = spr_tanglemane_idle_side
 	} else {
-		sprite_index = spr_tanglemane_idle_side
+		sprite_index = spr_tanglemane_idle_front
 	}
 }
 

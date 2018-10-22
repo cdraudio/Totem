@@ -1,6 +1,7 @@
 //Reset Variables
 image_blend = c_white
 image_speed = 1.25
+tanglemane = false
 
 //Short delay after dash before moving again
 if(!can_dash){

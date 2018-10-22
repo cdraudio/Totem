@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "8d979767-ce20-409d-ad9c-f5b7a53cd905",
     "children": [
-        "c5ab39d7-deb2-45da-9308-5046ea495152"
+        "c5ab39d7-deb2-45da-9308-5046ea495152",
+        "ebc0d0b6-d795-4a1b-8c36-2bd4e35f183a"
     ],
     "filterType": "GMSprite",
     "folderName": "Tanglemane",

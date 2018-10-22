@@ -62,6 +62,8 @@ hurt = false
 hurt_frame = 0
 max_hurt_frame = 30
 
+//Form Switch
+tanglemane = false
 
 state = scr_player_move
 

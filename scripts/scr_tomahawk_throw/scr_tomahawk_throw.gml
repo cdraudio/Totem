@@ -19,11 +19,11 @@ if(!instance_exists(obj_tomahawk_projectile) and can_throw_tomahawk){
 can_throw_tomahawk = false
 
 if(facing == 0){
-	sprite_index = spr_player_basic_attack_1_front
+	sprite_index = spr_player_throw_front
 } else if(facing == 1) {
-	sprite_index = spr_player_basic_attack_1_back
+	sprite_index = spr_player_throw_back
 } else {
-	sprite_index = spr_player_basic_attack_1_side
+	sprite_index = spr_player_throw_side
 }
 	
 
