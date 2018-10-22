@@ -1445,6 +1445,25 @@
             }
         },
         {
+            "Key": "55bb9610-7b4e-4918-a9b0-9e047a07a90f",
+            "Value": {
+                "id": "88ffde35-4e4b-418f-8958-87d7c6d09f96",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_fall_block\/obj_fall_block.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "56dc82c5-7ef3-47cd-b8ba-5545f6ffaec7",
             "Value": {
                 "id": "8551b693-0543-48e0-a896-51942cdf8215",
