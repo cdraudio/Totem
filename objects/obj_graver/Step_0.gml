@@ -1,4 +1,4 @@
-depth = -y
+depth = -bbox_bottom+1 //-y
 
 //Decide facing direction for sprites
 if(y > yprevious){

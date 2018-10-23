@@ -6,7 +6,7 @@
 draw_sprite_ext(spr_player_shadow, 0, x, y+18,1, 1, 0, image_blend, .5 )
 draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, 1, 0, image_blend, 1 )
 
-
+draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, true)
 //VISUALIZE PATH
 
 
