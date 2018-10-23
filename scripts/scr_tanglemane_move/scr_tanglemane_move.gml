@@ -1,6 +1,7 @@
 //Reset Variables
 image_blend = c_white
 tanglemane = true
+move_speed = 3.75
 
 //Get Inputs
 script_execute(scr_configure_player_inputs)

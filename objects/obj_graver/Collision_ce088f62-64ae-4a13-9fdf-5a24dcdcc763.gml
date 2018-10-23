@@ -14,7 +14,7 @@ image_speed = 0
 obj_player.image_speed = 0
 if(alarm[3] < 0){
 	//sends to hurt state and resets image freeze
-	alarm[3] = 5	
+	alarm[3] = 3	
 }
 
 instance_create_layer(x,y,"Instances",obj_blood_impact)
