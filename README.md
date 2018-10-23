@@ -19,7 +19,8 @@ Mara is a changeling, she can take the shapes of powerful creatures that she enc
 Embark on a journey to find the people who were taken from you and prevent The Blacksmith and his army, The Anvil, from bending nature to their will.
 
 ## Gameplay Features
-![Gameplay Gif](https://media.giphy.com/media/47C9VWb7JNu52WIndI/giphy.gif)
+![Gameplay Gif](https://gph.is/2Ae5lwW)
+
 ![Art](https://totemofficial.files.wordpress.com/2018/08/tanglemane_concept1.png?w=400)
 - Shapeshift seemlessly between a variety of unique forms to overcome obstacles and defeat enemies.
 - Travel openly between the five different regions of the game world, encountering new environments, characters, enemies and collecting new forms as you go.
