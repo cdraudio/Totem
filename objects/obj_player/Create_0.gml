@@ -51,8 +51,8 @@ can_throw_tomahawk = true
 
 //hit_points
 //hit_points = 3
-max_hit_points = 10
-hit_points = 10
+max_hit_points = 3
+hit_points = 3
 
 //Clarity
 clarity_count = 0
