@@ -66,11 +66,20 @@ else if (wandering){
 	
 }
 
+player_height = sprite_get_height(obj_player.sprite_index)
 
+if(path_exists(path_to_player)){
+	path_delete(path_to_player)	
+}
+
+path_to_player = path_add()
 
 //Check distance to player, if in_range then switch to move_towards_player state
-if(distance_to_object(obj_player) <= aggro_range){
+//I am guessing there is a better way to do this than making the above path everytime just to call the below function
+//but I haven't thought of it yet
+if(distance_to_object(obj_player) <= aggro_range and mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1) ){
 	state = scr_graver_move
 	wandering = false
 	wander_frame = 0
+	path_delete(path_to_player)
 }

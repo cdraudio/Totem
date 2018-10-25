@@ -35,6 +35,8 @@ tmp_dist = distance_to_object(obj_player)
 
 path_time += delta_time
 
+
+//If we are at end of path and need a new one
 //if (distance_to_object(obj_player) > focus_dist and (path_position > .90 or path_get_number(path_to_player)*path_position > 3 ) ){
 if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (path_num*path_position > 2)  ) ) {	
 	
@@ -54,11 +56,11 @@ if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (pa
 	
 	if(mp_grid_get_cell(grid, floor(local_x/32), floor(local_y/32) ) == 0 ){
 		
-		 mp_grid_path(grid, path_to_player, x, y, local_x, local_y, 1)
+		has_path = mp_grid_path(grid, path_to_player, x, y, local_x, local_y, 1)
 	}
 	
 	else{
-		mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y + player_height/4, 1)
+		has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y + player_height/4, 1)
 	}
 	
 
@@ -74,7 +76,7 @@ if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (pa
 	
 }
 
-
+//If we aare chasing player and need a new path
 else if(!path_exists(path_to_player) and distance_to_object(obj_player) < aggro_range){
 	
 	/*if(path_exists(path_to_player)){
@@ -117,6 +119,7 @@ else if(!path_exists(path_to_player) and distance_to_object(obj_player) < aggro_
 
 }
 
+//If we are close enough to player to start coming right for them
 else if (distance_to_object(obj_player) <= focus_dist) {
 
 	path_end()
@@ -124,7 +127,7 @@ else if (distance_to_object(obj_player) <= focus_dist) {
 		path_delete(path_to_player)
 	}
 	path_to_player = path_add()
-	mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
+	has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
 	
 	path_start(path_to_player, move_speed, 0, 0)
 }
@@ -136,7 +139,7 @@ if(place_meeting(x, y, obj_player) ){
 
 //Check to see if player is out of range, disengage to idle state
 //Add a little tolerance to avoid flip flopping states
-if(distance_to_object(obj_player) > aggro_range+10){
+if(distance_to_object(obj_player) > aggro_range+10 or !has_path){
 	path_end()
 	
 	if(path_exists(path_to_player)){
