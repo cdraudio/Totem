@@ -2851,6 +2851,25 @@
             }
         },
         {
+            "Key": "966a8f32-96c4-4069-99d7-5c0070cf10b4",
+            "Value": {
+                "id": "0088cf63-04f5-487d-ad13-795b47c98986",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_zoom_controller\/obj_zoom_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9697ccdc-5386-4106-aca2-08a2a4f425d2",
             "Value": {
                 "id": "e56db62a-3095-4974-9b27-a9148039541b",
