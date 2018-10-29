@@ -1,23 +1,23 @@
 {
-    "id": "8e420437-fd7a-44b7-99d7-a54321ff31b3",
+    "id": "86427932-b82c-44f2-a499-175f56b7481b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_large_tree_blue",
+    "name": "obj_player_hurt_effect",
     "eventList": [
         {
-            "id": "8c94969e-a44e-4d73-b5c9-67a33c175463",
+            "id": "c01c3418-d200-4e18-8c68-752c5029e48f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8e420437-fd7a-44b7-99d7-a54321ff31b3"
+            "eventtype": 3,
+            "m_owner": "86427932-b82c-44f2-a499-175f56b7481b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "d08a5e81-cc2d-4bae-ad58-fc6ecda38112",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1842c47b-3ce5-4856-9edb-80e30fa846c7",
+    "spriteId": "ac3e8436-f6da-41b3-b1e9-18325308c045",
     "visible": true
 }

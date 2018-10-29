@@ -6,6 +6,7 @@
 	
 	//Decrement hit_points by other.damage
 	if(can_be_attacked){
+		instance_create_layer(x,y,"Instances",obj_player_hurt_effect)
 		hit_points -= other.attack_damage
 	}
 

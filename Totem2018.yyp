@@ -742,25 +742,6 @@
             }
         },
         {
-            "Key": "28b6ef5c-42a8-43ce-82ef-40769d241424",
-            "Value": {
-                "id": "7681f7e7-4111-4a70-9af0-661a4ca3ed93",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_fel_fire\/spr_fel_fire.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2fef1ee0-e356-4403-860e-1c77f440fe8a",
             "Value": {
                 "id": "8de1db11-ed0a-4c1b-ba29-ffebc91f9199",
@@ -2205,25 +2186,6 @@
             }
         },
         {
-            "Key": "734cf1a2-57bf-4d08-8086-4ecbce8bce1b",
-            "Value": {
-                "id": "a89f6360-e297-43d0-825f-4893799e5f79",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_magic_bubble\/spr_magic_bubble.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "73746dae-c1cb-41f3-9329-0070dd48bd78",
             "Value": {
                 "id": "3d43030e-647c-4ad7-95d5-6406103609b5",
@@ -2582,6 +2544,25 @@
                 ],
                 "resourcePath": "sprites\/spr_player_profile\/spr_player_profile.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86427932-b82c-44f2-a499-175f56b7481b",
+            "Value": {
+                "id": "b3a14d24-9fa5-498f-a0d7-e63ed55dc42d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_player_hurt_effect\/obj_player_hurt_effect.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3455,6 +3436,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_player_idle_side\/spr_player_idle_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ac3e8436-f6da-41b3-b1e9-18325308c045",
+            "Value": {
+                "id": "e99079fd-793e-44ef-8b4a-ccdae15751dc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_hurt\/spr_player_hurt.yy",
                 "resourceType": "GMSprite"
             }
         },
