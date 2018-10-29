@@ -267,6 +267,25 @@
             }
         },
         {
+            "Key": "0c08a101-a870-4288-9ae2-7bbd7f1e1dab",
+            "Value": {
+                "id": "12f0e6bf-39fc-46bb-9626-1791b1b5ec38",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_speech_bubble\/spr_speech_bubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c106024-f644-4b8e-9a14-d05d96b67217",
             "Value": {
                 "id": "5758ebed-5ca4-4206-993d-35f2dae978eb",
@@ -4045,6 +4064,25 @@
                 ],
                 "resourcePath": "views\/ca009b14-c269-4ca2-a1c6-a527c46d2312.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ca8085c7-aa82-4e17-b6a9-6245770933cc",
+            "Value": {
+                "id": "e17ddf11-c01a-4af1-a160-b38f291466a0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_speech_bubble\/obj_speech_bubble.yy",
+                "resourceType": "GMObject"
             }
         },
         {

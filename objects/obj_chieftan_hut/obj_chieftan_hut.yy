@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "obj_chieftan_hut",
     "eventList": [
-        
+        {
+            "id": "cf25cd9a-ef6e-4e63-95a4-a9e429f95b4c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "80043fd5-9aa8-4d10-82d9-1dba602aa5c5"
+        },
+        {
+            "id": "6e52649b-8038-4f60-8868-10ed63e2d9c3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "80043fd5-9aa8-4d10-82d9-1dba602aa5c5"
+        },
+        {
+            "id": "2ba978cc-f3b7-47b0-a70e-0fbcb85a5580",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "80043fd5-9aa8-4d10-82d9-1dba602aa5c5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
