@@ -84,3 +84,54 @@ for(var xx = 0; xx < clar; xx++){
 draw_sprite_stretched(spr_totem_count, 0, view_wport[0]-120, 20, 32, 64)
 draw_sprite_stretched(spr_count_0, 0, view_wport[0]-88, 20, 64, 64)
 draw_sprite_stretched(spr_count_1, 0, view_wport[0]-56, 20, 64, 64)
+
+
+
+if(keyboard_check(ord("J"))){
+	
+	draw_set_alpha(.6)
+	draw_set_color(c_black)
+	
+	draw_rectangle(0,0, view_wport[0], view_hport[0], false)
+	
+	draw_set_alpha(1)
+	draw_set_color(c_white)
+	
+	var middle_x = view_wport[0]/2
+	var middle_y = view_hport[0]/2
+	
+	var m_x = mouse_x - view_xport[0]
+	var m_y = mouse_y - view_yport[0]
+	
+	
+	var to_mouse = point_direction(middle_x, middle_y, m_x, m_y)
+	
+	var deg = 45/2
+	
+	var deg_count = deg
+	
+	var space = 5
+	
+	for(var xx = 0; xx < 8; xx++){
+		
+		var tmp_x = middle_x + lengthdir_x(space, deg_count)
+		var tmp_y = middle_y + lengthdir_y(space, deg_count)
+		
+		if(to_mouse > deg_count - deg and to_mouse < deg_count + deg){
+			draw_sprite_ext(spr_form_select_active, 0, tmp_x, tmp_y, 2, 2, deg_count - deg, c_white, 1)
+		}
+		
+		else{
+			draw_sprite_ext(spr_form_select, 0, tmp_x, tmp_y, 2, 2, deg_count - deg, c_white, 1)
+		}
+		
+		deg_count += 45
+		
+		
+		
+	}
+	
+}
+
+
+
