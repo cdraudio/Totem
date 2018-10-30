@@ -54,9 +54,13 @@ can_throw_tomahawk = true
 max_hit_points = 3
 hit_points = 3
 
+//Mana
+max_mana = 12
+mana  = 12
+
 //Clarity
-clarity_count = 0
-max_clarity = 25
+clarity_count = 8
+max_clarity = 8
 
 hurt = false
 hurt_frame = 0
