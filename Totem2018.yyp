@@ -780,6 +780,25 @@
             }
         },
         {
+            "Key": "2e9b117c-12e7-447c-a511-3283cae35e65",
+            "Value": {
+                "id": "0ba6c563-4d7a-4981-bd3e-8dbcd73b7ff4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_clarity_fill_red\/spr_clarity_fill_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2fef1ee0-e356-4403-860e-1c77f440fe8a",
             "Value": {
                 "id": "8de1db11-ed0a-4c1b-ba29-ffebc91f9199",
@@ -4596,6 +4615,25 @@
                 ],
                 "resourcePath": "sprites\/spr_player_hurtbox\/spr_player_hurtbox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9c1f562-818b-4410-8105-93973c6586df",
+            "Value": {
+                "id": "dd8feb32-2161-493c-a1e7-30a62224e251",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_graver_status\/obj_graver_status.yy",
+                "resourceType": "GMObject"
             }
         },
         {
