@@ -30,7 +30,7 @@ offset_dist = 30
 
 shoot_dir = obj_player.move_dir
 
-if (shoot_dir == 0 and obj_player.image_xscale == -1){
+if (shoot_dir == 0 and obj_player.image_xscale == -1.2){
 	shoot_dir = 180
 }
 
@@ -71,9 +71,9 @@ obj_view.shake_intensity = 4
 	
 //Determine sprite face and fire in direction
 if(obj_player.image_xscale > 0){
-	image_xscale = 1
+	image_xscale = 1.2
 
 } else {
-	image_xscale = -1
+	image_xscale = -1.2
 
 }
