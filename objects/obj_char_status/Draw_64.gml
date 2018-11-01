@@ -100,11 +100,27 @@ if(keyboard_check(ord("J"))){
 	var middle_x = view_wport[0]/2
 	var middle_y = view_hport[0]/2
 	
-	var m_x = mouse_x - view_xport[0]
-	var m_y = mouse_y - view_yport[0]
+	var view_x = obj_view.x 
+	var view_y = obj_view.y
+	
+	var gap = 0
+
+	if(obj_player.facing == -1){
+		gap = obj_view.space	
+	} else {
+		gap = obj_view.space
+	}
 	
 	
+	var m_x = device_mouse_x_to_gui(0)
+	var m_y =device_mouse_y_to_gui(0)
+	
+
 	var to_mouse = point_direction(middle_x, middle_y, m_x, m_y)
+	
+
+	//draw_circle_color(middle_x, middle_y, 3, c_white, c_white, false)
+	//draw_circle_color(m_x, m_y, 3, c_red, c_red, false)
 	
 	var deg = 45/2
 	
@@ -119,11 +135,22 @@ if(keyboard_check(ord("J"))){
 		
 		if(to_mouse > deg_count - deg and to_mouse < deg_count + deg){
 			draw_sprite_ext(spr_form_select_active, 0, tmp_x, tmp_y, 2, 2, deg_count - deg, c_white, 1)
+			if(deg_count == deg){
+				
+				draw_sprite_ext(spr_wolf_icon_active, 0, middle_x + lengthdir_x(space*50, deg_count), middle_y + lengthdir_y(space*50, deg_count), 2, 2, 0, c_white, 1)	
+			}
 		}
 		
 		else{
 			draw_sprite_ext(spr_form_select, 0, tmp_x, tmp_y, 2, 2, deg_count - deg, c_white, 1)
+			
+			if(deg_count == deg){
+				
+				draw_sprite_ext(spr_wolf_icon, 0, middle_x + lengthdir_x(space*50, deg_count), middle_y + lengthdir_y(space*50, deg_count), 2, 2, 0, c_white, 1)	
+			}
 		}
+		
+
 		
 		deg_count += 45
 		

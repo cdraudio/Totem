@@ -6,3 +6,4 @@ shake_intensity = 0;
 //Does not shake while shaking is false
 shaking = false
 
+space = 35

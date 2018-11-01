@@ -30,19 +30,23 @@ else if (instance_exists(obj_player)){
 	//Camera position based on players direction
 	if(obj_player.facing == -1){
 		if(obj_player.image_xscale > 0){
-			target_x = obj_player.x + 35
+			space = 35
+			target_x = obj_player.x + space
 			target_y = obj_player.y
 		} else {
-			target_x = obj_player.x - 35
+			space = -35
+			target_x = obj_player.x + space
 			target_y = obj_player.y	
 		}
 		
 	} else if(obj_player.facing == 1){
+		space = -35
 		target_x = obj_player.x
-		target_y = obj_player.y - 35	
+		target_y = obj_player.y + space 
 	} else if(obj_player.facing == 0){
+		space = 35
 		target_x = obj_player.x
-		target_y = obj_player.y + 35		
+		target_y = obj_player.y + space		
 	}
 	
 	//Move towards player smoothly
