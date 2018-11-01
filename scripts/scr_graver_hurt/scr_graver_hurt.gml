@@ -5,9 +5,6 @@ if(hurt_frame == 0){
 	sprite_index = spr_graver_hurt_side
 	//move_speed = 0
 
-	//Flash Effect
-	instance_create_layer(x,y,"Instances",obj_white_flash)
-
 	//Make self invincibles
 	rune_claw_can_be_attacked = false
 

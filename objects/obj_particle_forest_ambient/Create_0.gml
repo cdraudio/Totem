@@ -6,17 +6,31 @@ part_system_depth(part_system,-5);
 part_system_position(part_system, 0,0)
 
 // create particle
-first_particle = part_type_create()
-part_type_shape(first_particle,pt_shape_flare)
-part_type_scale(first_particle,1,1)
-part_type_size(first_particle,0.10,0.20,-.001,0)
-part_type_color3(first_particle, 13565768, 16187197, 16763455);
-part_type_alpha3(first_particle,0,1,0)
-part_type_speed(first_particle,0.05,0.1,0,0)
-part_type_direction(first_particle,0,359,0,0)
-part_type_orientation(first_particle,0,359,10,0,true)
-part_type_life(first_particle,125,325)
-part_type_blend(first_particle,true)
+deepwood_ambient_particle = part_type_create()
+part_type_shape(deepwood_ambient_particle,pt_shape_flare)
+part_type_scale(deepwood_ambient_particle,1,1)
+part_type_size(deepwood_ambient_particle,0.10,0.20,-.001,0)
+part_type_color3(deepwood_ambient_particle, 13565768, 16187197, 16763455);
+part_type_alpha3(deepwood_ambient_particle,0,1,0)
+part_type_speed(deepwood_ambient_particle,0.05,0.1,0,0)
+part_type_direction(deepwood_ambient_particle,0,359,0,0)
+part_type_orientation(deepwood_ambient_particle,0,359,10,0,true)
+part_type_life(deepwood_ambient_particle,125,325)
+part_type_blend(deepwood_ambient_particle,true)
+
+// create particle
+impact_particle = part_type_create()
+part_type_shape(impact_particle, pt_shape_flare);
+part_type_size(impact_particle, 0.2, 0.3, 0, 0);
+part_type_scale(impact_particle, 1, 1);
+part_type_orientation(impact_particle, 0, 0, 0, 0, 0);
+part_type_color3(impact_particle, 15859700, 16645375, 15597558);
+part_type_alpha3(impact_particle, 0, 1, 0);
+part_type_blend(impact_particle, 0);
+part_type_life(impact_particle, 5, 10);
+part_type_speed(impact_particle, 5, 7.5, 0, 0);
+part_type_direction(impact_particle, 0, 360, 0, 0);
+part_type_gravity(impact_particle, 0, 0);
 
 //create particle emitter
 particle_emitter = part_emitter_create(part_system);
