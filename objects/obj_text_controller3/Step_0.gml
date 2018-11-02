@@ -1,5 +1,5 @@
 time += delta_time
-
+draw_set_font(fnt_main_speech)
 if (init){
 	//draw_set_font(fnt_main)
 
