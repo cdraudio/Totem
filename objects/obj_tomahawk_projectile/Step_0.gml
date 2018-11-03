@@ -49,6 +49,7 @@ else if (has_hit){
 }
 
 else if (returning){
+	move_speed = 18
 	
 	move_dir = point_direction(x, y, obj_player.x, obj_player.y)
 	move_x = lengthdir_x(move_speed, move_dir)
