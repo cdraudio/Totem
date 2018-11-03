@@ -1,8 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 if(keyboard_check(vk_lalt)){
+	zoom_in = true
+} else if(keyboard_check(vk_escape)){
+	zoom_out = true
+} else {
+	zoom_in = false
+	zoom_out = false
+}
+
+if(zoom_in){
 	zoom_level = 0.5
+} else if(zoom_out) {
+	zoom_level = 1.5	
 } else {
 	zoom_level = 1	
 }
