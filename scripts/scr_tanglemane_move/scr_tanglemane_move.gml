@@ -18,12 +18,12 @@ if(!moving){
 }
 
 if(moving){
-	if(facing == 0){
-		sprite_index = spr_tanglemane_idle_side
-	} else if(facing == 1) {
-		sprite_index = spr_tanglemane_idle_side
+	if(facing == 1){
+		sprite_index = spr_tanglemane_run_side
+	} else if(facing == -1) {
+		sprite_index = spr_tanglemane_run_side
 	} else {
-		sprite_index = spr_tanglemane_idle_side
+		sprite_index = spr_tanglemane_run_front
 	}
 }
 

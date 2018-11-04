@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "24aa2f77-ad95-4e69-aef9-d78ba727b85b",
+            "Value": {
+                "id": "b3a0ac27-eb25-4326-953b-7e6a53160cff",
+                "resourcePath": "sprites\\spr_tanglemane_run_side\\spr_tanglemane_run_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26d509ac-5608-4d10-acbf-5c68e98224eb",
             "Value": {
                 "id": "76f3a175-8ef3-4a83-84a2-1024ea1377b5",
@@ -1180,6 +1188,14 @@
                 "id": "ba9828da-ed5d-46f1-8e07-3db1e1c77c0d",
                 "resourcePath": "sounds\/music_ominous_ambient\/music_ominous_ambient.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "8a546ad2-278e-4175-8e2d-3c052a997ca9",
+            "Value": {
+                "id": "5653b610-fc6c-4ad3-a0cb-ba775bd88994",
+                "resourcePath": "sprites\\spr_tanglemane_run_front\\spr_tanglemane_run_front.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
