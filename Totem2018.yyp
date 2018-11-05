@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "005d5609-916b-46f8-a11b-3b46da33b216",
+            "Value": {
+                "id": "f459aae9-c589-487c-94b7-6ad585ff29aa",
+                "resourcePath": "sprites\\spr_tanglemane_run_back\\spr_tanglemane_run_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "00f58a0c-72ba-42ef-886c-b66a14bfacbf",
             "Value": {
                 "id": "6d744bfc-5911-42e8-b034-a5365cad7dee",

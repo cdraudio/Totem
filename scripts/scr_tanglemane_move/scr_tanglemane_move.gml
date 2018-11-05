@@ -1,5 +1,6 @@
 //Reset Variables
 image_blend = c_white
+image_speed = 1.25
 tanglemane = true
 move_speed = 3.75
 
@@ -19,7 +20,7 @@ if(!moving){
 
 if(moving){
 	if(facing == 1){
-		sprite_index = spr_tanglemane_run_side
+		sprite_index = spr_tanglemane_run_back
 	} else if(facing == -1) {
 		sprite_index = spr_tanglemane_run_side
 	} else {
