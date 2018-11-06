@@ -40,6 +40,8 @@ if(tele_frame == max_tele_frame + pause_frame){
 	attacking = true
 	image_index = 0
 	attack_frame = 0
+	//Play hurt SFX
+	audio_play_sound(sfx_graver_attack,1,false)
 	state = scr_graver_attack
 		
 }

@@ -1,8 +1,8 @@
 {
-    "id": "33a82372-1e8e-4aa6-97ef-d6c12a055ab8",
+    "id": "c2bcbda5-1778-4562-958b-36090d5aa4d1",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sfx_tomahawk_whoosh",
+    "name": "sfx_footstep_03",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

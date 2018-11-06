@@ -13,7 +13,7 @@
         "55bb9610-7b4e-4918-a9b0-9e047a07a90f"
     ],
     "filterType": "GMObject",
-    "folderName": "Environemnt Objects",
+    "folderName": "Environment Objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

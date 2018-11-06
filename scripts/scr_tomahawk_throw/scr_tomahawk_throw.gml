@@ -1,5 +1,4 @@
 image_speed = 1.5
-
 //Create axe at player location
 if(!instance_exists(obj_tomahawk_projectile) and can_throw_tomahawk){
 	instance_create_layer(x,y + 10,"Instances",obj_tomahawk_projectile)

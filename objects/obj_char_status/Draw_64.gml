@@ -89,8 +89,9 @@ draw_sprite_stretched(spr_count_1, 0, view_wport[0]-56, 20, 64, 64)
 
 if(keyboard_check(ord("J"))){
 	
-	draw_set_alpha(.6)
-	draw_set_color(c_black)
+	//Set dark overlay
+	draw_set_alpha(0)
+	/* draw_set_color(c_black)*/
 	
 	draw_rectangle(0,0, view_wport[0], view_hport[0], false)
 	

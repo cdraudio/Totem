@@ -23,6 +23,13 @@ if(!moving){
 }
 
 if(moving){
+	//Play footstep sound on a controlled interval
+	if(footstep_count == 0){
+		audio_play_sound(choose(sfx_footstep_01,sfx_footstep_02,sfx_footstep_03,sfx_footstep_04,sfx_footstep_05,sfx_footstep_06,sfx_footstep_07,sfx_footstep_08),1,false)
+		//footstep_count changes time between each step
+		footstep_count = 20
+	}
+	
 	if(facing == 0){
 		sprite_index = spr_player_sprint_front
 	} else if(facing == 1) {
@@ -30,6 +37,11 @@ if(moving){
 	} else {
 		sprite_index = spr_player_sprint_side
 	}
+	
+	if(footstep_count > 0){
+		footstep_count --	
+	}
+	show_debug_message(footstep_count)
 }
 
 //Forms
@@ -71,6 +83,7 @@ else if (hsp < 0){
 //Ranged Attack
 if(key_power_attack && can_throw_tomahawk){
 	image_index = 0
+	mana -= 1
 	state = scr_tomahawk_throw
 }
 
@@ -82,14 +95,23 @@ if(key_aim){
 if(key_attack && can_basic_attack){
 	image_index = 0
 	if(basic_attack_1){
+		
+		//play swing sfx (need to break this into function)
+		audio_play_sound(sfx_tomahawk_slash,1,false)
 		state = scr_player_basic_attack_2	
+		
 	} else {
+		//play swing sfx
+		audio_play_sound(sfx_tomahawk_slash,1,false)
 		state = scr_player_basic_attack_1
 	}
 }
 //Dash
 if (key_dash && can_dash) {
-	// TODO(shaw): handle dir
+	
+	//Play roll sfx
+	audio_play_sound(sfx_dodge_roll,1,false)
+
 	dash_target_x = x + lengthdir_x(1, move_dir)*dash_dist
 	dash_target_y = y + lengthdir_y(1, move_dir)*dash_dist
 	dash_off_x = dash_target_x - x

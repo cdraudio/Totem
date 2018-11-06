@@ -50,7 +50,6 @@ can_throw_tomahawk = true
 
 
 //hit_points
-//hit_points = 3
 max_hit_points = 3
 hit_points = 3
 
@@ -68,6 +67,9 @@ max_hurt_frame = 30
 
 //Form Switch
 tanglemane = false
+
+//Toggle for playing footstep SFX
+footstep_count = 0
 
 state = scr_player_move
 

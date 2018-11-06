@@ -1,7 +1,7 @@
-// NOTE(shaw): player input sets the dir
-
+//set variables
 image_alpha = 1
 image_speed = 1.5
+
 //dashing = true
 can_dash = false
 
