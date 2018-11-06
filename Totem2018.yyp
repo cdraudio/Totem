@@ -2148,6 +2148,25 @@
             }
         },
         {
+            "Key": "6608bb03-89c0-46bb-a85b-8510115a0693",
+            "Value": {
+                "id": "6fa2dfa9-751f-4841-9af6-b555fcab4d02",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sfx_tomahawk_throw_reverse\/sfx_tomahawk_throw_reverse.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "67214805-597a-48e0-beac-083010e1bbd1",
             "Value": {
                 "id": "cf4a7b59-33ca-44f2-951f-df540a119f08",
@@ -2506,6 +2525,25 @@
                 ],
                 "resourcePath": "sprites\/spr_cursor\/spr_cursor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "73bbf50b-37e1-4517-8882-1465e4e3dad7",
+            "Value": {
+                "id": "74133d6e-4e8e-4666-9876-63299a27f237",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sfx_tomahawk_throw_forward\/sfx_tomahawk_throw_forward.yy",
+                "resourceType": "GMSound"
             }
         },
         {

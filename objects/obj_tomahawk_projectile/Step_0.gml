@@ -21,9 +21,8 @@ if(can_return){
 	}
 }(*/
 
-//SFX
 if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
-	
+
 		//Why would they do this to us?
 		//Pick delete or destroy >: (
 		if(path_exists(fly_path)){
@@ -35,7 +34,6 @@ if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
 }
 
 else if (has_hit){
-	
 	x += sign(obj_player.x - x)*6
 	y += sign(obj_player.y - y)*6
 	
@@ -49,6 +47,8 @@ else if (has_hit){
 }
 
 else if (returning){
+
+		
 	move_speed = 18
 	
 	move_dir = point_direction(x, y, obj_player.x, obj_player.y)
@@ -64,7 +64,10 @@ else if (returning){
 else{
 	
 	if(path_position >= .85){
-		returning = true	
+		returning = true
+		
+		//Play reverse throw SFX
+		audio_stop_sound(sfx_tomahawk_throw_forward)
 		path_end()
 	}
 	
@@ -77,6 +80,7 @@ else{
 	
 	
 	else {
+		//Play SFX
 		path_position += abs(path_position-.500)/20 + .01
 	}
 }

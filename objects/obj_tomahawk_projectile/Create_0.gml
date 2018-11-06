@@ -30,6 +30,9 @@ offset_dist = 30
 
 shoot_dir = obj_player.move_dir
 
+throw_sfx = false
+reverse_sfx = false
+
 if (shoot_dir == 0 and obj_player.image_xscale == -1.2){
 	shoot_dir = 180
 }
