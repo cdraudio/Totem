@@ -936,7 +936,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Ground_layer_forest",
+            "name": "s",
             "id": "12afe912-714e-4e12-b521-d719a04b5dd6",
             "depth": 1100,
             "grid_x": 32,
