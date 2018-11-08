@@ -44,17 +44,12 @@ else{
 
 //Rabbit Cannon
 if(key_power_attack && can_throw_tomahawk){
-	state = scr_tomahawk_throw
+	
 }
 
 //Basic Attack
 if(key_attack && can_basic_attack){
-	image_index = 0
-	if(basic_attack_1){
-		state = scr_player_basic_attack_2	
-	} else {
-		state = scr_player_basic_attack_1
-	}
+	
 }
 //Dash
 if (key_dash && can_dash) {
