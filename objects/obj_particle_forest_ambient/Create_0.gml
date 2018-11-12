@@ -46,6 +46,20 @@ part_type_speed(tomahawk_trail, 0.1, 0.5, 0.1, 0);
 part_type_direction(tomahawk_trail, 50, 135, 0, 0);
 part_type_gravity(tomahawk_trail, 0, 0);
 
+//Particle for player running
+player_run = part_type_create();
+part_type_shape(player_run, pt_shape_disk);
+part_type_size(player_run, 0.005, 0.01, random_range(0.002, 0.003), 0);
+part_type_scale(player_run, 1, 1);
+part_type_orientation(player_run, 0, 0, 0, 0, 0);
+part_type_color3(player_run, c_white, c_white, c_white);
+part_type_alpha3(player_run, 1, 0.5, 0);
+part_type_blend(player_run, 0);
+part_type_life(player_run, 10,25)
+part_type_speed(player_run, 0.005, 0.01, 0, 0);
+part_type_direction(player_run, -228, 130, 0, 0);
+part_type_gravity(player_run, 0, 0);
+
 //create particle emitter
 particle_emitter = part_emitter_create(part_system);
 part_emitter_region(part_system, particle_emitter, 0, view_xport[0], 0, view_yport[0], ps_shape_rectangle, ps_distr_invgaussian)
