@@ -19,8 +19,8 @@ if(path_position > 0.9){
 if (wandering == false and irandom(1000) < 10){
 	
 	//Set target and get distance
-	wander_target_x = x + random_range(-60, 60)
-	wander_target_y = y + random_range(-60, 60)
+	wander_target_x = x + random_range(-30, 30)
+	wander_target_y = y + random_range(-30, 30)
 	wander_offset_x = wander_target_x - x
 	wander_offset_y = wander_target_y - y
 	
@@ -32,7 +32,7 @@ if (wandering == false and irandom(1000) < 10){
 	}
 	
 	//Make sure new spot is not inside a solid
-	if(!place_meeting(wander_target_x, wander_target_y, obj_solid)){
+	if(!place_meeting(wander_target_x, wander_target_y, obj_solid) and !collision_line(x, y, wander_target_x, wander_target_y, obj_solid, false, false) ){
 		wandering = true	
 	}
 
@@ -46,7 +46,7 @@ else if (wandering){
 	
 	
 	//if( wander_frame != max_wander_frame ){
-		if(point_distance(x, y, wander_target_x, wander_target_y) > 2){
+		if(point_distance(x, y, wander_target_x, wander_target_y) > 5 and !place_meeting(x +sign(wander_offset_x)*move_speed, y +sign(wander_offset_y)*move_speed, obj_solid) and wander_frame < 40){
 			x += sign(wander_offset_x)*move_speed//wander_offset_x/max_wander_frame
 			y += sign(wander_offset_y)*move_speed//wander_offset_y/max_wander_frame
 			wander_frame++

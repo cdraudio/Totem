@@ -1,6 +1,6 @@
 //Create grid map for AI
 globalvar grid;
-grid = mp_grid_create(16, 16, room_width / 32, room_height /32, 32, 32)
+grid = mp_grid_create(16, 16, room_width / 16, room_height /16, 16, 16)
 
 //Make solids forbidden
 mp_grid_add_instances(grid, obj_solid, false);
