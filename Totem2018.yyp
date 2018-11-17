@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "18f3238a-0478-442e-93f1-44411471a26b",
-            "Value": {
-                "id": "bd292c01-151a-4525-adfb-dfa400cb442c",
-                "resourcePath": "sprites\/spr_border_tree_blue\/spr_border_tree_blue.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1933be2b-2197-44d5-ae18-3bd8103d101c",
             "Value": {
                 "id": "3b7114d3-d28f-45d8-b841-44656b483db3",
@@ -331,6 +323,14 @@
             "Value": {
                 "id": "79df6566-908f-423e-acac-13dbbfa4c7ab",
                 "resourcePath": "sprites\/spr_totem_count\/spr_totem_count.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1e85935e-c855-4048-ba7d-cd7882fc86dd",
+            "Value": {
+                "id": "216f82f6-7af0-4201-b397-657634bd39ab",
+                "resourcePath": "sprites\\spr_deepwood_big_trees\\spr_deepwood_big_trees.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -868,6 +868,14 @@
                 "id": "88ffde35-4e4b-418f-8958-87d7c6d09f96",
                 "resourcePath": "objects\/obj_fall_block\/obj_fall_block.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5626873c-83de-4f60-b0ad-6f58e084227c",
+            "Value": {
+                "id": "40fe094b-46f7-4c72-99f7-2733b4bec595",
+                "resourcePath": "sprites\\spr_large_tree_blue_2\\spr_large_tree_blue_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1667,6 +1675,14 @@
             "Value": {
                 "id": "78d51f2c-6a0f-46de-90a6-02820c2d3795",
                 "resourcePath": "sprites\/spr_small_tree_blue\/spr_small_tree_blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9206be29-6103-402c-9aa9-e5aafcf7a897",
+            "Value": {
+                "id": "0ba1f25c-2c93-4b90-80cc-b22d837e9102",
+                "resourcePath": "sprites\\spr_blue_glow\\spr_blue_glow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2471,6 +2487,14 @@
             }
         },
         {
+            "Key": "d82721c7-b77c-434d-a8dc-94b9d79bc407",
+            "Value": {
+                "id": "548f4582-8a2f-4649-baeb-14b933b69fad",
+                "resourcePath": "tilesets\\ts_deepwood_big_trees\\ts_deepwood_big_trees.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "d94c52d2-17fc-4c98-a94b-eec9773eae47",
             "Value": {
                 "id": "c68c1715-dd2e-44de-bc6b-6230c9da5c25",
@@ -2548,6 +2572,14 @@
                 "id": "7bd377b0-8ab4-454a-a63a-40faeeeb9646",
                 "resourcePath": "rooms\\rm_geon_test_concurrent_effects\\rm_geon_test_concurrent_effects.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "de1d1300-e01b-4934-b957-7862a1c62c6e",
+            "Value": {
+                "id": "5f73bd78-9419-40da-839a-777a379373a8",
+                "resourcePath": "sprites\\spr_whisperwood_big_trees\\spr_whisperwood_big_trees.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3044,6 +3076,14 @@
                 "id": "04565423-8ca0-4327-a6ca-8a62f482ee73",
                 "resourcePath": "sprites\/spr_water_plant_3\/spr_water_plant_3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ffb76aa2-3ea1-404a-bd06-ba6b5e5c07ee",
+            "Value": {
+                "id": "862ff33c-7f9c-4be1-b013-88502924f579",
+                "resourcePath": "objects\\obj_large_tree_blue_2\\obj_large_tree_blue_2.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
