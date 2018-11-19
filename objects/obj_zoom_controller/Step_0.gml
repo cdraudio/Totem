@@ -1,16 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(keyboard_check(vk_lalt)){
-	zoom_in = true
-} else if(keyboard_check(vk_escape)){
-	zoom_out = true
-} else {
-	zoom_in = false
-	zoom_out = false
-}
 
 if(zoom_in){
-	zoom_level = 0.5
+	zoom_level = zoom_intensity
 } else if(zoom_out) {
 	zoom_level = 1.5	
 } else {
@@ -22,7 +14,7 @@ view_w = camera_get_view_width(view_camera[0]);
 view_h = camera_get_view_height(view_camera[0]);
 
 //Set the rate of interpolation
-rate = 0.175;
+rate = zoom_rate;
 
 //Get new sizes by interpolating current and target zoomed size
 new_w = lerp(view_w, zoom_level * default_zoom_width, rate);

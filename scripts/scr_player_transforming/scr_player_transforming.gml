@@ -1,9 +1,12 @@
 depth = -50
 
+//Trigger zoom
+obj_zoom_controller.zoom_in = true
+
 //Screenshake
 if(sprite_index != spr_tanglemane_transform_outro){
 	obj_view.shaking = true
-	obj_view.shake_intensity = 3
+	obj_view.shake_intensity = 2.5
 }
 
 //Make sure effects only play once
