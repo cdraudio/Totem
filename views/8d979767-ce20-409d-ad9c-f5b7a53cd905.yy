@@ -9,7 +9,8 @@
         "426a6146-dcc8-44c9-a483-eac74e128654",
         "24aa2f77-ad95-4e69-aef9-d78ba727b85b",
         "8a546ad2-278e-4175-8e2d-3c052a997ca9",
-        "005d5609-916b-46f8-a11b-3b46da33b216"
+        "005d5609-916b-46f8-a11b-3b46da33b216",
+        "fa1541d9-0ef6-40d7-b952-2cf13545aaf6"
     ],
     "filterType": "GMSprite",
     "folderName": "Tanglemane",

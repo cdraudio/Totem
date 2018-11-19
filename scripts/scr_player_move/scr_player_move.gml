@@ -46,7 +46,8 @@ if(moving){
 
 //Forms
 if(transform_1){
-	state = scr_tanglemane_move	
+	image_index = 0
+	state = scr_player_transforming	
 }
 
 move_dir = point_direction(0, 0, x_dir, y_dir)

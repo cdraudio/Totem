@@ -67,6 +67,8 @@ max_hurt_frame = 30
 
 //Form Switch
 tanglemane = false
+//Toggle for triggering transform effect once only
+started_transform = false
 
 //Toggle for playing footstep SFX
 footstep_count = 0
