@@ -4,5 +4,6 @@
 
 
 draw_set_alpha(.3)
-/*mp_grid_draw(grid)*/
+/*mp_grid_draw(grid)
+show_debug_overlay(true)*/
 draw_set_alpha(1)
