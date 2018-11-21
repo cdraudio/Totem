@@ -13,7 +13,7 @@ enum DIR {
 }
 
 
-state = scr_tanglemane_boss_idle
+state = scr_tanglemane_boss_chase
 
 facing = DIR.DOWN
 
@@ -21,19 +21,20 @@ facing = DIR.DOWN
 hit_points = 10
 
 
-
+attacking = false
+attack_damage = 0
 
 phase = 1
 
 //Variables for running
 leap_frame = 0
-max_leap_frame = 8
+max_leap_frame = 16
 jump_num = 0
 
 run_frames = 6
 pause_timer = 0
 
-leap_length = 30
-big_leap_length = 50
+leap_length = 80
+big_leap_length = 150
 target_x = 0
 target_y = 0

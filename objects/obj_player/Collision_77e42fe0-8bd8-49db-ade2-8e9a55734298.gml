@@ -1,5 +1,5 @@
-/// @description Collision With RuneClaw
-/*
+/// @description Insert description here
+// You can write your code in this editor
  if(other.attacking and !dashing){
 	//Set knockback direction
 	knock_dir = point_direction(other.x, other.y, x, y);
@@ -20,5 +20,3 @@
 		state = scr_player_dead	
 	}	
 }
-
-//show_debug_message(hit_points)
