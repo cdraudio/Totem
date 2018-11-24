@@ -2226,7 +2226,7 @@
             "Key": "ab83ed8b-a615-4a84-af0d-4a6f4681c2e9",
             "Value": {
                 "id": "44da4e3c-fb7f-4bae-965c-281c1d0573ef",
-                "resourcePath": "objects\/obj_dark_room_surface\/obj_dark_room_surface.yy",
+                "resourcePath": "objects\\obj_lighting_controller\\obj_lighting_controller.yy",
                 "resourceType": "GMObject"
             }
         },

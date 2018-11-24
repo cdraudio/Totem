@@ -2,7 +2,7 @@
     "id": "ab83ed8b-a615-4a84-af0d-4a6f4681c2e9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_dark_room_surface",
+    "name": "obj_lighting_controller",
     "eventList": [
         {
             "id": "e8093f96-6c2c-4997-b39e-0327d9892bfc",
