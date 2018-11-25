@@ -1,18 +1,26 @@
 
-
+//Starting new need new target
 if(leap_frame == 0){
 	var jump = 0
+	
+	var angle_off = 0
 
-	if (jump_num == 2){
+	//Large Jump
+	if (leap_num == 2){
 		jump = big_leap_length
+		angle_off = irandom_range(3,10)
 	}
-
+	
+	//normal jump
 	else{
-		jump = leap_length	
+		jump = leap_length
+		angle_off = 0
 	}
 
-	target_x = x + lengthdir_x(jump,  point_direction(x, y,  obj_player.x, obj_player.y) )
-	target_y =  y + lengthdir_y(jump,  point_direction(x, y,  obj_player.x, obj_player.y) )
+	var chosen = choose(-angle_off, angle_off)
+
+	target_x = x + lengthdir_x(jump,  point_direction(x, y,  obj_player.x, obj_player.y) + chosen )
+	target_y =  y + lengthdir_y(jump,  point_direction(x, y,  obj_player.x, obj_player.y)+ chosen )
 	
 	to_move_x = target_x - x
 	to_move_y = target_y - y
@@ -51,15 +59,37 @@ if(leap_frame == 0){
 	attacking = true
 }
 
+//finished and waiting on timer for next leap.
 else if(leap_frame == max_leap_frame){
 	pause_timer += delta_time
 	image_index = run_frames - 1
-	if(pause_timer >= 700000){
-		pause_timer = 0
-		leap_frame = 0
-		jump_num++
-		if(jump_num > 2){
-			jump_num = 0	
+	
+	if(leap_num == 1){
+		
+		
+		if(pause_timer >= 700000){
+			image_blend = c_blue	
+			
+		}
+		
+		if(pause_timer >= 1500000){
+			pause_timer = 0
+			leap_frame = 0
+			leap_num++
+			if(leap_num > 2){
+				leap_num = 0	
+			}
+		}
+	}
+	
+	else{
+		if(pause_timer >= 700000){
+			pause_timer = 0
+			leap_frame = 0
+			leap_num++
+			if(leap_num > 2){
+				leap_num = 0	
+			}
 		}
 	}
 }

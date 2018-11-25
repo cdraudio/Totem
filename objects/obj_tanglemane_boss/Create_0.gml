@@ -29,12 +29,12 @@ phase = 1
 //Variables for running
 leap_frame = 0
 max_leap_frame = 16
-jump_num = 0
+leap_num = 0
 
 run_frames = 6
 pause_timer = 0
 
 leap_length = 80
-big_leap_length = 150
+big_leap_length = 200
 target_x = 0
 target_y = 0
