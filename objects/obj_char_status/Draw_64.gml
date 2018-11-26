@@ -161,5 +161,25 @@ if(keyboard_check(ord("J"))){
 	
 }
 
+if(keyboard_check_released(ord("J"))){
+	var middle_x = view_wport[0]/2
+	var middle_y = view_hport[0]/2
+	
+	
+	var m_x = device_mouse_x_to_gui(0)
+	var m_y =device_mouse_y_to_gui(0)
+	
+
+	var to_mouse = point_direction(middle_x, middle_y, m_x, m_y)	
+	
+	if( to_mouse >= 0 and to_mouse < 45){
+		obj_player.state = scr_player_transforming
+	}
+	
+	if (to_mouse >= 45 and to_mouse < 90){
+		obj_player.state = scr_player_transforming
+	}
+	
+}
 
 
