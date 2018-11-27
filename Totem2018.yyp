@@ -7753,6 +7753,25 @@
             }
         },
         {
+            "Key": "f507a25e-12cb-471f-ba7b-dd5459da4434",
+            "Value": {
+                "id": "7becad38-96a2-4262-af23-0bb519b931e7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/ts_whisperwood_big_trees\/ts_whisperwood_big_trees.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "f74347aa-6fb8-48a8-9af6-cb1a867e876b",
             "Value": {
                 "id": "3293e7a1-1858-4dd9-aac1-a01ad4683871",
