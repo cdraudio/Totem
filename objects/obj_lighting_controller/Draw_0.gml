@@ -46,4 +46,4 @@ with (obj_large_deer)
 		draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),0.5,0.5,0,c_aqua,0.5)
 			
 with (obj_medium_deer)
-		draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),0.3,0.3,0,c_aqua,0.25)		
+		draw_sprite_ext(spr_glow_effect,0,x + 5 + random_range(-1,1),y + random_range(-1,1),0.3,0.3,0,c_aqua,0.25)		

@@ -23,6 +23,38 @@ if(!moving){
 }
 
 if(moving){
+	
+	//Create run trail
+	if(dust_count == 0){
+		 dust_trail = instance_create_layer(x,y,"Instances",obj_dust_trail)
+		 dust_trail.image_xscale = image_xscale * -1
+		 	if(facing == 1){
+				//Back
+				dust_trail.x = x
+				dust_trail.y = y + 22
+			} else if (facing == -1){
+				//Side
+				if(image_xscale > 0){
+					dust_trail.x = x - 22
+					dust_trail.y = y + 22
+				} else {
+					dust_trail.x = x + 22
+					dust_trail.y = y + 22		
+				}	
+		
+			} else {
+				//Front
+				dust_trail.x = x
+				dust_trail.y = y - 22
+			}
+		dust_count = 20
+	}
+	
+	//Reduce run trail creation cooldown
+	if(dust_count > 0){
+		dust_count --
+	}
+	 
 	//Play footstep sound on a controlled interval
 	if(footstep_count == 0){
 		audio_play_sound(choose(sfx_footstep_01,sfx_footstep_02,sfx_footstep_03,sfx_footstep_04,sfx_footstep_05,sfx_footstep_06,sfx_footstep_07,sfx_footstep_08),1,false)
@@ -41,7 +73,6 @@ if(moving){
 	if(footstep_count > 0){
 		footstep_count --	
 	}
-	show_debug_message(footstep_count)
 }
 
 //Forms

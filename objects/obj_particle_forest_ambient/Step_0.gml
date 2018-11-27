@@ -13,9 +13,12 @@ with (obj_graver)
 with (obj_tomahawk_projectile)
 	part_particles_create(obj_particle_forest_ambient.particle_emitter, x + random_range(-3,3), y + random_range(-3,3),obj_particle_forest_ambient.tomahawk_trail,1)
 
-with (obj_player)
+//Shitty player run trail 
+
+/*with (obj_player)
 	if(moving && !key_sprint){
 		if(obj_particle_forest_ambient.alarm[1] < 0){
 			obj_particle_forest_ambient.alarm[1] = room_speed/8
 		}
 	}
+*/

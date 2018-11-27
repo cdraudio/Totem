@@ -73,5 +73,7 @@ started_transform = false
 //Toggle for playing footstep SFX
 footstep_count = 0
 
+//Toggle for playing dust animation
+dust_count = 0
 state = scr_player_move
 

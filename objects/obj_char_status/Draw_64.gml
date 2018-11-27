@@ -173,10 +173,12 @@ if(keyboard_check_released(ord("J"))){
 	var to_mouse = point_direction(middle_x, middle_y, m_x, m_y)	
 	
 	if( to_mouse >= 0 and to_mouse < 45){
+		obj_player.image_index = 0
 		obj_player.state = scr_player_transforming
 	}
 	
 	if (to_mouse >= 45 and to_mouse < 90){
+		obj_player.image_index = 0
 		obj_player.state = scr_player_transforming
 	}
 	

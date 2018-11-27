@@ -19,6 +19,38 @@ if(!moving){
 }
 
 if(moving){
+	//Create run trail
+	if(dust_count == 0){
+		 dust_trail = instance_create_layer(x,y,"Instances",obj_dust_trail)
+		 dust_trail.image_xscale = (image_xscale * 2) * -1
+		 dust_trail.image_yscale = (image_yscale * 2)
+		 	if(facing == 1){
+				//Back
+				dust_trail.x = x
+				dust_trail.y = y + 26
+			} else if (facing == -1){
+				//Side
+				if(image_xscale > 0){
+					dust_trail.x = x - 32
+					dust_trail.y = y + 22
+				} else {
+					dust_trail.x = x + 32
+					dust_trail.y = y + 22		
+				}	
+		
+			} else {
+				//Front
+				dust_trail.x = x
+				dust_trail.y = y - 22
+			}
+		dust_count = 20
+	}
+	
+	//Reduce run trail creation cooldown
+	if(dust_count > 0){
+		dust_count --
+	}
+	
 	if(facing == 1){
 		sprite_index = spr_tanglemane_run_back
 	} else if(facing == -1) {
