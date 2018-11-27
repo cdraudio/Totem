@@ -13,7 +13,7 @@ if(dust_count == 0){
 	dust_trail.image_xscale = image_xscale * -1
 
 	dust_trail.x = x
-	dust_trail.y = y + 6
+	dust_trail.y = y + 12
 	
 	dust_count = 20
 }
