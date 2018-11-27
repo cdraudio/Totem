@@ -1,4 +1,4 @@
-image_speed = 1
+image_speed = -1
 sprite_index = spr_graver_walk
 
 if(strafing == false){
