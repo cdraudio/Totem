@@ -2243,6 +2243,25 @@
             }
         },
         {
+            "Key": "571e6da1-08f8-427c-b704-5da31618ca06",
+            "Value": {
+                "id": "7a36b76f-5581-40e0-ad74-20990d38d215",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_tomahawk_phase\/spr_tomahawk_phase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58945aae-99ee-4357-addb-b4d1e6f27cd9",
             "Value": {
                 "id": "06b48c16-e429-446b-9c14-0fb0db66eb16",
@@ -7161,6 +7180,25 @@
                 ],
                 "resourcePath": "views\/e7647fc5-99cf-4ae9-8a56-762f6e9b45ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e7eeb137-e7ce-4c14-8f4a-558a0a7d057d",
+            "Value": {
+                "id": "7b16cdfb-f5ff-4b7f-afd4-c6ca8d261c77",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_tomahawk_trail\/obj_tomahawk_trail.yy",
+                "resourceType": "GMObject"
             }
         },
         {

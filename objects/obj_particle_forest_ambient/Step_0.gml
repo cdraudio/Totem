@@ -10,8 +10,10 @@ with (obj_graver)
 	}
 	
 //Tomahawk throw particle trail
-with (obj_tomahawk_projectile)
+/*with (obj_tomahawk_projectile)
 	part_particles_create(obj_particle_forest_ambient.particle_emitter, x + random_range(-3,3), y + random_range(-3,3),obj_particle_forest_ambient.tomahawk_trail,1)
+	
+*/
 
 //Shitty player run trail 
 

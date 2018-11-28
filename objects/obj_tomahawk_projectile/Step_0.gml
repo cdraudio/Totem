@@ -91,5 +91,17 @@ if(obj_player.image_xscale > 0){
 	image_angle += 35
 }
 
+//Create light trail
+if(trail_count <= 0){
+	trail = instance_create_layer(x,y,"Instances",obj_tomahawk_trail)
+	trail.image_xscale = image_xscale
+	trail.image_yscale = image_yscale
+	trail.image_angle = image_angle
+	trail_count  = 3
+}
+
+trail_count --
+
+
 //Create Particles
 instance_create_layer(x+random_range(-5,5),y + random_range(-5,5),"Instances",obj_tomahawk_particle)

@@ -21,6 +21,9 @@ start_point_x = x
 
 start_point_y = y
 
+//Trail Delay
+trail_count = 0
+
 //Can destroy
 can_return = false
 

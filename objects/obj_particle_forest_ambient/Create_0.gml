@@ -38,7 +38,7 @@ part_type_shape(tomahawk_trail, pt_shape_flare);
 part_type_size(tomahawk_trail, 0.2, 0.25, 0, 0);
 part_type_scale(tomahawk_trail, 1, 1);
 part_type_orientation(tomahawk_trail, 0, 0, 0, 0, 0);
-part_type_color3(tomahawk_trail, 16776060, 15138618, 16774797);
+part_type_color2(tomahawk_trail,make_color_rgb(97,233,36), make_color_rgb(66,209,145));
 part_type_alpha3(tomahawk_trail, 1, 0.5, 0);
 part_type_blend(tomahawk_trail, 0);
 part_type_life(tomahawk_trail, 10,25);
