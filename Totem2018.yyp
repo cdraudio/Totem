@@ -1787,6 +1787,25 @@
             }
         },
         {
+            "Key": "46e64c1d-b18b-46be-8c1f-2092cad153aa",
+            "Value": {
+                "id": "4947e123-54ea-41af-9395-04c43472640f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_tomahawk_impact\/spr_tomahawk_impact.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47a722ed-f845-4817-8126-fbf264d14bcd",
             "Value": {
                 "id": "d2b460e9-5a60-43c4-99ab-8d0136eacc1c",
@@ -6401,6 +6420,25 @@
                 ],
                 "resourcePath": "sprites\/spr_pt_shape_spark_new\/spr_pt_shape_spark_new.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d1d86c2f-6d3c-4ca4-870f-a72fb894d78e",
+            "Value": {
+                "id": "961a35c6-4337-4609-b997-50212ceef638",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_tomahawk_impact\/obj_tomahawk_impact.yy",
+                "resourceType": "GMObject"
             }
         },
         {
