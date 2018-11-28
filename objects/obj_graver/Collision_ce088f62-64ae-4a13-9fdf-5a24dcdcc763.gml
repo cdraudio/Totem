@@ -22,12 +22,6 @@ if(alarm[3] < 0){
 
 instance_create_layer(x,y,"Instances",obj_blood_impact)
 
-
-//Impact effect for tomahawk throw
-if(other.tomahawk){
-	instance_create_layer(x,y,"Instances",obj_tomahawk_impact)
-}
-
 //Create blood
 instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
 instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)

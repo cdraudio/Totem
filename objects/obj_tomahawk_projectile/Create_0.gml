@@ -20,8 +20,6 @@ start_point_x = x
 
 start_point_y = y
 
-//Is tomahawk
-tomahawk = true
 //Trail Delay
 trail_count = 0
 
