@@ -4,6 +4,9 @@
 //Set Lifespan
 life_span = 75
 
+//Subtract from player mana
+obj_player.mana -= 3
+
 //Damage
 attack_damage = 2
 

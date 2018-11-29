@@ -115,7 +115,6 @@ else if (hsp < 0){
 //Ranged Attack
 if(key_power_attack && can_throw_tomahawk){
 	image_index = 0
-	mana -= 1
 	state = scr_tomahawk_throw
 }
 
