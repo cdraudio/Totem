@@ -26,7 +26,7 @@ attack_damage = 0
 
 phase = 1
 
-aggro_dist = 250
+aggro_dist = 200
 move_speed = 5
 
 //Variables for running
@@ -41,3 +41,8 @@ leap_length = 80
 big_leap_length = 200
 target_x = 0
 target_y = 0
+
+hurt = false
+knock_dir = 0 
+hurt_frame = 0
+max_hurt_frame =  20

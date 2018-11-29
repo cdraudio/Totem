@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "35241959-8dc1-4411-8fef-ac7044cd042d",
+            "Value": {
+                "id": "f38529fb-ef0c-4133-8387-047a74b807ce",
+                "resourcePath": "scripts\\scr_tanglemane_boss_hurt\\scr_tanglemane_boss_hurt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3599de06-27e7-49ad-a9b9-57e7ea7bfc91",
             "Value": {
                 "id": "831201a4-9f34-4737-a095-56e05282ac38",
@@ -3479,6 +3487,7 @@
         "6a49eadc-2150-457c-89bf-44bb90811140",
         "c0d02d28-63b6-42a3-9497-1d6b250846c3",
         "25578592-85c6-4962-ab21-c28a85aa8330",
+        "35241959-8dc1-4411-8fef-ac7044cd042d",
         "f1e64a08-eccc-4db1-bd23-80f5716a5c10"
     ],
     "tutorial": ""
