@@ -26,6 +26,9 @@ attack_damage = 0
 
 phase = 1
 
+aggro_dist = 250
+move_speed = 5
+
 //Variables for running
 leap_frame = 0
 max_leap_frame = 16

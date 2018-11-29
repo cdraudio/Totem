@@ -1,6 +1,15 @@
 
+
+if (point_distance(x, y, obj_player.x, obj_player.y) > aggro_dist and leap_frame >= max_leap_frame and pause_timer == 0){
+	leap_frame = 0
+	pause_timer = 0
+	leap_num = 0
+	state = scr_tanglemane_boss_approach
+}
+
+
 //Starting new need new target
-if(leap_frame == 0){
+else if(leap_frame == 0){
 	var jump = 0
 	
 	var angle_off = 0
@@ -60,7 +69,7 @@ if(leap_frame == 0){
 }
 
 //finished and waiting on timer for next leap.
-else if(leap_frame == max_leap_frame){
+else if(leap_frame >= max_leap_frame){
 	pause_timer += delta_time
 	image_index = run_frames - 1
 	
