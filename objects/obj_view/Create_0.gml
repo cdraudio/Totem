@@ -7,3 +7,6 @@ shake_intensity = 0;
 shaking = false
 
 space = 35
+
+following_player = true
+following_enemy = false

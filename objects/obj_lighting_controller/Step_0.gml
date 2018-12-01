@@ -56,7 +56,10 @@ if (surface_exists(surf)) {
 			draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),0.5,0.5,0,c_aqua,0.5)
 			
 	with (obj_medium_deer)
-			draw_sprite_ext(spr_glow_effect,0,x + 5 + random_range(-1,1),y + random_range(-1,1),0.3,0.3,0,c_aqua,0.5)		
+			draw_sprite_ext(spr_glow_effect,0,x + 5 + random_range(-1,1),y + random_range(-1,1),0.3,0.3,0,c_aqua,0.5)
+			
+	with (obj_brute)
+			draw_sprite_ext(spr_glow_effect,0,x,y,1,1,0,c_white,1)	
 	/*with (obj_tomahawk_projectile)
 		draw_circle(x + random_range(-1, 1), y + random_range(-1, 1), 35 + random_range(-1, 1), false);*/
 		

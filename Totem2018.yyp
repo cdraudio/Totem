@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "01805c85-4e10-4780-b765-c2a6e128b395",
+            "Value": {
+                "id": "6e2a8818-1431-47d3-a63e-93ff3106000d",
+                "resourcePath": "tilesets\\ts_deepwood_lake_animated\\ts_deepwood_lake_animated.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "018de958-bb19-42ec-9deb-d522b404a7fa",
             "Value": {
                 "id": "fc0a987d-4278-42bd-be9b-11a9d167264d",
@@ -767,6 +775,14 @@
             }
         },
         {
+            "Key": "4516d624-cdd0-4121-9fb5-a3e4a89d441f",
+            "Value": {
+                "id": "d88f64fa-ff6f-40e9-947c-5c0366ef938c",
+                "resourcePath": "sprites\\spr_deepwood_lake_animated\\spr_deepwood_lake_animated.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "463c52fe-1759-4f3d-87a7-44deb10ba325",
             "Value": {
                 "id": "eb287728-41ac-4dac-914d-5066cf1042a0",
@@ -796,6 +812,14 @@
                 "id": "d2b460e9-5a60-43c4-99ab-8d0136eacc1c",
                 "resourcePath": "views\/47a722ed-f845-4817-8126-fbf264d14bcd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4ac59bca-8281-40f1-9ad3-2c28b254bee8",
+            "Value": {
+                "id": "9a46d2c1-9299-4ecd-b37a-e7fbebee91db",
+                "resourcePath": "scripts\\scr_brute_idle\\scr_brute_idle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1500,6 +1524,14 @@
                 "id": "28042b30-adcd-4322-925e-294ea5238bd2",
                 "resourcePath": "views\/7b7b2b2c-6893-4270-a56c-b98147a77df7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7bb2a712-1ce0-4370-b68c-49fb11d495ed",
+            "Value": {
+                "id": "6995115c-63d7-4147-a022-4b1d56e68fdb",
+                "resourcePath": "objects\\obj_brute\\obj_brute.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2879,6 +2911,14 @@
             }
         },
         {
+            "Key": "dca46fbf-eba4-4a6d-8a91-f116dd290569",
+            "Value": {
+                "id": "1d123641-4906-4194-bec6-da31d054d4db",
+                "resourcePath": "views\\dca46fbf-eba4-4a6d-8a91-f116dd290569.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dd324382-94cd-4223-b1bf-178e9115529a",
             "Value": {
                 "id": "4478922c-dcb1-4426-8e81-1a1dbbdf7027",
@@ -2972,6 +3012,14 @@
                 "id": "47ee0118-c388-4506-b9c3-67d9a39dd4c3",
                 "resourcePath": "datafiles_yy\/geon_fx\/effects\/wormhole.geon.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e2d469a9-b12e-49c7-a739-d1d9c34ca6db",
+            "Value": {
+                "id": "8a9c71ad-3989-4e71-b44e-c3cedef9cea5",
+                "resourcePath": "sprites\\spr_brute_walk_side\\spr_brute_walk_side.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3148,6 +3196,14 @@
                 "id": "b41bee24-a827-4b4e-90d2-749386d7d660",
                 "resourcePath": "datafiles_yy\/geon_fx\/effects\/bats.geon.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ec72749e-0dff-4bbd-900c-755c6451e22e",
+            "Value": {
+                "id": "768d7fb0-579b-49b7-bcd3-ebb3151b33d6",
+                "resourcePath": "scripts\\scr_brute_move\\scr_brute_move.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3431,6 +3487,14 @@
             }
         },
         {
+            "Key": "fe799edb-a0a1-41a0-87bc-ed24cac6d43b",
+            "Value": {
+                "id": "974ba5b8-7a08-40f8-9c9d-2b8facbe7176",
+                "resourcePath": "views\\fe799edb-a0a1-41a0-87bc-ed24cac6d43b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ff3be708-0cba-4ac9-a6fa-553280bb03ba",
             "Value": {
                 "id": "04565423-8ca0-4327-a6ca-8a62f482ee73",
@@ -3488,6 +3552,8 @@
         "c0d02d28-63b6-42a3-9497-1d6b250846c3",
         "25578592-85c6-4962-ab21-c28a85aa8330",
         "35241959-8dc1-4411-8fef-ac7044cd042d",
+        "ec72749e-0dff-4bbd-900c-755c6451e22e",
+        "4ac59bca-8281-40f1-9ad3-2c28b254bee8",
         "f1e64a08-eccc-4db1-bd23-80f5716a5c10"
     ],
     "tutorial": ""
