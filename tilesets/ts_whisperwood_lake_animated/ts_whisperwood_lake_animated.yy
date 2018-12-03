@@ -1,8 +1,8 @@
 {
-    "id": "01805c85-4e10-4780-b765-c2a6e128b395",
+    "id": "a17dd01e-bea5-4cb0-87b8-914afe7a54b0",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "ts_deepwood_lake_animated",
+    "name": "ts_whisperwood_lake_animated",
     "auto_tile_sets": [
         
     ],
@@ -652,7 +652,7 @@
     },
     "tile_animation_frames": [
         {
-            "id": "20d7287b-7750-49d8-a13f-ef7fff8a06e0",
+            "id": "c46b2bc2-78f2-40a3-afb4-e8deacb1d13f",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -664,7 +664,7 @@
             "name": "animation_1"
         },
         {
-            "id": "bbede39e-7688-4145-8e8a-a6439490c3b3",
+            "id": "e9ad6180-a042-4f50-9d2f-695ce5d7d609",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -676,7 +676,7 @@
             "name": "animation_2"
         },
         {
-            "id": "1300bf45-bce0-4a4a-9b9f-69578032ff5d",
+            "id": "3df6c7e9-ffb2-4236-89f2-368f0eea6d30",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -688,7 +688,7 @@
             "name": "animation_3"
         },
         {
-            "id": "b9b2ff2c-3f68-4832-bace-330f14355948",
+            "id": "76231e70-8841-4c01-a159-904a6f1ceb4f",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -700,7 +700,7 @@
             "name": "animation_4"
         },
         {
-            "id": "7b59b8c9-f2f1-40ff-b0fe-90f2b848a6b2",
+            "id": "e65c8a15-9322-42bc-a76f-3144c88cde46",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -712,7 +712,7 @@
             "name": "animation_5"
         },
         {
-            "id": "c6fbd99e-868d-45e5-9e8e-80f89424f0f5",
+            "id": "3cba0bb7-437c-40f4-8167-72237045e390",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -724,7 +724,7 @@
             "name": "animation_6"
         },
         {
-            "id": "e6add43e-5b42-45fc-8e05-dbffaff0840c",
+            "id": "ccb4be27-9371-4296-8bd1-00f47b1e0de3",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -736,7 +736,7 @@
             "name": "animation_7"
         },
         {
-            "id": "c6086ad1-35ff-4b41-a60b-ce7ba3bc71da",
+            "id": "1e09e465-e4d7-47ee-98c6-fc287e2ca090",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -748,7 +748,7 @@
             "name": "animation_8"
         },
         {
-            "id": "31a06ffc-c661-43ac-ae39-d291635e37cb",
+            "id": "e13e989f-d2a5-4515-b62d-407c14afc07d",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -760,7 +760,7 @@
             "name": "animation_9"
         },
         {
-            "id": "337a5b2e-f4f3-4a38-8301-b9c9a5eb6c12",
+            "id": "b6969818-0b2d-40de-aaa1-2ba0a1ad3b98",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -772,7 +772,7 @@
             "name": "animation_10"
         },
         {
-            "id": "b1ca61c8-bc0f-4fb6-9415-bd1d53740b23",
+            "id": "45c0b66d-4b6d-47df-b92f-1aee9e61fadd",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -784,7 +784,7 @@
             "name": "animation_11"
         },
         {
-            "id": "609ba8b6-ceab-4fe5-ad56-03c430ae824a",
+            "id": "6fa41578-2ae0-4636-98fa-74ed50f5ebf9",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -796,7 +796,7 @@
             "name": "animation_12"
         },
         {
-            "id": "76a69acc-aac0-4866-9bce-8d4386427fc1",
+            "id": "d288a542-88a0-47a4-be40-09271d151861",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -808,7 +808,7 @@
             "name": "animation_13"
         },
         {
-            "id": "df08f62d-435e-4923-9761-fdb9d65f559b",
+            "id": "f5ef0209-ca15-4cb1-a069-16b865202099",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -820,7 +820,7 @@
             "name": "animation_14"
         },
         {
-            "id": "95f4b638-73e1-47f5-9056-bcdc6a958f4f",
+            "id": "a6aa273d-0dbf-4737-8288-e72696b3cf17",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
@@ -832,7 +832,7 @@
             "name": "animation_15"
         },
         {
-            "id": "5431ea21-a4bf-4029-b937-b8b2b88ceeab",
+            "id": "87058ca7-1c94-4dee-a825-c8d8bfe77c97",
             "modelName": "GMTileAnimation",
             "mvc": "1.0",
             "frames": [
