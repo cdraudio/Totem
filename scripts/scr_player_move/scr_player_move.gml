@@ -75,7 +75,7 @@ if(moving){
 		sprite_index = spr_player_sprint_front
 	} else if(facing == 1) {
 		sprite_index = spr_player_sprint_back
-	} else {
+	} else if(facing == -1) {
 		sprite_index = spr_player_sprint_side
 	}
 	
