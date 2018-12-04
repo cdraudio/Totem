@@ -514,6 +514,25 @@
             }
         },
         {
+            "Key": "11099f4b-1073-43a3-8e89-cde63d1c8f6e",
+            "Value": {
+                "id": "fe05380d-886f-409e-a532-5fb6cb04fe91",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_roll_trail\/obj_roll_trail.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "111dd47f-a90d-4800-9927-cc2069f7ddf6",
             "Value": {
                 "id": "f45c683e-76a9-40c3-a1bc-a06ba17b209d",
@@ -2011,6 +2030,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_village_urn\/spr_village_urn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4f4927de-a548-4cc1-a379-b4449e3c56dc",
+            "Value": {
+                "id": "3bfebe93-c3e7-4b3a-bd91-dfde9f4b1370",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_roll_trail\/spr_roll_trail.yy",
                 "resourceType": "GMSprite"
             }
         },

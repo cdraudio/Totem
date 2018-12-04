@@ -2,6 +2,23 @@
 image_alpha = 1
 image_speed = 1.5
 
+
+//Create dust trail
+// There is definitely a better way to do this
+if(can_dash){
+	if(facing == 0){
+		instance_create_layer(x + 58, y + 100 , "Instances",obj_roll_trail)
+	} else if(facing == -1) {
+		if(image_xscale > 0){
+			instance_create_layer(x + 148 , y, "Instances",obj_roll_trail)
+		} else {
+			instance_create_layer(x - 38, y, "Instances",obj_roll_trail)
+		}
+	} else {
+		instance_create_layer(x + 58, y - 100  , "Instances",obj_roll_trail)
+	}
+}
+
 //dashing = true
 can_dash = false
 
@@ -12,7 +29,6 @@ if(facing == 0){
 } else {
 	sprite_index = spr_player_dodge_side
 }
-
 
 //After setting the sprite we can use this function to get the number of frames
 max_dash_frame = sprite_get_number(sprite_index)

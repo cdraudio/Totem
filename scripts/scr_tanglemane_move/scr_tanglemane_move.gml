@@ -1,6 +1,6 @@
 //Reset Variables
 image_blend = c_white
-image_speed = 1.5
+image_speed = 1.25
 tanglemane = true
 move_speed = 3.75
 
