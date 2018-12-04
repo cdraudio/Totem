@@ -6,6 +6,12 @@ image_speed = 1.5
 sprite_index = spr_deer_medium_run
 step_count += 1
 
+if(hsp > 0){
+	image_xscale = -1	
+} else {
+	image_xscale = 1	
+}
+
 //Create dust trail
 //Create dust trail
 if(dust_count == 0){

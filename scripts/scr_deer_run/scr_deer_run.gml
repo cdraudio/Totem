@@ -1,8 +1,14 @@
 //Init move speed
 hsp = move_speed
 vsp = 0
-image_speed = 1.5
 
+if(hsp > 0){
+	image_xscale = -1	
+} else {
+	image_xscale = 1	
+}
+
+image_speed = 1.5
 sprite_index = spr_deer_small_run
 step_count += 1
 
