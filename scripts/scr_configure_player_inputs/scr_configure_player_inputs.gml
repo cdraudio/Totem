@@ -34,11 +34,13 @@ if(key_left || key_right || key_up || key_down){
 	moving = true
 	
 	if(key_left){
+		 if( !(key_down or key_up) and facing != -1)
 		facing = -1
 		x_dir = -1	
 	}
 	
 	else if (key_right){
+		 if( !(key_down or key_up) and facing != -1)
 		facing = -1
 		x_dir = 1	
 	}
@@ -49,11 +51,13 @@ if(key_left || key_right || key_up || key_down){
 	}
 	
 	if(key_up){
+		if( !(key_left or key_right) and facing == -1)
 		facing = 1
 		y_dir = -1	
 	}
 	
 	else if (key_down){
+		if( !(key_left or key_right) and facing == -1)
 		facing = 0
 		y_dir = 1	
 	}
