@@ -21,6 +21,9 @@ if (surface_exists(surf)) {
 		 
 	with (obj_blue_glow)
          draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),0.25,0.25,0,c_white,1)
+		 
+	with (obj_glow_stalk)
+         draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1) - 24,0.25,0.25,0,c_white,1)
 
 	with (obj_blue_glow_large)
          draw_sprite_ext(spr_glow_effect,0,x+random_range(-1,1),y + random_range(-1,1),2,2,0,c_white,1)

@@ -4694,6 +4694,25 @@
             }
         },
         {
+            "Key": "9674f9ff-567b-4e35-9c3c-356e5aee4032",
+            "Value": {
+                "id": "f5fe905d-7619-49de-acee-87d698067792",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_glow_stalk\/spr_glow_stalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "968f772e-3aff-427c-b62b-a0fff4574c2f",
             "Value": {
                 "id": "df2cfeb1-b8e4-4a43-b4de-299e2f2bd9d1",
@@ -4767,6 +4786,25 @@
                 ],
                 "resourcePath": "sprites\/spr_deer_small_alert\/spr_deer_small_alert.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97971911-d54f-4169-bef0-de948ef8f7a9",
+            "Value": {
+                "id": "f310c297-4e09-4640-8cb2-3be58a075502",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_glow_stalk\/obj_glow_stalk.yy",
+                "resourceType": "GMObject"
             }
         },
         {
