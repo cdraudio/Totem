@@ -11,12 +11,15 @@ if(!can_dash){
 //Get Inputs
 script_execute(scr_configure_player_inputs)
 
-if(key_toggle_enemy_follow){
-	obj_view.following_enemy = true
-	obj_zoom_controller.zoom_in = true
-} else {
-	obj_view.following_enemy = false
-	obj_zoom_controller.zoom_in = false
+//Toggle camera target
+if(instance_exists(obj_zoom_controller)){
+	if(key_toggle_enemy_follow){
+		obj_view.following_enemy = true
+		obj_zoom_controller.zoom_in = true
+	} else {
+		obj_view.following_enemy = false
+		obj_zoom_controller.zoom_in = false
+	}
 }
 
 
