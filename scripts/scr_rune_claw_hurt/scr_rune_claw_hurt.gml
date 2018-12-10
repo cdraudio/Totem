@@ -4,7 +4,7 @@ image_blend = c_red
 image_speed = 0
 
 //Make self invincible
-rune_claw_can_be_attacked = false
+can_be_attacked = false
 
 // Briefly end mp_grid path so that enemy gets knocked back
 path_end()

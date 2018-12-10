@@ -16,7 +16,7 @@ attack_damage = 1
 can_basic_attack = true
 
 //Toggle Vulnerable
-rune_claw_can_be_attacked = true
+can_be_attacked = true
 
 //Hit Points
 //hit_points = 3

@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "dca46fbf-eba4-4a6d-8a91-f116dd290569",
     "children": [
-        "7bb2a712-1ce0-4370-b68c-49fb11d495ed"
+        "7045fcef-abb0-48b1-bf83-a0d3dd0b642c"
     ],
     "filterType": "GMObject",
     "folderName": "Brute",

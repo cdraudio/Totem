@@ -172,6 +172,25 @@
             }
         },
         {
+            "Key": "02b72a95-26e4-4469-aa00-0865112858a5",
+            "Value": {
+                "id": "3ad5125b-5717-4187-b4c4-06c887e4ea40",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_brute_attack\/scr_brute_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "06a509d7-af8d-43f1-9819-fff803f09452",
             "Value": {
                 "id": "547c6a79-3920-4252-8aec-1cadee16fb31",
@@ -511,6 +530,25 @@
                 ],
                 "resourcePath": "sounds\/sfx_footstep_11\/sfx_footstep_11.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "1101fbad-1c0c-4d06-a7fe-19fe831eb0a9",
+            "Value": {
+                "id": "9426a41d-7959-4d9c-abbe-1f2bf28a75ac",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_brute_start_attack\/scr_brute_start_attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3302,7 +3340,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_brute_test\/obj_brute_test.yy",
+                "resourcePath": "objects\/obj_brute\/obj_brute.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3646,25 +3684,6 @@
                 ],
                 "resourcePath": "views\/7b7b2b2c-6893-4270-a56c-b98147a77df7.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7bb2a712-1ce0-4370-b68c-49fb11d495ed",
-            "Value": {
-                "id": "6995115c-63d7-4147-a022-4b1d56e68fdb",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\/obj_brute\/obj_brute.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -4690,6 +4709,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_player_dodge_side\/spr_player_dodge_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95162c12-4c4e-4b09-b139-2f97e02df8d0",
+            "Value": {
+                "id": "b7f9115f-3715-46a2-988e-d036f1e45eb1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_brute_slam_side\/spr_brute_slam_side.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7734,6 +7772,25 @@
             }
         },
         {
+            "Key": "ec16ae9f-81ce-4303-8f78-f824c1516a55",
+            "Value": {
+                "id": "18a78d45-c550-4aa2-a657-8002a489e0d3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_brute_hurt\/scr_brute_hurt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ec72749e-0dff-4bbd-900c-755c6451e22e",
             "Value": {
                 "id": "768d7fb0-579b-49b7-bcd3-ebb3151b33d6",
@@ -8518,6 +8575,9 @@
         "35241959-8dc1-4411-8fef-ac7044cd042d",
         "ec72749e-0dff-4bbd-900c-755c6451e22e",
         "4ac59bca-8281-40f1-9ad3-2c28b254bee8",
+        "02b72a95-26e4-4469-aa00-0865112858a5",
+        "1101fbad-1c0c-4d06-a7fe-19fe831eb0a9",
+        "ec16ae9f-81ce-4303-8f78-f824c1516a55",
         "d61f797d-0cd6-4ec5-891a-2a4cc840816c",
         "f1e64a08-eccc-4db1-bd23-80f5716a5c10"
     ],

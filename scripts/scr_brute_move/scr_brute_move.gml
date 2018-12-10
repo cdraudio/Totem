@@ -5,14 +5,7 @@ vsp = 0
 sprite_index = spr_brute_walk_side
 step_count += 1
 
-if(distance_to_object(obj_player) < 50){
-	image_index = 0
-	dust_count = 73
-	state = scr_brute_idle
-
-}
 //Create dust trail
-
 if(floor(image_index) == 1 || floor(image_index) == 10){
 	obj_view.shaking = true
 	obj_view.shake_intensity = 7
@@ -25,7 +18,7 @@ if(dust_count == 0){
 	dust_trail.image_yscale = image_xscale
 
 	dust_trail.x = x
-	dust_trail.y = y + 32
+	dust_trail.y = y + 64
 	
 	dust_count = 45
 }
@@ -47,6 +40,18 @@ tmp_dist = distance_to_object(obj_player)
 
 path_time += delta_time
 
+//If player within a certain range then execute attack script
+if( distance_to_object(obj_player) < jump_length   && can_basic_attack == true){
+	path_end()
+	if(path_exists(path_to_player)){
+		path_delete(path_to_player)
+	}
+	path_position = 0
+	tele_frame = 0
+	image_index = 0
+	state = scr_brute_attack
+	return
+}
 
 //If we are at end of path and need a new one
 //if (distance_to_object(obj_player) > focus_dist and (path_position > .90 or path_get_number(path_to_player)*path_position > 3 ) ){
@@ -141,13 +146,13 @@ else if (distance_to_object(obj_player) <= focus_dist) {
 	has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
 	
 	path_start(path_to_player, move_speed, 0, 0)
-	state = scr_brute_idle
 }
 
 if(place_meeting(x, y, obj_player) ){
 	path_end()
 	path_delete(path_to_player)	
 }
+
 
 //Check to see if player is out of range, disengage to idle state
 //Add a little tolerance to avoid flip flopping states
@@ -160,7 +165,7 @@ if(distance_to_object(obj_player) > aggro_range+10 or !has_path){
 	state = scr_brute_idle
 	sprite_index = spr_brute_idle_side
 	wandering = false
-	
+
 }
 
 //Flip Sprite depending on relative position to player

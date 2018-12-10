@@ -5,3 +5,10 @@ if(state == scr_graver_dead){
 	obj_view.shaking = true
 	obj_view.shake_intensity = 8
 }
+
+//switch back to movement state
+if(state == scr_brute_attack){
+	image_index = 0
+	dust_count = 0
+	state = scr_brute_move	
+}
