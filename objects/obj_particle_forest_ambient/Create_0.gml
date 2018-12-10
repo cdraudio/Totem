@@ -53,6 +53,7 @@ part_type_life(global.pt_Blu_R, 40, 70);
 part_type_speed(global.pt_Blu_R, 0.05, 0.10, 0, 0);
 part_type_direction(global.pt_Blu_R, 0, 94, 0, 0);
 part_type_gravity(global.pt_Blu_R, 0, 73);
+
 // Ambient blue particle of Deepwood
 deepwood_ambient_particle = part_type_create()
 part_type_shape(deepwood_ambient_particle,pt_shape_flare)

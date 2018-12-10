@@ -18,7 +18,7 @@ can_be_attacked = true
 
 //Hit Points
 //hit_points = 3
-max_hit_points = 3
+max_hit_points = 20
 hit_points = 20
 
 //Movement Speed

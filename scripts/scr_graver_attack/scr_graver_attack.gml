@@ -7,8 +7,6 @@ hsp = 0
 max_attack_frame = 12
 sprite_index = spr_graver_attack
 
-
-
 if (attacking == false and attack_frame == 0){
 	state = scr_graver_strafe
 	can_jump = false
@@ -16,7 +14,6 @@ if (attacking == false and attack_frame == 0){
 	if (alarm[2] == -1){
 		alarm[2] = 60	
 	}
-	
 
 }
 
