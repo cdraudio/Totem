@@ -9,6 +9,7 @@ if(distance_to_object(obj_player) < 50){
 	image_index = 0
 	dust_count = 73
 	state = scr_brute_idle
+
 }
 //Create dust trail
 
@@ -140,6 +141,7 @@ else if (distance_to_object(obj_player) <= focus_dist) {
 	has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
 	
 	path_start(path_to_player, move_speed, 0, 0)
+	state = scr_brute_idle
 }
 
 if(place_meeting(x, y, obj_player) ){

@@ -5,6 +5,54 @@ part_system = part_system_create()
 part_system_depth(part_system,-5);
 part_system_position(part_system, 0,0)
 
+global.pe_GreenSpark1 = part_emitter_create(part_system);
+global.pe_Slice = part_emitter_create(part_system);
+global.pe_Blu_R = part_emitter_create(part_system);
+
+//Green_Spark
+global.pt_GreenSpark1 = part_type_create();
+part_type_shape(global.pt_GreenSpark1, pt_shape_pixel);
+part_type_sprite(global.pt_GreenSpark1, spr_green_spark, 1, 1, 0);
+part_type_size(global.pt_GreenSpark1, 1, 1.50, 0, 0);
+part_type_scale(global.pt_GreenSpark1, 1, 1);
+part_type_orientation(global.pt_GreenSpark1, -51, 33, 0, 0, 0);
+part_type_color3(global.pt_GreenSpark1, 16777215, 8454143, 15312812);
+part_type_alpha3(global.pt_GreenSpark1, 1, 1, 0.62);
+part_type_blend(global.pt_GreenSpark1, 0);
+part_type_life(global.pt_GreenSpark1, 20, 65);
+part_type_speed(global.pt_GreenSpark1, 12, 18, -3, 0.01);
+part_type_direction(global.pt_GreenSpark1, -24, 49, 0, 0);
+part_type_gravity(global.pt_GreenSpark1, 0.10, 65);
+
+//Slice
+global.pt_Slice = part_type_create();
+part_type_shape(global.pt_Slice, pt_shape_line);
+part_type_sprite(global.pt_Slice, spr_white_slice, 1, 1, 0);
+part_type_size(global.pt_Slice, 1, 1, 0.10, 0);
+part_type_scale(global.pt_Slice, 2, 1);
+part_type_orientation(global.pt_Slice, -9, 4, 0, 0, 0);
+part_type_color3(global.pt_Slice, 16777215, 16777215, 12615935);
+part_type_alpha3(global.pt_Slice, 1, 0.64, 0);
+part_type_blend(global.pt_Slice, 1);
+part_type_life(global.pt_Slice, 13, 13);
+part_type_speed(global.pt_Slice, 1, 1, 0, 0);
+part_type_direction(global.pt_Slice, -6, 5, 0, 0);
+part_type_gravity(global.pt_Slice, 0, 0);
+
+//Blu_R
+global.pt_Blu_R = part_type_create();
+part_type_shape(global.pt_Blu_R, pt_shape_pixel);
+part_type_sprite(global.pt_Blu_R, spr_blue_cloud, 1, 1, 0);
+part_type_size(global.pt_Blu_R, 1, 2, 0, 0);
+part_type_scale(global.pt_Blu_R, 1, 1);
+part_type_orientation(global.pt_Blu_R, -7, 16, 0, 0, 0);
+part_type_color3(global.pt_Blu_R, 16777215, 16777215, 16777215);
+part_type_alpha3(global.pt_Blu_R, 1, 0.76, 0.19);
+part_type_blend(global.pt_Blu_R, 0);
+part_type_life(global.pt_Blu_R, 40, 70);
+part_type_speed(global.pt_Blu_R, 0.05, 0.10, 0, 0);
+part_type_direction(global.pt_Blu_R, 0, 94, 0, 0);
+part_type_gravity(global.pt_Blu_R, 0, 73);
 // Ambient blue particle of Deepwood
 deepwood_ambient_particle = part_type_create()
 part_type_shape(deepwood_ambient_particle,pt_shape_flare)
