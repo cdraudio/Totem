@@ -495,6 +495,25 @@
             }
         },
         {
+            "Key": "1038bd19-f8bb-48b1-a623-470caad5f25b",
+            "Value": {
+                "id": "0e71647b-4fa1-42ab-8eab-8d0965e5b83b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_rock_1\/obj_rock_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "10540e6f-df8d-49b4-9077-5c39a0b3e605",
             "Value": {
                 "id": "be04fb76-a244-422e-9131-dd109192d6ea",
@@ -3288,6 +3307,25 @@
             }
         },
         {
+            "Key": "6f3173d0-2fa8-4a96-9aac-24db4f687829",
+            "Value": {
+                "id": "b4261112-748a-4355-a318-9033c0557ea4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/6f3173d0-2fa8-4a96-9aac-24db4f687829.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6f9003b8-07fd-4b79-9aff-9c88a66845fc",
             "Value": {
                 "id": "2d6f9363-7985-4efb-909c-248f642976aa",
@@ -3854,6 +3892,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/obj_chieftan_hut\/obj_chieftan_hut.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "809554ae-7914-41b5-8bd0-40975a57c71b",
+            "Value": {
+                "id": "2937f1d6-e61a-45a5-905b-6c2f83da520b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_rock_2\/obj_rock_2.yy",
                 "resourceType": "GMObject"
             }
         },
