@@ -5,7 +5,7 @@ state = scr_brute_idle
 depth = 2
 
 //Aggro Range
-aggro_range = 200
+aggro_range = 400
 
 //Attack Damage
 attack_damage = 1
@@ -18,7 +18,7 @@ can_be_attacked = true
 
 //Hit Points
 //hit_points = 3
-max_hit_points = 20
+max_hit_points = 5
 hit_points = 20
 
 //Movement Speed
@@ -51,7 +51,7 @@ slide_frames = 20
 slide_frame = 0
 
 //How far we can go in one hop
-jump_length = 48
+jump_length = 128
 
 
 //How close before they come directly at player

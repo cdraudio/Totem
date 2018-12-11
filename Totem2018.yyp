@@ -4276,6 +4276,25 @@
             }
         },
         {
+            "Key": "87fa6088-f079-403f-998f-2f6cfbe113ca",
+            "Value": {
+                "id": "b7bf6bbb-16d9-446e-b34a-118359cdc7da",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_gildas_shop\/spr_gildas_shop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "886e5aec-f56a-46dd-a350-e0798aa9193c",
             "Value": {
                 "id": "bf2bd11e-dc6a-4058-9f1f-447dde4a9ad4",
