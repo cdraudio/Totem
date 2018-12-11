@@ -1103,6 +1103,25 @@
             }
         },
         {
+            "Key": "278b1aea-16ae-4303-b4fe-9a06f83ed53c",
+            "Value": {
+                "id": "5f3df67d-1eb8-4817-aa37-ec96bc02d5d5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_create_blood\/scr_create_blood.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "288a89ad-ab83-4f83-9fc6-7c7c116043ed",
             "Value": {
                 "id": "73646015-86c4-46ca-ac1a-27188a7fc5f8",
@@ -8598,7 +8617,8 @@
         "1101fbad-1c0c-4d06-a7fe-19fe831eb0a9",
         "ec16ae9f-81ce-4303-8f78-f824c1516a55",
         "d61f797d-0cd6-4ec5-891a-2a4cc840816c",
-        "f1e64a08-eccc-4db1-bd23-80f5716a5c10"
+        "f1e64a08-eccc-4db1-bd23-80f5716a5c10",
+        "278b1aea-16ae-4303-b4fe-9a06f83ed53c"
     ],
     "tutorial": ""
 }

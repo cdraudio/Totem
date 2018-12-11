@@ -15,6 +15,13 @@ path_end()
 if(floor(image_index) == 19){
 	obj_view.shaking = true
 	obj_view.shake_intensity = 10
+	
+	dust_trail = instance_create_layer(x,y,"Instances",obj_dust_trail)
+	dust_trail.image_xscale = (image_xscale * 2) * -1
+	dust_trail.image_yscale = 2
+
+	dust_trail.x = x + (image_xscale * 148)
+	dust_trail.y = y + 64
 }
 	
 //Horizontal Collision

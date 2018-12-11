@@ -25,14 +25,17 @@ if(state != scr_brute_attack){
 	}
 }
 
+if(state == scr_brute_attack){
+	image_blend = c_red
+	if(alarm[6] < 0){
+		alarm[6] = 5	
+	}
+}
+
 
 
 instance_create_layer(x,y,"Instances",obj_blood_impact)
 
 //Create blood
-instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
-instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
-instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
-instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
-instance_create_layer(x + random_range(-3,3),y + random_range(-5,5),"Instances",obj_blood_effect)
+scr_create_blood(5)
 
