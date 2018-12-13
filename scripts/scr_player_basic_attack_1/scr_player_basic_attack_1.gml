@@ -21,7 +21,6 @@ if(alarm[0] == -1){
 	else if(facing == 1){
 		sprite_index = spr_player_basic_attack_1_back
 		basic_attack_1= true
-
 		vsp = -(move_speed * 5)
 
 	}

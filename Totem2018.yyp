@@ -3478,6 +3478,25 @@
             }
         },
         {
+            "Key": "72e34880-5f44-49d2-8f4b-728b093eba7d",
+            "Value": {
+                "id": "424878c7-5ca4-44db-9eb4-a0d7c65c492c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_gildas_goods\/obj_gildas_goods.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "734b9ed3-83a4-4811-bbac-8e801c1188cf",
             "Value": {
                 "id": "ff5ddaae-28fb-4ea4-b938-6396a7788d22",
