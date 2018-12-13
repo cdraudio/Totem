@@ -94,6 +94,6 @@ if(alarm[0] == -1){
 	}	
 	
 	
-	alarm[0] = room_speed/3 + 8
+	alarm[0] = room_speed/3 + 10
 	alarm[3] = room_speed/3
 }

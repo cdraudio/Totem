@@ -2,7 +2,6 @@
 image_blend = c_white
 image_speed = 1.25
 tanglemane = true
-move_speed = 3.75
 
 //Get Inputs
 script_execute(scr_configure_player_inputs)
@@ -81,7 +80,8 @@ if(key_power_attack && can_throw_tomahawk){
 
 //Basic Attack
 if(key_attack && can_basic_attack){
-	
+	image_index = 0
+	state = scr_tanglemane_bite
 }
 //Dash
 if (key_dash && can_dash) {
@@ -96,16 +96,11 @@ if (key_dash && can_dash) {
 
 //Check for Sprint key
 if(key_sprint && moving){
-	move_speed = 1
-	if(facing == 1){
-		sprite_index = spr_player_walk_back	
-	} else if(facing == -1) {
-		sprite_index = spr_player_walk_side	
-	} else {
-		sprite_index = spr_player_walk_front		
-	}
+	move_speed = 5
+	image_speed = 2
 } else {
-	move_speed = 2
+	move_speed = 3.5
+	image_speed = 1.25
 }
 
 // Flip sprite depending on direction of movement

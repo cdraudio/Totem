@@ -1464,6 +1464,25 @@
             }
         },
         {
+            "Key": "361a24c1-e54a-4651-b61f-3113c39504b3",
+            "Value": {
+                "id": "0a85046e-8d5c-4656-9b0f-864c2c61b248",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_tanglemane_bite_front\/spr_tanglemane_bite_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "37312f76-5e8f-4d83-8f70-1e20e83b0256",
             "Value": {
                 "id": "4114bdde-d83a-45db-9d1d-9da816e371b7",
@@ -3513,6 +3532,25 @@
                 ],
                 "resourcePath": "sounds\/sfx_tomahawk_throw_forward\/sfx_tomahawk_throw_forward.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7518b2da-78c0-43ff-b7d6-d26eb221b101",
+            "Value": {
+                "id": "94ee3217-83f8-48e6-abb1-20142d3a2d0c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_tanglemane_bite\/scr_tanglemane_bite.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -8658,6 +8696,7 @@
         "7da0584a-b1b9-42b9-a0a0-f7085d5bba05",
         "e179f0f2-b166-43eb-8345-99dfdd3a037b",
         "b5a7aedb-f606-43e4-9ff5-77ae0faf77dd",
+        "7518b2da-78c0-43ff-b7d6-d26eb221b101",
         "43646665-e1f9-4847-b197-f7f01364146a",
         "83652036-c6cd-4d1c-afea-9b98e7a4cef2",
         "9a26100d-1d8d-4e51-ba6b-12fa765a4ce3",
