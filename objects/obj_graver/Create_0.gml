@@ -82,6 +82,9 @@ death_triggered = false
 max_hurt_frame = 10
 hurt_frame = 0
 
+//Trigger for attack frame
+trigger = true
+
 //Create health bar
 health_bar = instance_create_layer(x,y,"Instances",obj_graver_status)
 health_bar.owner = id

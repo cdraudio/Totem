@@ -2737,6 +2737,25 @@
             }
         },
         {
+            "Key": "60d64962-e8c0-449d-b784-c440d96f29b6",
+            "Value": {
+                "id": "c48dd7ff-2c99-4444-9a4a-0fc9d5a65349",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_graver_dashing\/spr_graver_dashing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60e53667-c90e-4cc6-a339-ba233db4ecc6",
             "Value": {
                 "id": "2904b351-c250-47c9-ab1a-12e8d26f619e",
@@ -5527,6 +5546,25 @@
                 ],
                 "resourcePath": "scripts\/scr_deer_alert2\/scr_deer_alert2.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a79589a3-a4eb-4996-8237-139d188c9642",
+            "Value": {
+                "id": "843ba753-97e2-44a9-98f0-0b7c3a60e7d2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_graver_anticipate\/spr_graver_anticipate.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

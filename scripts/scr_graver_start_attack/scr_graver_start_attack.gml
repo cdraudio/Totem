@@ -1,18 +1,10 @@
 
 max_tele_frame = 5
 pause_frame = 15
-sprite_index = spr_graver_combat_idle
+sprite_index = spr_graver_anticipate
 path_end()
 
 num_frames = sprite_get_number(sprite_index)
-
-if(tele_frame >= num_frames){
-	image_index = num_frames-1	
-}
-
-else {
-	image_index = tele_frame	
-}
 
 if (tele_frame == 0){
 	
@@ -42,6 +34,7 @@ if(tele_frame == max_tele_frame + pause_frame){
 	attack_frame = 0
 	//Play hurt SFX
 	audio_play_sound(sfx_graver_attack,1,false)
+	image_index = 0
 	state = scr_graver_attack
 		
 }
