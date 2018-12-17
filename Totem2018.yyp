@@ -723,6 +723,25 @@
             }
         },
         {
+            "Key": "15235f64-96f1-40f6-921e-4e3d3365c489",
+            "Value": {
+                "id": "9a3ecb12-eac5-4562-b756-2009057d7062",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_solid_large\/spr_solid_large.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1648a826-d1a4-4e7e-b7a8-64e581c5c3d6",
             "Value": {
                 "id": "85c56381-3737-408d-9d9b-49dc0c2b4c9f",
@@ -5622,6 +5641,25 @@
                 ],
                 "resourcePath": "views\/ab09b05c-0f2c-4ed9-8563-9f9afecb9b12.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab1104b5-1f6f-48fe-b119-e1e6f3c6e289",
+            "Value": {
+                "id": "cdfd1e76-bddd-4590-9cfa-a5862df550be",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemy_brute_hurtbox\/obj_enemy_brute_hurtbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {

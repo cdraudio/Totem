@@ -22,6 +22,9 @@ if(floor(image_index) == 19){
 
 	dust_trail.x = x + (image_xscale * 148)
 	dust_trail.y = y + 64
+	
+	//create hurtbox
+	instance_create_layer(x + (image_xscale * 164),y + 36,"Instances",obj_enemy_brute_hurtbox)
 }
 	
 //Horizontal Collision

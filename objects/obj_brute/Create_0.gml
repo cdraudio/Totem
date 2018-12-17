@@ -85,5 +85,5 @@ dust_count = 0
 step_count = 0
 
 //Create health bar
-health_bar = instance_create_layer(x,y,"Instances",obj_graver_status)
+health_bar = instance_create_layer(x,y,"Instances",obj_brute_status)
 health_bar.owner = id

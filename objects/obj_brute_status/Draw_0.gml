@@ -17,11 +17,11 @@ if(instance_exists(owner)){
 		}
 	
 		//These bars are 7 pixels high
-		draw_sprite_stretched(spr_clarity_bar, sub, (owner.x + 11*(i))-16, owner.y+28, 11, 7  )	
+		draw_sprite_stretched(spr_clarity_bar, sub, (owner.x + 11*(i))-100, owner.y+80, 11, 7  )	
 	}
 
 	for(i = 0; i < hp; i++){
-		draw_sprite_stretched(spr_clarity_fill_red, 0, 1+ (owner.x+11*(i))-16, owner.y+30, 8,3)
+		draw_sprite_stretched(spr_clarity_fill_red, 0, 1+ (owner.x+11*(i))-100, owner.y+82, 8,3)
 	}
 } else {
 	instance_destroy()	

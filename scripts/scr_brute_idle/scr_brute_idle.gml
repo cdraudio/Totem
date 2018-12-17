@@ -1,8 +1,10 @@
 sprite_index = spr_brute_idle_side
 
 if(floor(image_index) == 11){
-	obj_view.shaking = true
-	obj_view.shake_intensity = 5
+	if(distance_to_object(obj_player) <= aggro_range){
+		obj_view.shaking = true
+		obj_view.shake_intensity = 5
+	}
 }
 	
 //Reset init variables

@@ -7,8 +7,10 @@ step_count += 1
 
 //Create dust trail
 if(floor(image_index) == 1 || floor(image_index) == 10){
-	obj_view.shaking = true
-	obj_view.shake_intensity = 7
+	if(distance_to_object(obj_player) <= aggro_range){
+		obj_view.shaking = true
+		obj_view.shake_intensity = 7
+	}
 }
 
 if(dust_count == 0){
