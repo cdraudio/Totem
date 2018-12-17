@@ -87,3 +87,7 @@ step_count = 0
 //Create health bar
 health_bar = instance_create_layer(x,y,"Instances",obj_brute_status)
 health_bar.owner = id
+
+//target position 100 pixels away from player
+target_x = 0
+target_y = 0

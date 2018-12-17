@@ -44,24 +44,24 @@ path_time += delta_time
 
 
 target_x = obj_player.x
-target_y = obj_player.y
+target_y = obj_player.y-30
 
 if (target_x < x){
-	if(mp_grid_get_cell(grid, target_x + 100, target_y == 0)){
-		target_x += 100
+	if(mp_grid_get_cell(grid, (target_x + 100)/32, target_y/32) == 0){
+		target_x = target_x +  100
 	}
 }
 
 else{
-	if(mp_grid_get_cell(grid, target_x - 100, target_y == 0)){
-		target_x -= 100
+	if(mp_grid_get_cell(grid, (target_x - 100)/32, target_y/32) == 0){
+		target_x = target_x - 100
 	}
 }
 
 
 
 //If player within a certain range then execute attack script
-if( distance_to_point(target_x, target_y) < 10   && can_basic_attack == true){
+if( point_distance(target_x, target_y, x, y ) < 10   && can_basic_attack == true){
 	path_end()
 	if(path_exists(path_to_player)){
 		path_delete(path_to_player)
@@ -158,7 +158,7 @@ else if(!path_exists(path_to_player) and distance_to_object(obj_player) < aggro_
 }
 
 //If we are close enough to player to start coming right for them
-/**else if (distance_to_object(obj_player) <= focus_dist) {
+else if (distance_to_object(obj_player) <= focus_dist) {
 
 	path_end()
 	if(path_exists(path_to_player)){
@@ -168,7 +168,7 @@ else if(!path_exists(path_to_player) and distance_to_object(obj_player) < aggro_
 	has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
 	
 	path_start(path_to_player, move_speed, 0, 0)
-}**/
+}
 
 if(place_meeting(x, y, obj_player) ){
 	path_end()
