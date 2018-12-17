@@ -42,8 +42,26 @@ tmp_dist = distance_to_object(obj_player)
 
 path_time += delta_time
 
+
+target_x = obj_player.x
+target_y = obj_player.y
+
+if (target_x < x){
+	if(mp_grid_get_cell(grid, target_x + 100, target_y == 0)){
+		target_x += 100
+	}
+}
+
+else{
+	if(mp_grid_get_cell(grid, target_x - 100, target_y == 0)){
+		target_x -= 100
+	}
+}
+
+
+
 //If player within a certain range then execute attack script
-if( distance_to_object(obj_player) < jump_length   && can_basic_attack == true){
+if( distance_to_point(target_x, target_y) < 10   && can_basic_attack == true){
 	path_end()
 	if(path_exists(path_to_player)){
 		path_delete(path_to_player)
@@ -55,6 +73,8 @@ if( distance_to_object(obj_player) < jump_length   && can_basic_attack == true){
 	return
 }
 
+
+
 //If we are at end of path and need a new one
 //if (distance_to_object(obj_player) > focus_dist and (path_position > .90 or path_get_number(path_to_player)*path_position > 3 ) ){
 if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (path_num*path_position > 2)  ) ) {	
@@ -64,12 +84,12 @@ if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (pa
 		path_delete(path_to_player)
 	}
 	path_time = 0
-	tmp_dir = point_direction(x, y, obj_player.x, obj_player.y)
+	tmp_dir = point_direction(x, y, target_x, target_y)
 	
-	dist = point_distance(x, y, obj_player.x, obj_player.y)
+	dist = point_distance(x, y, target_x, target_y)
 	
-	local_x = (obj_player.x-x)/2 + x + irandom_range(-dist/8, dist/8)
-	local_y = (obj_player.y-y)/2 + y + irandom_range(-dist/8, dist/8)
+	local_x = (target_x-x)/2 + x + irandom_range(-dist/8, dist/8)
+	local_y = (target_y-y)/2 + y + irandom_range(-dist/8, dist/8)
 	
 	path_to_player = path_add();
 	
@@ -79,7 +99,7 @@ if (distance_to_object(obj_player) > focus_dist and (path_position >= .90 or (pa
 	}
 	
 	else{
-		has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y + player_height/4, 1)
+		has_path = mp_grid_path(grid, path_to_player, x, y, target_x, target_y + player_height/4, 1)
 	}
 	
 
@@ -103,7 +123,7 @@ else if(!path_exists(path_to_player) and distance_to_object(obj_player) < aggro_
 	
 	path_time = 0
 	path_to_player = path_add();
-	has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
+	has_path = mp_grid_path(grid, path_to_player, x, y, target_x, target_y+ player_height/4, 1)
 	path_position = 0
 	can_jump = false
 	
@@ -138,7 +158,7 @@ else if(!path_exists(path_to_player) and distance_to_object(obj_player) < aggro_
 }
 
 //If we are close enough to player to start coming right for them
-else if (distance_to_object(obj_player) <= focus_dist) {
+/**else if (distance_to_object(obj_player) <= focus_dist) {
 
 	path_end()
 	if(path_exists(path_to_player)){
@@ -148,7 +168,7 @@ else if (distance_to_object(obj_player) <= focus_dist) {
 	has_path = mp_grid_path(grid, path_to_player, x, y, obj_player.x, obj_player.y+ player_height/4, 1)
 	
 	path_start(path_to_player, move_speed, 0, 0)
-}
+}**/
 
 if(place_meeting(x, y, obj_player) ){
 	path_end()
