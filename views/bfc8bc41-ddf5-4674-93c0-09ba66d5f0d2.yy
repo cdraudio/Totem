@@ -11,7 +11,9 @@
         "ce52213e-220d-4324-8266-6ec20bc2ca83",
         "5ff94303-afde-4ebc-90d7-b1afaa3154fb",
         "5ce4f3f5-c983-40d9-9989-f0ce797417ba",
-        "e88cd048-57c7-40e7-bf13-902020c742f7"
+        "e88cd048-57c7-40e7-bf13-902020c742f7",
+        "327cd743-2843-4d4b-98b9-37a6579a7ce3",
+        "6e3c0338-0087-4c38-a0e3-3279c7da961d"
     ],
     "filterType": "GMScript",
     "folderName": "Graver",
