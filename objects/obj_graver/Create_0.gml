@@ -24,7 +24,7 @@ max_hit_points = 3
 hit_points = 3
 
 //Movement Speed
-move_speed = 1//random_range(.5,2.5)
+move_speed = random_range(0.75,1.25)
 
 //Create wander path
 //wander_path = path_add();

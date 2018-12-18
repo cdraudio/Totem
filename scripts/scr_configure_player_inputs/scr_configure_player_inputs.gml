@@ -27,7 +27,8 @@ if (gamepad_is_connected(0)) {
 	key_dash	= gamepad_button_check_pressed(0,gp_face1);
 	key_attack	= gamepad_button_check_pressed(0,gp_face3);
 	key_power_attack = gamepad_button_check_pressed(0,gp_face4);
-}
+	key_power_attack = gamepad_button_check_pressed(0,gp_shoulderlb);
+	transform_1 = gamepad_button_check_pressed(0,gp_padu)
 
 //Set moving
 if(key_left || key_right || key_up || key_down){
@@ -74,4 +75,4 @@ else {
 	y_dir = 0
 	x_dir = 0
 }
-
+}
