@@ -12,7 +12,7 @@ if(!can_dash){
 script_execute(scr_configure_player_inputs)
 
 //Toggle camera target
-if(instance_exists(obj_zoom_controller)){
+/*if(instance_exists(obj_zoom_controller)){
 	if(key_toggle_enemy_follow){
 		obj_view.following_enemy = true
 		obj_zoom_controller.zoom_in = true
@@ -21,7 +21,7 @@ if(instance_exists(obj_zoom_controller)){
 		obj_zoom_controller.zoom_in = false
 	}
 }
-
+*/
 
 // Default to walking sprite and idle if not moving
 if(!moving){

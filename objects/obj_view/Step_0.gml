@@ -1,6 +1,8 @@
 /// Move towards player if player object exists
-if(following_enemy){
+show_debug_message(following_enemy)
+if(following_enemy == true){
 	//Move towards player smoothly
+	
 	if(abs(target_x-x)< 1 and target_x != x){
 		x =  target_x	
 	}

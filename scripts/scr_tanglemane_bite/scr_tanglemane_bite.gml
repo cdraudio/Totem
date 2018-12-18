@@ -1,6 +1,10 @@
 //This state exit condition is in obj_player animation_end
 image_speed = 1.25
 
+if(floor(image_index) == 4){
+	instance_create_layer(x,y + 48,"Instances",obj_player_hurt_box)
+}
+		
 if(alarm[0] < 0){
 	hsp = 0
 	vsp = 0
