@@ -1,6 +1,6 @@
 /// @description Trigger Particle creation alarm
 if(alarm[0] < 0){
-	alarm[0] = room_speed
+	alarm[0] = room_speed/3
 }
 
 //Impact particle for hitting Gravers
