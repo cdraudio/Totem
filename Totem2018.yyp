@@ -2832,6 +2832,25 @@
             }
         },
         {
+            "Key": "623f0bf3-712b-4d6d-b71b-5c0ca5202ac8",
+            "Value": {
+                "id": "17ca545c-04eb-4cd6-a160-994ca1295999",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_graver_spawner\/obj_graver_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "629843cb-f018-48f2-ac6f-5ac206aab355",
             "Value": {
                 "id": "49ceb478-8ffc-4cc7-9cab-87796ca38250",
@@ -5834,6 +5853,25 @@
             }
         },
         {
+            "Key": "b004e002-4c87-4f3e-9398-18640d5f3e96",
+            "Value": {
+                "id": "8f5611a2-9cf8-4c4a-a572-e72319870f68",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_brute_stomp_side\/spr_brute_stomp_side.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b01bd8c3-b932-41cd-ae9e-944f18863876",
             "Value": {
                 "id": "5e7c265f-962f-40cb-bfd1-fbb85c70870d",
@@ -5850,6 +5888,25 @@
                 ],
                 "resourcePath": "objects\/obj_blood_effect_stationary\/obj_blood_effect_stationary.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b137262c-f9d1-4ce3-8b65-12554a2e8203",
+            "Value": {
+                "id": "14e53ea6-0ef8-4aaf-b4ea-ab8169ea32bb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_switch_camera_focus\/scr_switch_camera_focus.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -6382,6 +6439,25 @@
                 ],
                 "resourcePath": "sprites\/spr_bg_shadow\/spr_bg_shadow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c2fe92fe-40d2-49f9-9e51-97b41d6b757e",
+            "Value": {
+                "id": "dd9f8d1c-47a7-4087-8c17-10cb0d7bc92e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_brute_stomp_attack\/scr_brute_stomp_attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -6970,6 +7046,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/obj_tomahawk_impact\/obj_tomahawk_impact.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d26d5a85-75f4-4182-aa12-1d0841d2f0b2",
+            "Value": {
+                "id": "4f7bd5ce-9068-48ed-95fa-d44d5238eb69",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_graver_ambush_trigger\/obj_graver_ambush_trigger.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -7826,6 +7921,25 @@
                 ],
                 "resourcePath": "objects\/obj_tomahawk_trail\/obj_tomahawk_trail.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e88cd048-57c7-40e7-bf13-902020c742f7",
+            "Value": {
+                "id": "4eb9eef3-4d33-4c11-a0a5-f1d240dde21c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_spawn_graver\/scr_spawn_graver.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -8801,6 +8915,7 @@
         "ce52213e-220d-4324-8266-6ec20bc2ca83",
         "5ff94303-afde-4ebc-90d7-b1afaa3154fb",
         "5ce4f3f5-c983-40d9-9989-f0ce797417ba",
+        "e88cd048-57c7-40e7-bf13-902020c742f7",
         "f3a6d03b-23d0-4b23-866e-9714fe36ebce",
         "3f9a97e7-f431-4191-8762-062e64bea3e0",
         "f08c0697-6caf-49f0-a4c0-9104917720e5",
@@ -8826,9 +8941,11 @@
         "02b72a95-26e4-4469-aa00-0865112858a5",
         "1101fbad-1c0c-4d06-a7fe-19fe831eb0a9",
         "ec16ae9f-81ce-4303-8f78-f824c1516a55",
+        "c2fe92fe-40d2-49f9-9e51-97b41d6b757e",
         "d61f797d-0cd6-4ec5-891a-2a4cc840816c",
         "f1e64a08-eccc-4db1-bd23-80f5716a5c10",
-        "278b1aea-16ae-4303-b4fe-9a06f83ed53c"
+        "278b1aea-16ae-4303-b4fe-9a06f83ed53c",
+        "b137262c-f9d1-4ce3-8b65-12554a2e8203"
     ],
     "tutorial": ""
 }

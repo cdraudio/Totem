@@ -8,7 +8,8 @@
         "4ac59bca-8281-40f1-9ad3-2c28b254bee8",
         "02b72a95-26e4-4469-aa00-0865112858a5",
         "1101fbad-1c0c-4d06-a7fe-19fe831eb0a9",
-        "ec16ae9f-81ce-4303-8f78-f824c1516a55"
+        "ec16ae9f-81ce-4303-8f78-f824c1516a55",
+        "c2fe92fe-40d2-49f9-9e51-97b41d6b757e"
     ],
     "filterType": "GMScript",
     "folderName": "Brute",

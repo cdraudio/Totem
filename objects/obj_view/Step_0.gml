@@ -1,10 +1,5 @@
 /// Move towards player if player object exists
-if(instance_exists(obj_brute) && following_enemy){
-	
-	target_x = obj_brute.x
-	target_y = obj_brute.y
-	
-		
+if(following_enemy){
 	//Move towards player smoothly
 	if(abs(target_x-x)< 1 and target_x != x){
 		x =  target_x	

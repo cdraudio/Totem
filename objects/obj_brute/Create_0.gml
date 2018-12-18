@@ -13,6 +13,9 @@ attack_damage = 1
 //Can attack
 can_basic_attack = true
 
+//Stomp attack pause timer
+stomp_timer = 5
+
 //Toggle Vulnerable
 can_be_attacked = true
 

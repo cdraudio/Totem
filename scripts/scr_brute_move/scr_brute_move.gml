@@ -73,6 +73,11 @@ if( point_distance(target_x, target_y, x, y ) < 10   && can_basic_attack == true
 	return
 }
 
+if(distance_to_object(obj_player) < 20 && can_basic_attack = false){
+	image_index = 0
+	state = scr_brute_stomp_attack
+}
+
 
 
 //If we are at end of path and need a new one
