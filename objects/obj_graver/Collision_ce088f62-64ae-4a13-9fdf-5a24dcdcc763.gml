@@ -3,9 +3,12 @@
 //Set knockback direction
 knock_dir = point_direction(obj_player.x, obj_player.y, x, y);
 
-//Play hurt SFX
-audio_play_sound(sfx_tomahawk_impact,1,false)
-
+//Trigger sfx
+if(!hurt_sound){
+	//Play hurt SFX
+	audio_play_sound(sfx_tomahawk_impact,1,false)
+	hurt_sound  = true
+}
 //Decrement hit_points by other.damage
 hit_points -= other.attack_damage
 

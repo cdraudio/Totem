@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(keyboard_check_pressed(vk_return)){
+if(keyboard_check_pressed(vk_return) || gamepad_button_check_pressed(0,gp_start)){
+	audio_sound_pitch(sfx_select,0.45)
+	select = audio_play_sound(sfx_select,1,false)
+	audio_sound_gain(select,0.5,1)
+	
 	obj_title_card.fade_in = false
 	obj_title_card.fading = true
 	

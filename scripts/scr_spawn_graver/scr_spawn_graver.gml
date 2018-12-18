@@ -6,4 +6,4 @@ for (i = 0; i < argument0; i++){
 	graver_id.aggro_range = 10000
 }
 
-scr_switch_camera_focus(graver_id,250)
+scr_switch_camera_focus(graver_id,150)

@@ -5,7 +5,7 @@ if(keyboard_check_pressed(ord("L"))){
 	obj_player.mana--	
 	
 	if(obj_player.mana < 0){
-		obj_player.mana = obj_player.max_mana	
+		obj_player.mana = 0	
 	}
 }
 

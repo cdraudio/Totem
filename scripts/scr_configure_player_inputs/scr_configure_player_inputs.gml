@@ -11,6 +11,7 @@ transform_1 = keyboard_check_pressed(ord("1"));
 key_aim = mouse_check_button(mb_left);
 key_toggle_enemy_follow = keyboard_check(ord("P"))
 
+
 // Key Mapping 
 keyboard_set_map(ord("D"),vk_right);
 keyboard_set_map(ord("A"),vk_left);
@@ -28,6 +29,7 @@ if (gamepad_is_connected(0)) {
 	key_attack	= gamepad_button_check_pressed(0,gp_face3);
 	key_power_attack = gamepad_button_check_pressed(0,gp_face4);
 	key_power_attack = gamepad_button_check_pressed(0,gp_shoulderlb);
+	
 	transform_1 = gamepad_button_check_pressed(0,gp_padu)
 }
 

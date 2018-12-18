@@ -31,6 +31,15 @@ if( distance_to_object(obj_player) < jump_length   && can_basic_attack == true){
 	return
 }
 
+//Play footstep SFX
+if(footstep_count == 0){
+	audio_play_sound(choose(sfx_enemy_footstep,sfx_enemy_footstep_1,sfx_enemy_footstep_2,sfx_enemy_footstep_3,sfx_enemy_footstep_4,sfx_enemy_footstep_5,sfx_enemy_footstep_6,sfx_enemy_footstep_7),1,false)
+	//footstep_count changes time between each step
+	footstep_count = 20
+}
+
+footstep_count --
+
 path_num = path_get_number(path_to_player)
 tmp_dist = distance_to_object(obj_player)
 

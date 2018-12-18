@@ -1,6 +1,7 @@
 //Reset init variables
 image_blend = c_white
 image_speed = 1
+hurt_sound = false
 
 /**
 //Wander path

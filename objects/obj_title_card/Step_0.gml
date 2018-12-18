@@ -11,7 +11,7 @@ if(max_alpha <= 0){
 }
 
 if(fade_in){
-	starting_alpha += 0.001	
+	starting_alpha += 0.002	
 	draw_set_alpha(starting_alpha)
 }
 

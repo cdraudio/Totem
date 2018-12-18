@@ -82,6 +82,10 @@ death_triggered = false
 max_hurt_frame = 10
 hurt_frame = 0
 
+//SFX trigger
+hurt_sound = false
+footstep_count = 0
+
 //Trigger for attack frame
 trigger = true
 

@@ -4,6 +4,8 @@
 //Set Lifespan
 life_span = 75
 
+//Play SFX
+
 //Subtract from player mana
 obj_player.mana -= 3
 

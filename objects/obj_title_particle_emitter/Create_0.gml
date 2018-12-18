@@ -9,7 +9,7 @@ part_system_position(part_system, 0,0)
 deepwood_ambient_particle = part_type_create()
 part_type_shape(deepwood_ambient_particle,pt_shape_flare)
 part_type_scale(deepwood_ambient_particle,1,1)
-part_type_size(deepwood_ambient_particle,0.3,0.5,-.001,0)
+part_type_size(deepwood_ambient_particle,0.3,0.75,-.001,0)
 part_type_color3(deepwood_ambient_particle, 13565768, 16187197, 16763455);
 part_type_alpha3(deepwood_ambient_particle,0,1,0)
 part_type_speed(deepwood_ambient_particle,0.01,0.2,0,0)
