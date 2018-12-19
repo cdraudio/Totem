@@ -67,7 +67,7 @@ else{
 		returning = true
 		
 		//Play reverse throw SFX
-		audio_stop_sound(sfx_tomahawk_throw_forward)
+		//audio_stop_sound(sfx_tomahawk_throw_forward)
 		path_end()
 	}
 	
