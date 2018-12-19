@@ -1,8 +1,8 @@
 {
-    "id": "6608bb03-89c0-46bb-a85b-8510115a0693",
+    "id": "73bbf50b-37e1-4517-8882-1465e4e3dad7",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sfx_tomahawk_throw_reverse",
+    "name": "sfx_tomahawk_throw",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

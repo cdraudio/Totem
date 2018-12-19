@@ -3383,25 +3383,6 @@
             }
         },
         {
-            "Key": "6608bb03-89c0-46bb-a85b-8510115a0693",
-            "Value": {
-                "id": "6fa2dfa9-751f-4841-9af6-b555fcab4d02",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sounds\/sfx_tomahawk_throw_reverse\/sfx_tomahawk_throw_reverse.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "661dd63c-4e75-4939-a08b-4888a9b816df",
             "Value": {
                 "id": "3f1a264f-d7a4-478f-b11c-9a4059f63d69",
@@ -4043,7 +4024,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/sfx_tomahawk_throw_forward\/sfx_tomahawk_throw_forward.yy",
+                "resourcePath": "sounds\/sfx_tomahawk_throw\/sfx_tomahawk_throw.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -9140,6 +9121,25 @@
             }
         },
         {
+            "Key": "ee55a679-087d-4b6e-b440-a7428dec2018",
+            "Value": {
+                "id": "904ebc63-944b-41ee-ab91-eeb5ba277ffa",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sfx_tomahawk_throw_swing\/sfx_tomahawk_throw_swing.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ee7cb748-b7ef-458c-bcee-3d2cb1504b2b",
             "Value": {
                 "id": "2af7e39a-3eb7-4a5b-b17f-af68fb7c45b2",
@@ -9726,6 +9726,25 @@
                 ],
                 "resourcePath": "views\/fd768b26-237f-499b-91fa-b799727776d9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fdeb79cc-7b68-4721-a35e-ce57dd6781a8",
+            "Value": {
+                "id": "956af5be-7f23-4f88-b55a-46deaba12a78",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sfx_tomahawk_throw_catch\/sfx_tomahawk_throw_catch.yy",
+                "resourceType": "GMSound"
             }
         },
         {
