@@ -1,5 +1,8 @@
 /// @description Execute State and get player inputs
 
+//Update audio listener position
+audio_listener_position(x, y, 0);
+
 
 depth =  -bbox_bottom //-y
 // execute my state
@@ -89,3 +92,4 @@ else {
 if(hit_points <= 0){
 	state = scr_player_dead	
 }
+

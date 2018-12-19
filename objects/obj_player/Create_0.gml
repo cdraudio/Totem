@@ -82,3 +82,6 @@ roll_dust_count = 5
 //Init state
 state = scr_player_move
 
+//Set listener position relative to player
+audio_listener_orientation(0,1,0,0,0,1);
+
