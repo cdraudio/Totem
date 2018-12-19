@@ -6,6 +6,9 @@ if(hurt_frame == 0){
 
 	//Make self invincibles
 	can_be_attacked = false
+	
+	//Trigger sfx
+	audio_play_sound(sfx_tomahawk_impact,1,false)
 
 	// Briefly end mp_grid path so that enemy gets knocked back
 	path_end()

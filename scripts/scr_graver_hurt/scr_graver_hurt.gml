@@ -4,6 +4,9 @@ if(hurt_frame == 0){
 	image_blend = c_red
 	sprite_index = spr_graver_hurt_side
 	//move_speed = 0
+	
+	//Trigger sfx
+	audio_play_sound(sfx_tomahawk_impact,1,false)
 
 	//Make self invincibles
 	can_be_attacked = false

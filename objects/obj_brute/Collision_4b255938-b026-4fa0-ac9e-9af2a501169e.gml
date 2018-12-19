@@ -1,10 +1,8 @@
 /// @description Collision With Player attack_box
 
+
 //Set knockback direction
 knock_dir = point_direction(obj_player.x, obj_player.y, x, y);
-
-//Play hurt SFX
-audio_play_sound(sfx_tomahawk_impact,1,false)
 
 //Decrement hit_points by other.damage
 hit_points -= other.attack_damage
