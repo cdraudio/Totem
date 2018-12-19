@@ -4,7 +4,8 @@
 //Set Lifespan
 life_span = 75
 
-//Play SFX
+//Create audio emitter
+
 
 //Subtract from player mana
 obj_player.mana -= 3

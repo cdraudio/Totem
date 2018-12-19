@@ -28,6 +28,17 @@ if(path_position >= .5 and place_meeting(x, y, obj_player) ) {
 		if(path_exists(fly_path)){
 			path_delete(fly_path)
 		}
+		
+		//Play catch sfx
+		if(!audio_is_playing(sfx_tomahawk_throw_catch)){
+			audio_play_sound(sfx_tomahawk_throw_catch,1,false)
+		}
+		
+		//Stop throw sfx
+		if(audio_is_playing(sfx_tomahawk_throw)){
+			audio_sound_gain(sfx_tomahawk_throw,0,200)
+		}
+		
 		obj_view.shaking = true
 		obj_view.shake_intensity = 5
 		instance_destroy()
@@ -38,6 +49,16 @@ else if (has_hit){
 	y += sign(obj_player.y - y)*6
 	
 	if(place_meeting(x, y, obj_player) ){
+		//Play catch sfx
+		if(!audio_is_playing(sfx_tomahawk_throw_catch)){
+			audio_play_sound(sfx_tomahawk_throw_catch,1,false)
+		}
+		
+		//Stop throw sfx
+		if(audio_is_playing(sfx_tomahawk_throw)){
+			audio_sound_gain(sfx_tomahawk_throw,0,200)
+		}
+		
 		//path_delete(fly_path)
 		obj_view.shaking = true
 		obj_view.shake_intensity = 5
